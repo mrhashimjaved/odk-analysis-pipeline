@@ -198,12 +198,26 @@ At the moment, `scripts/analysis.R` expects `data/your_combined_data.csv`, so it
 
 ## GitHub Actions
 
-The workflow at `.github/workflows/odk_download.yml` is configured to run the pipeline on a schedule or manually through `workflow_dispatch`.
+The workflow at `.github/workflows/odk_download.yml` is configured to run the pipeline weekly and manually through `workflow_dispatch`.
+
+Current schedule:
+
+- every Sunday at `2:00 AM UTC`
+
+The workflow currently runs:
+
+- `python scripts/download_odk.py`
+- `python scripts/analysis_descriptives.py`
+- `python scripts/analysis_reliability.py`
+- `python scripts/analysis_groupwise_t_tests.py`
+
+It then commits updated files from:
+
+- `data/`
+- `output/`
 
 It expects the following GitHub repository secrets:
 
 - `ODK_URL`
 - `ODK_EMAIL`
 - `ODK_PASSWORD`
-
-Note: the workflow currently calls `python scripts/analysis.py`, but this repository contains `scripts/analysis.R`. Update the workflow before relying on the automated analysis step.

@@ -1,0 +1,110 @@
+Adolescent descriptives summary
+===============================
+
+Input data: data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv
+School reference: data/school_group_reference.csv
+Rows analysed: 593
+
+Group counts
+------------
+group:
+  A: 298
+  B: 295
+
+gender:
+  Boys: 295
+  Girls: 298
+
+new_group:
+  A_Boys: 150
+  A_Girls: 148
+  B_Boys: 145
+  B_Girls: 150
+
+Outputs
+-------
+Descriptive statistics:
+  Continuous variables: N, Mean, SD, Min-Max
+  Categorical variables ending in '_cat' or '_cat_bin': N, Freq, Percentage
+  Additional categorical variable: cgas_-cgas_response
+Continuous descriptives: output\descriptives_continuous.csv (540 rows)
+Categorical descriptives: output\descriptives_categorical.csv (119 rows)
+Missing variable report: output\descriptives_missing_variables.csv (0 rows)
+
+Descriptive Statistics of Outcome variables (Overall)
+-----------------------------------------------------
+Continuous variables: 10
+  - phq9a_-phq9a_total
+  - psc_-psc_total
+  - rcads_-rcads_total
+  - dsm5_-dsm5_total
+  - somatic_-somatic_total
+  - wemwbs_-wemwbs_total
+  - ibs_-ibs_total
+  - bbscq_-bbscq_total
+  - self_stigma_-stgt_total
+  - psychlops_post_-psy_total
+Categorical variables: 1
+  - cgas_-cgas_response
+Output rows: 90 continuous, 43 categorical
+
+Descriptive Statistics of Outcome variables (Domain wise)
+---------------------------------------------------------
+Continuous variables: 50
+  - phq9a_-phq9a_total
+  - psc_-psc_total
+  - psc_-psc_int
+  - psc_-psc_ext
+  - psc_-psc_attn
+  - rcads_-rcads_total
+  - rcads_-rcads_anx_tot
+  - rcads_-rcads_dep_tot
+  - dsm5_-dsm5_total
+  - dsm5_-dsm5_I_Som_Symp
+  - dsm5_-dsm5_II_Slp_prb
+  - dsm5_-dsm5_III_Inattn
+  - dsm5_-dsm5_IV_Dep
+  - dsm5_-dsm5_V_VI_Angr_Irrit
+  - dsm5_-dsm5_VII_Mania
+  - dsm5_-dsm5_VIII_Anx
+  - dsm5_-dsm5_IX_Psychss
+  - dsm5_-dsm5_X_Rpt_thts
+  - dsm5_-dsm5_XI_Sbtncd
+  - dsm5_-dsm5_XII_Suic
+  - somatic_-somatic_total
+  - somatic_-somatic_item_01
+  - somatic_-somatic_item_02
+  - somatic_-somatic_item_03
+  - somatic_-somatic_item_04a
+  - somatic_-somatic_item_04b
+  - somatic_-somatic_item_04c
+  - somatic_-somatic_item_04d
+  - somatic_-somatic_item_04e
+  - somatic_-somatic_item_04f
+  - somatic_-somatic_item_04g
+  - somatic_-somatic_item_04h
+  - wemwbs_-wemwbs_total
+  - wemwbs_-wemwbs_item_01
+  - wemwbs_-wemwbs_item_02
+  - wemwbs_-wemwbs_item_03
+  - wemwbs_-wemwbs_item_04
+  - wemwbs_-wemwbs_item_05
+  - wemwbs_-wemwbs_item_06
+  - wemwbs_-wemwbs_item_07
+  - spsi_-spsi_ppo
+  - spsi_-spsi_npo
+  - spsi_-spsi_rps
+  - spsi_-spsi_ics
+  - spsi_-spsi_as
+  - bbscq_-bbscq_total
+  - bbscq_-bbscq_relation
+  - bbscq_-bbscq_belonging
+  - bbscq_-bbscq_comitment
+  - bbscq_-bbscq_participation
+Categorical variables: 3
+  - phq9a_-phq9a_total_cat_bin
+  - phq9a_-phq9a_total_cat
+  - psc_-psc_total_cat
+Output rows: 450 continuous, 76 categorical
+
+No requested analysis variables were missing.

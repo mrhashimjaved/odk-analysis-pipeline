@@ -2,7 +2,7 @@ name: ODK Pipeline
 
 on:
   schedule:
-    - cron: "0 2 * * 0"   # weekly on Sunday at 2 AM UTC
+    - cron: "0 2 * * *"   # daily at 2 AM UTC
   workflow_dispatch:
 
 permissions:
@@ -21,7 +21,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install deps
-        run: pip install requests
+        run: pip install requests python-docx
 
       - name: Fetch ODK Data
         run: python scripts/download_odk.py
@@ -30,19 +30,13 @@ jobs:
           ODK_EMAIL: ${{ secrets.ODK_EMAIL }}
           ODK_PASSWORD: ${{ secrets.ODK_PASSWORD }}
 
-      - name: Run Descriptive Analysis
-        run: python scripts/analysis_descriptives.py
-
-      - name: Run Reliability Analysis
-        run: python scripts/analysis_reliability.py
-
-      - name: Run Group-Wise T-Tests
-        run: python scripts/analysis_groupwise_t_tests.py
+      - name: Run Analysis Pipeline
+        run: python scripts/analysis.py
 
       - name: Commit outputs
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add data/ output/
-          git commit -m "Auto update ODK data and analysis outputs" || echo "No changes"
+          git commit -m "Auto update ODK data, analysis outputs, and report" || echo "No changes"
           git push

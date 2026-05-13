@@ -1,0 +1,2291 @@
+Consolidated APA-Style Results Report
+=====================================
+
+This report compiles the analysis CSV outputs into plain-text sections for direct pasting into Word.
+
+6 Month Follow Adolescents
+
+Descriptive Statistics (Adolescents)
+
+Overall Continuous (overall)
+----------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 5.21 [4.10] - 0.00-22.00
+psc_-psc_total | 19.75 [9.45] - 0.00-49.00
+rcads_-rcads_total | 16.11 [10.98] - 0.00-56.00
+dsm5_-dsm5_total | 16.16 [12.31] - 0.00-59.00
+somatic_-somatic_total | 4.25 [3.61] - 0.00-18.00
+wemwbs_-wemwbs_total | 20.32 [5.07] - 7.00-35.00
+ibs_-ibs_total | 1.94 [2.61] - 0.00-14.00
+bbscq_-bbscq_total | 23.70 [4.54] - 4.00-30.00
+self_stigma_-stgt_total | 0.48 [0.99] - 0.00-5.00
+psychlops_post_-psy_total | 6.45 [4.98] - 0.00-20.00
+
+In the 6_month_follow_up_adolescents dataset, continuous outcomes for overall analyses were summarised by overall. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (group)
+--------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 5.63 [4.20] - 0.00-22.00
+phq9a_-phq9a_total | 4.80 [3.97] - 0.00-19.00
+psc_-psc_total | 20.58 [9.44] - 0.00-47.00
+psc_-psc_total | 18.91 [9.39] - 0.00-49.00
+rcads_-rcads_total | 17.07 [10.89] - 0.00-56.00
+rcads_-rcads_total | 15.15 [11.02] - 0.00-54.00
+dsm5_-dsm5_total | 16.98 [12.28] - 0.00-59.00
+dsm5_-dsm5_total | 15.33 [12.30] - 0.00-58.00
+somatic_-somatic_total | 4.56 [3.66] - 0.00-16.00
+somatic_-somatic_total | 3.93 [3.55] - 0.00-18.00
+wemwbs_-wemwbs_total | 20.57 [5.13] - 7.00-35.00
+wemwbs_-wemwbs_total | 20.07 [5.00] - 7.00-34.00
+ibs_-ibs_total | 2.14 [2.84] - 0.00-14.00
+ibs_-ibs_total | 1.74 [2.34] - 0.00-12.00
+bbscq_-bbscq_total | 23.77 [4.89] - 4.00-30.00
+bbscq_-bbscq_total | 23.63 [4.16] - 8.00-30.00
+self_stigma_-stgt_total | 0.51 [1.00] - 0.00-5.00
+self_stigma_-stgt_total | 0.46 [0.97] - 0.00-4.00
+psychlops_post_-psy_total | 6.83 [5.31] - 0.00-20.00
+psychlops_post_-psy_total | 6.11 [4.64] - 0.00-17.00
+
+In the 6_month_follow_up_adolescents dataset, continuous outcomes for overall analyses were summarised by group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (gender)
+---------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 4.52 [3.66] - 0.00-19.00
+phq9a_-phq9a_total | 5.90 [4.40] - 0.00-22.00
+psc_-psc_total | 18.27 [8.51] - 0.00-48.00
+psc_-psc_total | 21.21 [10.09] - 0.00-49.00
+rcads_-rcads_total | 13.78 [10.12] - 0.00-54.00
+rcads_-rcads_total | 18.42 [11.33] - 0.00-56.00
+dsm5_-dsm5_total | 14.78 [12.06] - 0.00-59.00
+dsm5_-dsm5_total | 17.52 [12.42] - 0.00-53.00
+somatic_-somatic_total | 3.87 [3.45] - 0.00-16.00
+somatic_-somatic_total | 4.62 [3.74] - 0.00-18.00
+wemwbs_-wemwbs_total | 20.27 [5.03] - 7.00-35.00
+wemwbs_-wemwbs_total | 20.37 [5.12] - 7.00-35.00
+ibs_-ibs_total | 2.26 [2.79] - 0.00-14.00
+ibs_-ibs_total | 1.63 [2.37] - 0.00-13.00
+bbscq_-bbscq_total | 23.64 [4.60] - 4.00-30.00
+bbscq_-bbscq_total | 23.76 [4.49] - 8.00-30.00
+self_stigma_-stgt_total | 0.43 [0.94] - 0.00-5.00
+self_stigma_-stgt_total | 0.54 [1.03] - 0.00-5.00
+psychlops_post_-psy_total | 6.36 [5.05] - 0.00-20.00
+psychlops_post_-psy_total | 6.55 [4.92] - 0.00-19.00
+
+In the 6_month_follow_up_adolescents dataset, continuous outcomes for overall analyses were summarised by gender. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (new_group)
+------------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 4.91 [3.72] - 0.00-17.00
+phq9a_-phq9a_total | 6.36 [4.54] - 0.00-22.00
+phq9a_-phq9a_total | 4.12 [3.57] - 0.00-19.00
+phq9a_-phq9a_total | 5.45 [4.23] - 0.00-19.00
+psc_-psc_total | 18.97 [8.50] - 0.00-43.00
+psc_-psc_total | 22.22 [10.08] - 3.00-47.00
+psc_-psc_total | 17.55 [8.49] - 4.00-48.00
+psc_-psc_total | 20.21 [10.04] - 0.00-49.00
+rcads_-rcads_total | 15.09 [10.76] - 0.00-54.00
+rcads_-rcads_total | 19.07 [10.69] - 0.00-56.00
+rcads_-rcads_total | 12.43 [9.26] - 0.00-54.00
+rcads_-rcads_total | 17.79 [11.93] - 0.00-51.00
+dsm5_-dsm5_total | 15.93 [12.39] - 0.00-59.00
+dsm5_-dsm5_total | 18.05 [12.11] - 0.00-50.00
+dsm5_-dsm5_total | 13.60 [11.64] - 0.00-58.00
+dsm5_-dsm5_total | 16.99 [12.73] - 0.00-53.00
+somatic_-somatic_total | 4.29 [3.63] - 0.00-16.00
+somatic_-somatic_total | 4.83 [3.68] - 0.00-16.00
+somatic_-somatic_total | 3.43 [3.21] - 0.00-14.00
+somatic_-somatic_total | 4.41 [3.79] - 0.00-18.00
+wemwbs_-wemwbs_total | 20.74 [5.22] - 7.00-35.00
+wemwbs_-wemwbs_total | 20.40 [5.06] - 10.00-35.00
+wemwbs_-wemwbs_total | 19.79 [4.80] - 7.00-33.00
+wemwbs_-wemwbs_total | 20.34 [5.20] - 7.00-34.00
+ibs_-ibs_total | 2.41 [3.10] - 0.00-14.00
+ibs_-ibs_total | 1.86 [2.52] - 0.00-13.00
+ibs_-ibs_total | 2.10 [2.44] - 0.00-11.00
+ibs_-ibs_total | 1.39 [2.19] - 0.00-12.00
+bbscq_-bbscq_total | 23.56 [5.25] - 4.00-30.00
+bbscq_-bbscq_total | 23.97 [4.52] - 10.00-30.00
+bbscq_-bbscq_total | 23.72 [3.84] - 10.00-29.00
+bbscq_-bbscq_total | 23.55 [4.46] - 8.00-30.00
+self_stigma_-stgt_total | 0.40 [0.87] - 0.00-5.00
+self_stigma_-stgt_total | 0.61 [1.11] - 0.00-5.00
+self_stigma_-stgt_total | 0.46 [1.00] - 0.00-4.00
+self_stigma_-stgt_total | 0.46 [0.95] - 0.00-4.00
+psychlops_post_-psy_total | 7.07 [5.52] - 0.00-20.00
+psychlops_post_-psy_total | 6.59 [5.13] - 0.00-19.00
+psychlops_post_-psy_total | 5.68 [4.49] - 0.00-17.00
+psychlops_post_-psy_total | 6.51 [4.77] - 0.00-17.00
+
+In the 6_month_follow_up_adolescents dataset, continuous outcomes for overall analyses were summarised by new_group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (overall)
+--------------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 5.21 [4.10] - 0.00-22.00
+psc_-psc_total | 19.75 [9.45] - 0.00-49.00
+psc_-psc_int | 2.58 [2.22] - 0.00-8.00
+psc_-psc_ext | 2.99 [1.97] - 0.00-14.00
+psc_-psc_attn | 3.13 [2.36] - 0.00-10.00
+rcads_-rcads_total | 16.11 [10.98] - 0.00-56.00
+rcads_-rcads_anx_tot | 10.23 [6.96] - 0.00-32.00
+rcads_-rcads_dep_tot | 5.89 [4.67] - 0.00-25.00
+dsm5_-dsm5_total | 16.16 [12.31] - 0.00-59.00
+dsm5_-dsm5_I_Som_Symp | 2.04 [1.95] - 0.00-8.00
+dsm5_-dsm5_II_Slp_prb | 0.88 [1.15] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 1.07 [1.23] - 0.00-4.00
+dsm5_-dsm5_IV_Dep | 2.10 [2.05] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.92 [2.00] - 0.00-8.00
+dsm5_-dsm5_VII_Mania | 1.56 [1.60] - 0.00-8.00
+dsm5_-dsm5_VIII_Anx | 2.65 [2.64] - 0.00-11.00
+dsm5_-dsm5_IX_Psychss | 0.44 [1.10] - 0.00-8.00
+dsm5_-dsm5_X_Rpt_thts | 3.44 [3.12] - 0.00-14.00
+dsm5_-dsm5_XI_Sbtncd | 0.03 [0.17] - 0.00-2.00
+dsm5_-dsm5_XII_Suic | 0.03 [0.17] - 0.00-1.00
+somatic_-somatic_total | 4.25 [3.61] - 0.00-18.00
+somatic_-somatic_item_01 | 0.56 [0.69] - 0.00-2.00
+somatic_-somatic_item_02 | 0.52 [0.64] - 0.00-2.00
+somatic_-somatic_item_03 | 0.75 [0.71] - 0.00-2.00
+somatic_-somatic_item_04a | 0.47 [0.67] - 0.00-2.00
+somatic_-somatic_item_04b | 0.60 [0.72] - 0.00-2.00
+somatic_-somatic_item_04c | 0.25 [0.52] - 0.00-2.00
+somatic_-somatic_item_04d | 0.25 [0.53] - 0.00-2.00
+somatic_-somatic_item_04e | 0.23 [0.53] - 0.00-2.00
+somatic_-somatic_item_04f | 0.36 [0.57] - 0.00-2.00
+somatic_-somatic_item_04g | 0.18 [0.46] - 0.00-2.00
+somatic_-somatic_item_04h | 0.08 [0.33] - 0.00-2.00
+wemwbs_-wemwbs_total | 20.32 [5.07] - 7.00-35.00
+wemwbs_-wemwbs_item_01 | 3.19 [1.04] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 2.92 [1.09] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.07 [1.10] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.01 [1.14] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.67 [1.15] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.63 [1.22] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.84 [1.12] - 1.00-5.00
+spsi_-spsi_ppo | 6.24 [3.05] - 0.00-18.00
+spsi_-spsi_npo | 5.25 [3.09] - 0.00-18.00
+spsi_-spsi_rps | 6.37 [3.35] - 0.00-17.00
+spsi_-spsi_ics | 7.85 [3.51] - 0.00-20.00
+spsi_-spsi_as | 7.56 [3.40] - 0.00-20.00
+bbscq_-bbscq_total | 23.70 [4.54] - 4.00-30.00
+bbscq_-bbscq_relation | 9.00 [2.10] - 1.00-12.00
+bbscq_-bbscq_belonging | 6.11 [1.46] - 0.00-8.00
+bbscq_-bbscq_comitment | 3.64 [0.76] - 0.00-4.00
+bbscq_-bbscq_participation | 4.95 [1.55] - 0.00-6.00
+
+In the 6_month_follow_up_adolescents dataset, continuous outcomes for domain wise analyses were summarised by overall. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (group)
+------------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 5.63 [4.20] - 0.00-22.00
+phq9a_-phq9a_total | 4.80 [3.97] - 0.00-19.00
+psc_-psc_total | 20.58 [9.44] - 0.00-47.00
+psc_-psc_total | 18.91 [9.39] - 0.00-49.00
+psc_-psc_int | 2.76 [2.22] - 0.00-8.00
+psc_-psc_int | 2.40 [2.21] - 0.00-8.00
+psc_-psc_ext | 2.97 [1.97] - 0.00-10.00
+psc_-psc_ext | 3.02 [1.98] - 0.00-14.00
+psc_-psc_attn | 3.24 [2.30] - 0.00-10.00
+psc_-psc_attn | 3.01 [2.42] - 0.00-10.00
+rcads_-rcads_total | 17.07 [10.89] - 0.00-56.00
+rcads_-rcads_total | 15.15 [11.02] - 0.00-54.00
+rcads_-rcads_anx_tot | 10.87 [6.99] - 0.00-31.00
+rcads_-rcads_anx_tot | 9.58 [6.89] - 0.00-32.00
+rcads_-rcads_dep_tot | 6.20 [4.67] - 0.00-25.00
+rcads_-rcads_dep_tot | 5.57 [4.65] - 0.00-24.00
+dsm5_-dsm5_total | 16.98 [12.28] - 0.00-59.00
+dsm5_-dsm5_total | 15.33 [12.30] - 0.00-58.00
+dsm5_-dsm5_I_Som_Symp | 2.16 [2.06] - 0.00-8.00
+dsm5_-dsm5_I_Som_Symp | 1.91 [1.82] - 0.00-8.00
+dsm5_-dsm5_II_Slp_prb | 0.88 [1.17] - 0.00-4.00
+dsm5_-dsm5_II_Slp_prb | 0.88 [1.12] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 1.18 [1.27] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 0.95 [1.17] - 0.00-4.00
+dsm5_-dsm5_IV_Dep | 2.21 [1.98] - 0.00-8.00
+dsm5_-dsm5_IV_Dep | 1.99 [2.10] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 2.06 [2.06] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.78 [1.93] - 0.00-8.00
+dsm5_-dsm5_VII_Mania | 1.53 [1.51] - 0.00-8.00
+dsm5_-dsm5_VII_Mania | 1.60 [1.68] - 0.00-7.00
+dsm5_-dsm5_VIII_Anx | 2.89 [2.70] - 0.00-11.00
+dsm5_-dsm5_VIII_Anx | 2.41 [2.57] - 0.00-11.00
+dsm5_-dsm5_IX_Psychss | 0.37 [1.01] - 0.00-8.00
+dsm5_-dsm5_IX_Psychss | 0.51 [1.17] - 0.00-7.00
+dsm5_-dsm5_X_Rpt_thts | 3.63 [3.26] - 0.00-14.00
+dsm5_-dsm5_X_Rpt_thts | 3.25 [2.97] - 0.00-14.00
+dsm5_-dsm5_XI_Sbtncd | 0.04 [0.21] - 0.00-2.00
+dsm5_-dsm5_XI_Sbtncd | 0.01 [0.12] - 0.00-1.00
+dsm5_-dsm5_XII_Suic | 0.02 [0.14] - 0.00-1.00
+dsm5_-dsm5_XII_Suic | 0.04 [0.20] - 0.00-1.00
+somatic_-somatic_total | 4.56 [3.66] - 0.00-16.00
+somatic_-somatic_total | 3.93 [3.55] - 0.00-18.00
+somatic_-somatic_item_01 | 0.57 [0.70] - 0.00-2.00
+somatic_-somatic_item_01 | 0.55 [0.67] - 0.00-2.00
+somatic_-somatic_item_02 | 0.57 [0.68] - 0.00-2.00
+somatic_-somatic_item_02 | 0.46 [0.60] - 0.00-2.00
+somatic_-somatic_item_03 | 0.80 [0.72] - 0.00-2.00
+somatic_-somatic_item_03 | 0.70 [0.70] - 0.00-2.00
+somatic_-somatic_item_04a | 0.51 [0.70] - 0.00-2.00
+somatic_-somatic_item_04a | 0.43 [0.63] - 0.00-2.00
+somatic_-somatic_item_04b | 0.66 [0.74] - 0.00-2.00
+somatic_-somatic_item_04b | 0.54 [0.69] - 0.00-2.00
+somatic_-somatic_item_04c | 0.27 [0.53] - 0.00-2.00
+somatic_-somatic_item_04c | 0.24 [0.50] - 0.00-2.00
+somatic_-somatic_item_04d | 0.29 [0.57] - 0.00-2.00
+somatic_-somatic_item_04d | 0.21 [0.50] - 0.00-2.00
+somatic_-somatic_item_04e | 0.21 [0.50] - 0.00-2.00
+somatic_-somatic_item_04e | 0.26 [0.56] - 0.00-2.00
+somatic_-somatic_item_04f | 0.38 [0.57] - 0.00-2.00
+somatic_-somatic_item_04f | 0.34 [0.57] - 0.00-2.00
+somatic_-somatic_item_04g | 0.20 [0.48] - 0.00-2.00
+somatic_-somatic_item_04g | 0.15 [0.44] - 0.00-2.00
+somatic_-somatic_item_04h | 0.10 [0.38] - 0.00-2.00
+somatic_-somatic_item_04h | 0.05 [0.26] - 0.00-2.00
+wemwbs_-wemwbs_total | 20.57 [5.13] - 7.00-35.00
+wemwbs_-wemwbs_total | 20.07 [5.00] - 7.00-34.00
+wemwbs_-wemwbs_item_01 | 3.20 [1.05] - 1.00-5.00
+wemwbs_-wemwbs_item_01 | 3.18 [1.03] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 3.04 [1.06] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 2.80 [1.11] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.14 [1.10] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 2.99 [1.09] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.00 [1.15] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.02 [1.14] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.69 [1.22] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.66 [1.08] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.67 [1.23] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.58 [1.22] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.83 [1.13] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.84 [1.12] - 1.00-5.00
+spsi_-spsi_ppo | 6.76 [3.15] - 0.00-18.00
+spsi_-spsi_ppo | 5.72 [2.85] - 0.00-15.00
+spsi_-spsi_npo | 5.53 [3.25] - 0.00-18.00
+spsi_-spsi_npo | 4.96 [2.91] - 0.00-16.00
+spsi_-spsi_rps | 6.91 [3.45] - 0.00-17.00
+spsi_-spsi_rps | 5.83 [3.16] - 0.00-15.00
+spsi_-spsi_ics | 8.08 [3.51] - 0.00-19.00
+spsi_-spsi_ics | 7.62 [3.51] - 0.00-20.00
+spsi_-spsi_as | 7.86 [3.39] - 0.00-20.00
+spsi_-spsi_as | 7.27 [3.40] - 0.00-17.00
+bbscq_-bbscq_total | 23.77 [4.89] - 4.00-30.00
+bbscq_-bbscq_total | 23.63 [4.16] - 8.00-30.00
+bbscq_-bbscq_relation | 8.96 [2.31] - 1.00-12.00
+bbscq_-bbscq_relation | 9.04 [1.88] - 3.00-12.00
+bbscq_-bbscq_belonging | 6.21 [1.47] - 0.00-8.00
+bbscq_-bbscq_belonging | 6.00 [1.44] - 0.00-8.00
+bbscq_-bbscq_comitment | 3.61 [0.80] - 0.00-4.00
+bbscq_-bbscq_comitment | 3.68 [0.73] - 0.00-4.00
+bbscq_-bbscq_participation | 4.98 [1.56] - 0.00-6.00
+bbscq_-bbscq_participation | 4.92 [1.53] - 0.00-6.00
+
+In the 6_month_follow_up_adolescents dataset, continuous outcomes for domain wise analyses were summarised by group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (gender)
+-------------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 4.52 [3.66] - 0.00-19.00
+phq9a_-phq9a_total | 5.90 [4.40] - 0.00-22.00
+psc_-psc_total | 18.27 [8.51] - 0.00-48.00
+psc_-psc_total | 21.21 [10.09] - 0.00-49.00
+psc_-psc_int | 2.19 [1.92] - 0.00-8.00
+psc_-psc_int | 2.97 [2.43] - 0.00-8.00
+psc_-psc_ext | 3.18 [1.92] - 0.00-9.00
+psc_-psc_ext | 2.81 [2.01] - 0.00-14.00
+psc_-psc_attn | 2.77 [2.18] - 0.00-9.00
+psc_-psc_attn | 3.49 [2.48] - 0.00-10.00
+rcads_-rcads_total | 13.78 [10.12] - 0.00-54.00
+rcads_-rcads_total | 18.42 [11.33] - 0.00-56.00
+rcads_-rcads_anx_tot | 8.56 [6.35] - 0.00-31.00
+rcads_-rcads_anx_tot | 11.89 [7.15] - 0.00-32.00
+rcads_-rcads_dep_tot | 5.23 [4.36] - 0.00-24.00
+rcads_-rcads_dep_tot | 6.54 [4.87] - 0.00-25.00
+dsm5_-dsm5_total | 14.78 [12.06] - 0.00-59.00
+dsm5_-dsm5_total | 17.52 [12.42] - 0.00-53.00
+dsm5_-dsm5_I_Som_Symp | 1.81 [1.95] - 0.00-8.00
+dsm5_-dsm5_I_Som_Symp | 2.26 [1.92] - 0.00-8.00
+dsm5_-dsm5_II_Slp_prb | 0.79 [1.11] - 0.00-4.00
+dsm5_-dsm5_II_Slp_prb | 0.97 [1.17] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 0.91 [1.15] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 1.23 [1.28] - 0.00-4.00
+dsm5_-dsm5_IV_Dep | 1.75 [1.90] - 0.00-8.00
+dsm5_-dsm5_IV_Dep | 2.44 [2.13] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.75 [1.95] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 2.09 [2.04] - 0.00-8.00
+dsm5_-dsm5_VII_Mania | 1.66 [1.61] - 0.00-8.00
+dsm5_-dsm5_VII_Mania | 1.47 [1.58] - 0.00-7.00
+dsm5_-dsm5_VIII_Anx | 2.35 [2.52] - 0.00-11.00
+dsm5_-dsm5_VIII_Anx | 2.95 [2.73] - 0.00-11.00
+dsm5_-dsm5_IX_Psychss | 0.42 [1.04] - 0.00-8.00
+dsm5_-dsm5_IX_Psychss | 0.46 [1.15] - 0.00-7.00
+dsm5_-dsm5_X_Rpt_thts | 3.31 [3.09] - 0.00-14.00
+dsm5_-dsm5_X_Rpt_thts | 3.58 [3.16] - 0.00-14.00
+dsm5_-dsm5_XI_Sbtncd | 0.03 [0.17] - 0.00-1.00
+dsm5_-dsm5_XI_Sbtncd | 0.02 [0.16] - 0.00-2.00
+dsm5_-dsm5_XII_Suic | 0.02 [0.13] - 0.00-1.00
+dsm5_-dsm5_XII_Suic | 0.04 [0.20] - 0.00-1.00
+somatic_-somatic_total | 3.87 [3.45] - 0.00-16.00
+somatic_-somatic_total | 4.62 [3.74] - 0.00-18.00
+somatic_-somatic_item_01 | 0.43 [0.60] - 0.00-2.00
+somatic_-somatic_item_01 | 0.69 [0.74] - 0.00-2.00
+somatic_-somatic_item_02 | 0.50 [0.66] - 0.00-2.00
+somatic_-somatic_item_02 | 0.53 [0.63] - 0.00-2.00
+somatic_-somatic_item_03 | 0.65 [0.69] - 0.00-2.00
+somatic_-somatic_item_03 | 0.86 [0.73] - 0.00-2.00
+somatic_-somatic_item_04a | 0.45 [0.64] - 0.00-2.00
+somatic_-somatic_item_04a | 0.49 [0.69] - 0.00-2.00
+somatic_-somatic_item_04b | 0.54 [0.68] - 0.00-2.00
+somatic_-somatic_item_04b | 0.67 [0.75] - 0.00-2.00
+somatic_-somatic_item_04c | 0.27 [0.52] - 0.00-2.00
+somatic_-somatic_item_04c | 0.23 [0.52] - 0.00-2.00
+somatic_-somatic_item_04d | 0.19 [0.47] - 0.00-2.00
+somatic_-somatic_item_04d | 0.31 [0.58] - 0.00-2.00
+somatic_-somatic_item_04e | 0.20 [0.48] - 0.00-2.00
+somatic_-somatic_item_04e | 0.27 [0.57] - 0.00-2.00
+somatic_-somatic_item_04f | 0.36 [0.57] - 0.00-2.00
+somatic_-somatic_item_04f | 0.36 [0.58] - 0.00-2.00
+somatic_-somatic_item_04g | 0.21 [0.49] - 0.00-2.00
+somatic_-somatic_item_04g | 0.15 [0.43] - 0.00-2.00
+somatic_-somatic_item_04h | 0.08 [0.33] - 0.00-2.00
+somatic_-somatic_item_04h | 0.07 [0.33] - 0.00-2.00
+wemwbs_-wemwbs_total | 20.27 [5.03] - 7.00-35.00
+wemwbs_-wemwbs_total | 20.37 [5.12] - 7.00-35.00
+wemwbs_-wemwbs_item_01 | 3.13 [1.09] - 1.00-5.00
+wemwbs_-wemwbs_item_01 | 3.25 [0.99] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 2.89 [1.12] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 2.95 [1.06] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.09 [1.10] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.04 [1.10] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.08 [1.11] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 2.94 [1.17] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.59 [1.16] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.76 [1.14] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.61 [1.19] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.64 [1.25] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.87 [1.14] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.80 [1.10] - 1.00-5.00
+spsi_-spsi_ppo | 5.80 [3.03] - 0.00-17.00
+spsi_-spsi_ppo | 6.67 [3.00] - 0.00-18.00
+spsi_-spsi_npo | 4.85 [2.97] - 0.00-14.00
+spsi_-spsi_npo | 5.63 [3.16] - 0.00-18.00
+spsi_-spsi_rps | 5.80 [3.33] - 0.00-17.00
+spsi_-spsi_rps | 6.94 [3.29] - 0.00-16.00
+spsi_-spsi_ics | 7.61 [3.78] - 0.00-20.00
+spsi_-spsi_ics | 8.09 [3.22] - 1.00-18.00
+spsi_-spsi_as | 7.09 [3.36] - 0.00-18.00
+spsi_-spsi_as | 8.03 [3.39] - 1.00-20.00
+bbscq_-bbscq_total | 23.64 [4.60] - 4.00-30.00
+bbscq_-bbscq_total | 23.76 [4.49] - 8.00-30.00
+bbscq_-bbscq_relation | 9.08 [2.01] - 1.00-12.00
+bbscq_-bbscq_relation | 8.92 [2.19] - 1.00-12.00
+bbscq_-bbscq_belonging | 6.10 [1.48] - 0.00-8.00
+bbscq_-bbscq_belonging | 6.11 [1.44] - 0.00-8.00
+bbscq_-bbscq_comitment | 3.62 [0.76] - 0.00-4.00
+bbscq_-bbscq_comitment | 3.67 [0.77] - 0.00-4.00
+bbscq_-bbscq_participation | 4.84 [1.63] - 0.00-6.00
+bbscq_-bbscq_participation | 5.06 [1.45] - 0.00-6.00
+
+In the 6_month_follow_up_adolescents dataset, continuous outcomes for domain wise analyses were summarised by gender. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (new_group)
+----------------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 4.91 [3.72] - 0.00-17.00
+phq9a_-phq9a_total | 6.36 [4.54] - 0.00-22.00
+phq9a_-phq9a_total | 4.12 [3.57] - 0.00-19.00
+phq9a_-phq9a_total | 5.45 [4.23] - 0.00-19.00
+psc_-psc_total | 18.97 [8.50] - 0.00-43.00
+psc_-psc_total | 22.22 [10.08] - 3.00-47.00
+psc_-psc_total | 17.55 [8.49] - 4.00-48.00
+psc_-psc_total | 20.21 [10.04] - 0.00-49.00
+psc_-psc_int | 2.28 [1.91] - 0.00-8.00
+psc_-psc_int | 3.24 [2.41] - 0.00-8.00
+psc_-psc_int | 2.09 [1.93] - 0.00-8.00
+psc_-psc_int | 2.71 [2.43] - 0.00-8.00
+psc_-psc_ext | 3.08 [1.95] - 0.00-9.00
+psc_-psc_ext | 2.85 [1.98] - 0.00-10.00
+psc_-psc_ext | 3.28 [1.89] - 0.00-9.00
+psc_-psc_ext | 2.77 [2.04] - 0.00-14.00
+psc_-psc_attn | 2.86 [2.13] - 0.00-9.00
+psc_-psc_attn | 3.64 [2.41] - 0.00-10.00
+psc_-psc_attn | 2.68 [2.22] - 0.00-9.00
+psc_-psc_attn | 3.34 [2.55] - 0.00-10.00
+rcads_-rcads_total | 15.09 [10.76] - 0.00-54.00
+rcads_-rcads_total | 19.07 [10.69] - 0.00-56.00
+rcads_-rcads_total | 12.43 [9.26] - 0.00-54.00
+rcads_-rcads_total | 17.79 [11.93] - 0.00-51.00
+rcads_-rcads_anx_tot | 9.37 [6.77] - 0.00-30.00
+rcads_-rcads_anx_tot | 12.39 [6.90] - 0.00-31.00
+rcads_-rcads_anx_tot | 7.71 [5.79] - 0.00-31.00
+rcads_-rcads_anx_tot | 11.39 [7.38] - 0.00-32.00
+rcads_-rcads_dep_tot | 5.72 [4.61] - 0.00-24.00
+rcads_-rcads_dep_tot | 6.68 [4.70] - 0.00-25.00
+rcads_-rcads_dep_tot | 4.72 [4.03] - 0.00-23.00
+rcads_-rcads_dep_tot | 6.39 [5.05] - 0.00-24.00
+dsm5_-dsm5_total | 15.93 [12.39] - 0.00-59.00
+dsm5_-dsm5_total | 18.05 [12.11] - 0.00-50.00
+dsm5_-dsm5_total | 13.60 [11.64] - 0.00-58.00
+dsm5_-dsm5_total | 16.99 [12.73] - 0.00-53.00
+dsm5_-dsm5_I_Som_Symp | 2.09 [2.25] - 0.00-8.00
+dsm5_-dsm5_I_Som_Symp | 2.24 [1.85] - 0.00-7.00
+dsm5_-dsm5_I_Som_Symp | 1.52 [1.54] - 0.00-6.00
+dsm5_-dsm5_I_Som_Symp | 2.28 [1.99] - 0.00-8.00
+dsm5_-dsm5_II_Slp_prb | 0.83 [1.14] - 0.00-4.00
+dsm5_-dsm5_II_Slp_prb | 0.93 [1.21] - 0.00-4.00
+dsm5_-dsm5_II_Slp_prb | 0.74 [1.09] - 0.00-4.00
+dsm5_-dsm5_II_Slp_prb | 1.01 [1.14] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 1.03 [1.23] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 1.33 [1.30] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 0.77 [1.05] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 1.13 [1.26] - 0.00-4.00
+dsm5_-dsm5_IV_Dep | 1.83 [1.90] - 0.00-8.00
+dsm5_-dsm5_IV_Dep | 2.60 [2.00] - 0.00-8.00
+dsm5_-dsm5_IV_Dep | 1.68 [1.89] - 0.00-7.00
+dsm5_-dsm5_IV_Dep | 2.29 [2.26] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.95 [2.03] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 2.18 [2.10] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.54 [1.85] - 0.00-7.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 2.01 [1.99] - 0.00-8.00
+dsm5_-dsm5_VII_Mania | 1.70 [1.65] - 0.00-8.00
+dsm5_-dsm5_VII_Mania | 1.35 [1.35] - 0.00-5.00
+dsm5_-dsm5_VII_Mania | 1.61 [1.57] - 0.00-6.00
+dsm5_-dsm5_VII_Mania | 1.58 [1.78] - 0.00-7.00
+dsm5_-dsm5_VIII_Anx | 2.60 [2.58] - 0.00-11.00
+dsm5_-dsm5_VIII_Anx | 3.18 [2.79] - 0.00-11.00
+dsm5_-dsm5_VIII_Anx | 2.08 [2.43] - 0.00-11.00
+dsm5_-dsm5_VIII_Anx | 2.73 [2.67] - 0.00-11.00
+dsm5_-dsm5_IX_Psychss | 0.37 [1.02] - 0.00-8.00
+dsm5_-dsm5_IX_Psychss | 0.37 [1.00] - 0.00-6.00
+dsm5_-dsm5_IX_Psychss | 0.46 [1.05] - 0.00-5.00
+dsm5_-dsm5_IX_Psychss | 0.55 [1.28] - 0.00-7.00
+dsm5_-dsm5_X_Rpt_thts | 3.47 [3.21] - 0.00-14.00
+dsm5_-dsm5_X_Rpt_thts | 3.80 [3.32] - 0.00-14.00
+dsm5_-dsm5_X_Rpt_thts | 3.14 [2.96] - 0.00-14.00
+dsm5_-dsm5_X_Rpt_thts | 3.35 [2.99] - 0.00-11.00
+dsm5_-dsm5_XI_Sbtncd | 0.04 [0.20] - 0.00-1.00
+dsm5_-dsm5_XI_Sbtncd | 0.03 [0.22] - 0.00-2.00
+dsm5_-dsm5_XI_Sbtncd | 0.02 [0.14] - 0.00-1.00
+dsm5_-dsm5_XI_Sbtncd | 0.01 [0.08] - 0.00-1.00
+dsm5_-dsm5_XII_Suic | 0.01 [0.12] - 0.00-1.00
+dsm5_-dsm5_XII_Suic | 0.03 [0.16] - 0.00-1.00
+dsm5_-dsm5_XII_Suic | 0.02 [0.14] - 0.00-1.00
+dsm5_-dsm5_XII_Suic | 0.06 [0.24] - 0.00-1.00
+somatic_-somatic_total | 4.29 [3.63] - 0.00-16.00
+somatic_-somatic_total | 4.83 [3.68] - 0.00-16.00
+somatic_-somatic_total | 3.43 [3.21] - 0.00-14.00
+somatic_-somatic_total | 4.41 [3.79] - 0.00-18.00
+somatic_-somatic_item_01 | 0.45 [0.63] - 0.00-2.00
+somatic_-somatic_item_01 | 0.70 [0.75] - 0.00-2.00
+somatic_-somatic_item_01 | 0.41 [0.57] - 0.00-2.00
+somatic_-somatic_item_01 | 0.68 [0.73] - 0.00-2.00
+somatic_-somatic_item_02 | 0.56 [0.71] - 0.00-2.00
+somatic_-somatic_item_02 | 0.57 [0.66] - 0.00-2.00
+somatic_-somatic_item_02 | 0.43 [0.60] - 0.00-2.00
+somatic_-somatic_item_02 | 0.49 [0.60] - 0.00-2.00
+somatic_-somatic_item_03 | 0.69 [0.73] - 0.00-2.00
+somatic_-somatic_item_03 | 0.91 [0.70] - 0.00-2.00
+somatic_-somatic_item_03 | 0.60 [0.64] - 0.00-2.00
+somatic_-somatic_item_03 | 0.80 [0.75] - 0.00-2.00
+somatic_-somatic_item_04a | 0.52 [0.68] - 0.00-2.00
+somatic_-somatic_item_04a | 0.50 [0.71] - 0.00-2.00
+somatic_-somatic_item_04a | 0.38 [0.59] - 0.00-2.00
+somatic_-somatic_item_04a | 0.47 [0.67] - 0.00-2.00
+somatic_-somatic_item_04b | 0.63 [0.71] - 0.00-2.00
+somatic_-somatic_item_04b | 0.70 [0.76] - 0.00-2.00
+somatic_-somatic_item_04b | 0.44 [0.63] - 0.00-2.00
+somatic_-somatic_item_04b | 0.64 [0.74] - 0.00-2.00
+somatic_-somatic_item_04c | 0.29 [0.54] - 0.00-2.00
+somatic_-somatic_item_04c | 0.24 [0.53] - 0.00-2.00
+somatic_-somatic_item_04c | 0.26 [0.50] - 0.00-2.00
+somatic_-somatic_item_04c | 0.22 [0.50] - 0.00-2.00
+somatic_-somatic_item_04d | 0.24 [0.51] - 0.00-2.00
+somatic_-somatic_item_04d | 0.34 [0.61] - 0.00-2.00
+somatic_-somatic_item_04d | 0.14 [0.42] - 0.00-2.00
+somatic_-somatic_item_04d | 0.27 [0.55] - 0.00-2.00
+somatic_-somatic_item_04e | 0.19 [0.47] - 0.00-2.00
+somatic_-somatic_item_04e | 0.23 [0.52] - 0.00-2.00
+somatic_-somatic_item_04e | 0.21 [0.48] - 0.00-2.00
+somatic_-somatic_item_04e | 0.31 [0.61] - 0.00-2.00
+somatic_-somatic_item_04f | 0.39 [0.59] - 0.00-2.00
+somatic_-somatic_item_04f | 0.36 [0.56] - 0.00-2.00
+somatic_-somatic_item_04f | 0.34 [0.54] - 0.00-2.00
+somatic_-somatic_item_04f | 0.35 [0.59] - 0.00-2.00
+somatic_-somatic_item_04g | 0.25 [0.53] - 0.00-2.00
+somatic_-somatic_item_04g | 0.16 [0.42] - 0.00-2.00
+somatic_-somatic_item_04g | 0.17 [0.44] - 0.00-2.00
+somatic_-somatic_item_04g | 0.14 [0.43] - 0.00-2.00
+somatic_-somatic_item_04h | 0.10 [0.38] - 0.00-2.00
+somatic_-somatic_item_04h | 0.11 [0.39] - 0.00-2.00
+somatic_-somatic_item_04h | 0.06 [0.26] - 0.00-2.00
+somatic_-somatic_item_04h | 0.04 [0.26] - 0.00-2.00
+wemwbs_-wemwbs_total | 20.74 [5.22] - 7.00-35.00
+wemwbs_-wemwbs_total | 20.40 [5.06] - 10.00-35.00
+wemwbs_-wemwbs_total | 19.79 [4.80] - 7.00-33.00
+wemwbs_-wemwbs_total | 20.34 [5.20] - 7.00-34.00
+wemwbs_-wemwbs_item_01 | 3.13 [1.12] - 1.00-5.00
+wemwbs_-wemwbs_item_01 | 3.26 [0.98] - 1.00-5.00
+wemwbs_-wemwbs_item_01 | 3.12 [1.05] - 1.00-5.00
+wemwbs_-wemwbs_item_01 | 3.23 [1.01] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 3.09 [1.09] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 2.98 [1.04] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 2.68 [1.12] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 2.91 [1.09] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.19 [1.09] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.10 [1.11] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.00 [1.10] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 2.97 [1.09] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.09 [1.12] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 2.91 [1.17] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.08 [1.10] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 2.97 [1.17] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.67 [1.24] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.70 [1.20] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.50 [1.06] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.81 [1.07] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.66 [1.22] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.68 [1.24] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.55 [1.17] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.61 [1.27] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.91 [1.17] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.76 [1.09] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.84 [1.12] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.84 [1.12] - 1.00-5.00
+spsi_-spsi_ppo | 6.17 [3.13] - 0.00-17.00
+spsi_-spsi_ppo | 7.35 [3.06] - 1.00-18.00
+spsi_-spsi_ppo | 5.42 [2.89] - 0.00-13.00
+spsi_-spsi_ppo | 6.00 [2.79] - 0.00-15.00
+spsi_-spsi_npo | 5.03 [3.04] - 0.00-14.00
+spsi_-spsi_npo | 6.03 [3.38] - 0.00-18.00
+spsi_-spsi_npo | 4.67 [2.90] - 0.00-14.00
+spsi_-spsi_npo | 5.24 [2.89] - 0.00-16.00
+spsi_-spsi_rps | 6.31 [3.54] - 0.00-17.00
+spsi_-spsi_rps | 7.52 [3.26] - 1.00-16.00
+spsi_-spsi_rps | 5.28 [3.01] - 0.00-15.00
+spsi_-spsi_rps | 6.36 [3.23] - 0.00-15.00
+spsi_-spsi_ics | 7.70 [3.81] - 0.00-19.00
+spsi_-spsi_ics | 8.47 [3.13] - 1.00-18.00
+spsi_-spsi_ics | 7.52 [3.75] - 0.00-20.00
+spsi_-spsi_ics | 7.72 [3.28] - 1.00-17.00
+spsi_-spsi_as | 7.41 [3.40] - 0.00-18.00
+spsi_-spsi_as | 8.31 [3.33] - 2.00-20.00
+spsi_-spsi_as | 6.77 [3.30] - 0.00-16.00
+spsi_-spsi_as | 7.75 [3.43] - 1.00-17.00
+bbscq_-bbscq_total | 23.56 [5.25] - 4.00-30.00
+bbscq_-bbscq_total | 23.97 [4.52] - 10.00-30.00
+bbscq_-bbscq_total | 23.72 [3.84] - 10.00-29.00
+bbscq_-bbscq_total | 23.55 [4.46] - 8.00-30.00
+bbscq_-bbscq_relation | 9.02 [2.29] - 1.00-12.00
+bbscq_-bbscq_relation | 8.91 [2.33] - 1.00-12.00
+bbscq_-bbscq_relation | 9.14 [1.68] - 5.00-12.00
+bbscq_-bbscq_relation | 8.94 [2.05] - 3.00-12.00
+bbscq_-bbscq_belonging | 6.15 [1.53] - 0.00-8.00
+bbscq_-bbscq_belonging | 6.27 [1.42] - 1.00-8.00
+bbscq_-bbscq_belonging | 6.05 [1.44] - 2.00-8.00
+bbscq_-bbscq_belonging | 5.95 [1.45] - 0.00-8.00
+bbscq_-bbscq_comitment | 3.56 [0.82] - 0.00-4.00
+bbscq_-bbscq_comitment | 3.66 [0.77] - 0.00-4.00
+bbscq_-bbscq_comitment | 3.68 [0.69] - 0.00-4.00
+bbscq_-bbscq_comitment | 3.68 [0.77] - 0.00-4.00
+bbscq_-bbscq_participation | 4.83 [1.76] - 0.00-6.00
+bbscq_-bbscq_participation | 5.14 [1.31] - 0.00-6.00
+bbscq_-bbscq_participation | 4.86 [1.50] - 0.00-6.00
+bbscq_-bbscq_participation | 4.97 [1.57] - 0.00-6.00
+
+In the 6_month_follow_up_adolescents dataset, continuous outcomes for domain wise analyses were summarised by new_group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Categorical (overall) - cgas_-cgas_response
+---------------------------------------------------
+Category | Summary
+--- | ---
+40 | 1 (0.17)
+50 | 1 (0.17)
+70 | 7 (1.18)
+80 | 40 (6.75)
+90 | 328 (55.31)
+100 | 216 (36.42)
+
+For cgas_-cgas_response in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Overall Categorical (group) - cgas_-cgas_response
+-------------------------------------------------
+Category | Summary
+--- | ---
+50 | 1 (0.34)
+70 | 3 (1.01)
+80 | 20 (6.71)
+90 | 171 (57.38)
+100 | 103 (34.56)
+40 | 1 (0.34)
+70 | 4 (1.36)
+80 | 20 (6.78)
+90 | 157 (53.22)
+100 | 113 (38.31)
+
+For cgas_-cgas_response in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Overall Categorical (gender) - cgas_-cgas_response
+--------------------------------------------------
+Category | Summary
+--- | ---
+70 | 1 (0.34)
+80 | 15 (5.08)
+90 | 157 (53.22)
+100 | 122 (41.36)
+40 | 1 (0.34)
+50 | 1 (0.34)
+70 | 6 (2.01)
+80 | 25 (8.39)
+90 | 171 (57.38)
+100 | 94 (31.54)
+
+For cgas_-cgas_response in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Overall Categorical (new_group) - cgas_-cgas_response
+-----------------------------------------------------
+Category | Summary
+--- | ---
+80 | 10 (6.67)
+90 | 82 (54.67)
+100 | 58 (38.67)
+50 | 1 (0.68)
+70 | 3 (2.03)
+80 | 10 (6.76)
+90 | 89 (60.14)
+100 | 45 (30.41)
+70 | 1 (0.69)
+80 | 5 (3.45)
+90 | 75 (51.72)
+100 | 64 (44.14)
+40 | 1 (0.67)
+70 | 3 (2.00)
+80 | 15 (10.00)
+90 | 82 (54.67)
+100 | 49 (32.67)
+
+For cgas_-cgas_response in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+Domain wise Categorical (overall) - phq9a_-phq9a_total_cat_bin
+--------------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 311 (52.45)
+1 | 282 (47.55)
+
+For phq9a_-phq9a_total_cat_bin in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Domain wise Categorical (group) - phq9a_-phq9a_total_cat_bin
+------------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 141 (47.32)
+1 | 157 (52.68)
+0 | 170 (57.63)
+1 | 125 (42.37)
+
+For phq9a_-phq9a_total_cat_bin in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Domain wise Categorical (gender) - phq9a_-phq9a_total_cat_bin
+-------------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 173 (58.64)
+1 | 122 (41.36)
+0 | 138 (46.31)
+1 | 160 (53.69)
+
+For phq9a_-phq9a_total_cat_bin in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Domain wise Categorical (new_group) - phq9a_-phq9a_total_cat_bin
+----------------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 82 (54.67)
+1 | 68 (45.33)
+0 | 59 (39.86)
+1 | 89 (60.14)
+0 | 91 (62.76)
+1 | 54 (37.24)
+0 | 79 (52.67)
+1 | 71 (47.33)
+
+For phq9a_-phq9a_total_cat_bin in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+Domain wise Categorical (overall) - phq9a_-phq9a_total_cat
+----------------------------------------------------------
+Category | Summary
+--- | ---
+1 | 311 (52.45)
+2 | 190 (32.04)
+3 | 73 (12.31)
+4 | 16 (2.70)
+5 | 3 (0.51)
+
+For phq9a_-phq9a_total_cat in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Domain wise Categorical (group) - phq9a_-phq9a_total_cat
+--------------------------------------------------------
+Category | Summary
+--- | ---
+1 | 141 (47.32)
+2 | 107 (35.91)
+3 | 38 (12.75)
+4 | 9 (3.02)
+5 | 3 (1.01)
+1 | 170 (57.63)
+2 | 83 (28.14)
+3 | 35 (11.86)
+4 | 7 (2.37)
+
+For phq9a_-phq9a_total_cat in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Domain wise Categorical (gender) - phq9a_-phq9a_total_cat
+---------------------------------------------------------
+Category | Summary
+--- | ---
+1 | 173 (58.64)
+2 | 91 (30.85)
+3 | 24 (8.14)
+4 | 7 (2.37)
+1 | 138 (46.31)
+2 | 99 (33.22)
+3 | 49 (16.44)
+4 | 9 (3.02)
+5 | 3 (1.01)
+
+For phq9a_-phq9a_total_cat in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Domain wise Categorical (new_group) - phq9a_-phq9a_total_cat
+------------------------------------------------------------
+Category | Summary
+--- | ---
+1 | 82 (54.67)
+2 | 49 (32.67)
+3 | 15 (10.00)
+4 | 4 (2.67)
+1 | 59 (39.86)
+2 | 58 (39.19)
+3 | 23 (15.54)
+4 | 5 (3.38)
+5 | 3 (2.03)
+1 | 91 (62.76)
+2 | 42 (28.97)
+3 | 9 (6.21)
+4 | 3 (2.07)
+1 | 79 (52.67)
+2 | 41 (27.33)
+3 | 26 (17.33)
+4 | 4 (2.67)
+
+For phq9a_-phq9a_total_cat in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+Domain wise Categorical (overall) - psc_-psc_total_cat
+------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 470 (79.26)
+1 | 123 (20.74)
+
+For psc_-psc_total_cat in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Domain wise Categorical (group) - psc_-psc_total_cat
+----------------------------------------------------
+Category | Summary
+--- | ---
+0 | 233 (78.19)
+1 | 65 (21.81)
+0 | 237 (80.34)
+1 | 58 (19.66)
+
+For psc_-psc_total_cat in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Domain wise Categorical (gender) - psc_-psc_total_cat
+-----------------------------------------------------
+Category | Summary
+--- | ---
+0 | 250 (84.75)
+1 | 45 (15.25)
+0 | 220 (73.83)
+1 | 78 (26.17)
+
+For psc_-psc_total_cat in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Domain wise Categorical (new_group) - psc_-psc_total_cat
+--------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 125 (83.33)
+1 | 25 (16.67)
+0 | 108 (72.97)
+1 | 40 (27.03)
+0 | 125 (86.21)
+1 | 20 (13.79)
+0 | 112 (74.67)
+1 | 38 (25.33)
+
+For psc_-psc_total_cat in the 6_month_follow_up_adolescents dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+6 Month Follow Caregivers
+
+Descriptive Statistics (Caregivers Overall)
+
+Overall Continuous (overall)
+----------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 7.28 [5.82] - 0.00-20.00
+apq_-dsm5_total | 24.49 [8.29] - 2.00-40.00
+bbscq_-bbscq_total | 24.62 [4.88] - 0.00-31.00
+
+In the 6_month_follow_up_caregiver dataset, continuous outcomes for overall analyses were summarised by overall. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (group)
+--------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 6.89 [5.77] - 0.00-20.00
+srq_-srq_total | 7.68 [5.86] - 0.00-20.00
+apq_-dsm5_total | 24.96 [8.21] - 2.00-40.00
+apq_-dsm5_total | 24.00 [8.36] - 5.00-40.00
+bbscq_-bbscq_total | 24.98 [4.57] - 8.00-31.00
+bbscq_-bbscq_total | 24.24 [5.16] - 0.00-31.00
+
+In the 6_month_follow_up_caregiver dataset, continuous outcomes for overall analyses were summarised by group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (gender)
+---------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 7.08 [5.83] - 0.00-20.00
+srq_-srq_total | 7.47 [5.82] - 0.00-20.00
+apq_-dsm5_total | 24.36 [8.42] - 3.00-40.00
+apq_-dsm5_total | 24.62 [8.18] - 2.00-40.00
+bbscq_-bbscq_total | 24.31 [5.07] - 0.00-31.00
+bbscq_-bbscq_total | 24.91 [4.66] - 5.00-31.00
+
+In the 6_month_follow_up_caregiver dataset, continuous outcomes for overall analyses were summarised by gender. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (new_group)
+------------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 6.95 [5.84] - 0.00-20.00
+srq_-srq_total | 6.84 [5.71] - 0.00-20.00
+srq_-srq_total | 7.23 [5.84] - 0.00-20.00
+srq_-srq_total | 8.10 [5.88] - 0.00-20.00
+apq_-dsm5_total | 24.87 [8.26] - 3.00-40.00
+apq_-dsm5_total | 25.06 [8.19] - 2.00-40.00
+apq_-dsm5_total | 23.81 [8.58] - 5.00-40.00
+apq_-dsm5_total | 24.18 [8.17] - 6.00-40.00
+bbscq_-bbscq_total | 24.43 [4.91] - 9.00-31.00
+bbscq_-bbscq_total | 25.54 [4.14] - 8.00-31.00
+bbscq_-bbscq_total | 24.18 [5.26] - 0.00-31.00
+bbscq_-bbscq_total | 24.29 [5.07] - 5.00-31.00
+
+In the 6_month_follow_up_caregiver dataset, continuous outcomes for overall analyses were summarised by new_group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (overall)
+--------------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 7.28 [5.82] - 0.00-20.00
+apq_-dsm5_total | 24.49 [8.29] - 2.00-40.00
+bbscq_-bbscq_total | 24.62 [4.88] - 0.00-31.00
+bbscq_-bbscq_relation | 8.75 [2.47] - 0.00-12.00
+bbscq_-bbscq_belonging | 7.32 [1.44] - 0.00-9.00
+bbscq_-bbscq_comitment | 3.81 [0.51] - 0.00-4.00
+bbscq_-bbscq_participation | 4.73 [1.71] - 0.00-6.00
+
+In the 6_month_follow_up_caregiver dataset, continuous outcomes for domain wise analyses were summarised by overall. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (group)
+------------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 6.89 [5.77] - 0.00-20.00
+srq_-srq_total | 7.68 [5.86] - 0.00-20.00
+apq_-dsm5_total | 24.96 [8.21] - 2.00-40.00
+apq_-dsm5_total | 24.00 [8.36] - 5.00-40.00
+bbscq_-bbscq_total | 24.98 [4.57] - 8.00-31.00
+bbscq_-bbscq_total | 24.24 [5.16] - 0.00-31.00
+bbscq_-bbscq_relation | 8.85 [2.38] - 0.00-12.00
+bbscq_-bbscq_relation | 8.65 [2.56] - 0.00-12.00
+bbscq_-bbscq_belonging | 7.43 [1.29] - 3.00-9.00
+bbscq_-bbscq_belonging | 7.20 [1.57] - 0.00-9.00
+bbscq_-bbscq_comitment | 3.87 [0.38] - 2.00-4.00
+bbscq_-bbscq_comitment | 3.74 [0.61] - 0.00-4.00
+bbscq_-bbscq_participation | 4.82 [1.69] - 0.00-6.00
+bbscq_-bbscq_participation | 4.65 [1.74] - 0.00-6.00
+
+In the 6_month_follow_up_caregiver dataset, continuous outcomes for domain wise analyses were summarised by group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (gender)
+-------------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 7.08 [5.83] - 0.00-20.00
+srq_-srq_total | 7.47 [5.82] - 0.00-20.00
+apq_-dsm5_total | 24.36 [8.42] - 3.00-40.00
+apq_-dsm5_total | 24.62 [8.18] - 2.00-40.00
+bbscq_-bbscq_total | 24.31 [5.07] - 0.00-31.00
+bbscq_-bbscq_total | 24.91 [4.66] - 5.00-31.00
+bbscq_-bbscq_relation | 8.61 [2.59] - 0.00-12.00
+bbscq_-bbscq_relation | 8.89 [2.34] - 0.00-12.00
+bbscq_-bbscq_belonging | 7.25 [1.42] - 0.00-9.00
+bbscq_-bbscq_belonging | 7.39 [1.46] - 2.00-9.00
+bbscq_-bbscq_comitment | 3.76 [0.58] - 0.00-4.00
+bbscq_-bbscq_comitment | 3.86 [0.42] - 2.00-4.00
+bbscq_-bbscq_participation | 4.70 [1.72] - 0.00-6.00
+bbscq_-bbscq_participation | 4.77 [1.72] - 0.00-6.00
+
+In the 6_month_follow_up_caregiver dataset, continuous outcomes for domain wise analyses were summarised by gender. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (new_group)
+----------------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 6.95 [5.84] - 0.00-20.00
+srq_-srq_total | 6.84 [5.71] - 0.00-20.00
+srq_-srq_total | 7.23 [5.84] - 0.00-20.00
+srq_-srq_total | 8.10 [5.88] - 0.00-20.00
+apq_-dsm5_total | 24.87 [8.26] - 3.00-40.00
+apq_-dsm5_total | 25.06 [8.19] - 2.00-40.00
+apq_-dsm5_total | 23.81 [8.58] - 5.00-40.00
+apq_-dsm5_total | 24.18 [8.17] - 6.00-40.00
+bbscq_-bbscq_total | 24.43 [4.91] - 9.00-31.00
+bbscq_-bbscq_total | 25.54 [4.14] - 8.00-31.00
+bbscq_-bbscq_total | 24.18 [5.26] - 0.00-31.00
+bbscq_-bbscq_total | 24.29 [5.07] - 5.00-31.00
+bbscq_-bbscq_relation | 8.64 [2.58] - 1.00-12.00
+bbscq_-bbscq_relation | 9.08 [2.14] - 0.00-12.00
+bbscq_-bbscq_relation | 8.58 [2.62] - 0.00-12.00
+bbscq_-bbscq_relation | 8.71 [2.51] - 0.00-12.00
+bbscq_-bbscq_belonging | 7.30 [1.35] - 3.00-9.00
+bbscq_-bbscq_belonging | 7.57 [1.21] - 3.00-9.00
+bbscq_-bbscq_belonging | 7.18 [1.48] - 0.00-9.00
+bbscq_-bbscq_belonging | 7.22 [1.65] - 2.00-9.00
+bbscq_-bbscq_comitment | 3.83 [0.44] - 2.00-4.00
+bbscq_-bbscq_comitment | 3.91 [0.31] - 2.00-4.00
+bbscq_-bbscq_comitment | 3.68 [0.70] - 0.00-4.00
+bbscq_-bbscq_comitment | 3.81 [0.50] - 2.00-4.00
+bbscq_-bbscq_participation | 4.66 [1.76] - 0.00-6.00
+bbscq_-bbscq_participation | 4.99 [1.61] - 0.00-6.00
+bbscq_-bbscq_participation | 4.74 [1.67] - 0.00-6.00
+bbscq_-bbscq_participation | 4.55 [1.80] - 0.00-6.00
+
+In the 6_month_follow_up_caregiver dataset, continuous outcomes for domain wise analyses were summarised by new_group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Categorical (overall) - cgas_-cgas_response
+---------------------------------------------------
+Category | Summary
+--- | ---
+40 | 1 (0.17)
+70 | 2 (0.35)
+80 | 23 (3.99)
+90 | 246 (42.71)
+100 | 304 (52.78)
+
+For cgas_-cgas_response in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Overall Categorical (group) - cgas_-cgas_response
+-------------------------------------------------
+Category | Summary
+--- | ---
+40 | 1 (0.34)
+70 | 1 (0.34)
+80 | 7 (2.38)
+90 | 125 (42.52)
+100 | 160 (54.42)
+70 | 1 (0.35)
+80 | 16 (5.67)
+90 | 121 (42.91)
+100 | 144 (51.06)
+
+For cgas_-cgas_response in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Overall Categorical (gender) - cgas_-cgas_response
+--------------------------------------------------
+Category | Summary
+--- | ---
+40 | 1 (0.35)
+80 | 11 (3.86)
+90 | 111 (38.95)
+100 | 162 (56.84)
+70 | 2 (0.69)
+80 | 12 (4.12)
+90 | 135 (46.39)
+100 | 142 (48.80)
+
+For cgas_-cgas_response in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Overall Categorical (new_group) - cgas_-cgas_response
+-----------------------------------------------------
+Category | Summary
+--- | ---
+40 | 1 (0.67)
+80 | 5 (3.36)
+90 | 58 (38.93)
+100 | 85 (57.05)
+70 | 1 (0.69)
+80 | 2 (1.38)
+90 | 67 (46.21)
+100 | 75 (51.72)
+80 | 6 (4.41)
+90 | 53 (38.97)
+100 | 77 (56.62)
+70 | 1 (0.68)
+80 | 10 (6.85)
+90 | 68 (46.58)
+100 | 67 (45.89)
+
+For cgas_-cgas_response in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+Domain wise Categorical (overall) - srq_-srq_total_cat
+------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 230 (39.93)
+1 | 346 (60.07)
+
+For srq_-srq_total_cat in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Domain wise Categorical (group) - srq_-srq_total_cat
+----------------------------------------------------
+Category | Summary
+--- | ---
+0 | 127 (43.20)
+1 | 167 (56.80)
+0 | 103 (36.52)
+1 | 179 (63.48)
+
+For srq_-srq_total_cat in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Domain wise Categorical (gender) - srq_-srq_total_cat
+-----------------------------------------------------
+Category | Summary
+--- | ---
+0 | 126 (44.21)
+1 | 159 (55.79)
+0 | 104 (35.74)
+1 | 187 (64.26)
+
+For srq_-srq_total_cat in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Domain wise Categorical (new_group) - srq_-srq_total_cat
+--------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 70 (46.98)
+1 | 79 (53.02)
+0 | 57 (39.31)
+1 | 88 (60.69)
+0 | 56 (41.18)
+1 | 80 (58.82)
+0 | 47 (32.19)
+1 | 99 (67.81)
+
+For srq_-srq_total_cat in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+Domain wise Categorical (overall) - apq_-dsm5_total_cat
+-------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 2 (0.35)
+1 | 574 (99.65)
+
+For apq_-dsm5_total_cat in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Domain wise Categorical (group) - apq_-dsm5_total_cat
+-----------------------------------------------------
+Category | Summary
+--- | ---
+0 | 2 (0.68)
+1 | 292 (99.32)
+1 | 282 (100.00)
+
+For apq_-dsm5_total_cat in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Domain wise Categorical (gender) - apq_-dsm5_total_cat
+------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 1 (0.35)
+1 | 284 (99.65)
+0 | 1 (0.34)
+1 | 290 (99.66)
+
+For apq_-dsm5_total_cat in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Domain wise Categorical (new_group) - apq_-dsm5_total_cat
+---------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 1 (0.67)
+1 | 148 (99.33)
+0 | 1 (0.69)
+1 | 144 (99.31)
+1 | 136 (100.00)
+1 | 146 (100.00)
+
+For apq_-dsm5_total_cat in the 6_month_follow_up_caregiver dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+9 Month Endpoint Adolescents
+
+Descriptive Statistics (Adolescents)
+
+Overall Continuous (overall)
+----------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 4.49 [3.96] - 0.00-16.00
+psc_-psc_total | 17.98 [9.34] - 0.00-41.00
+rcads_-rcads_total | 14.04 [10.20] - 0.00-49.00
+dsm5_-dsm5_total | 13.57 [11.72] - 0.00-65.00
+somatic_-somatic_total | 3.72 [3.76] - 0.00-20.00
+wemwbs_-wemwbs_total | 21.62 [4.58] - 9.00-33.00
+ibs_-ibs_total | 1.01 [1.70] - 0.00-8.00
+bbscq_-bbscq_total | 24.46 [4.56] - 8.00-30.00
+self_stigma_-stgt_total | 0.34 [0.82] - 0.00-4.00
+psychlops_post_-psy_total | 5.44 [4.52] - 0.00-17.00
+
+In the 9_month_endpoint_adolescents dataset, continuous outcomes for overall analyses were summarised by overall. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (group)
+--------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 4.32 [4.29] - 0.00-16.00
+phq9a_-phq9a_total | 4.59 [3.77] - 0.00-16.00
+psc_-psc_total | 16.64 [9.96] - 3.00-41.00
+psc_-psc_total | 18.84 [8.89] - 0.00-39.00
+rcads_-rcads_total | 12.80 [10.11] - 0.00-49.00
+rcads_-rcads_total | 14.83 [10.25] - 0.00-46.00
+dsm5_-dsm5_total | 13.00 [12.63] - 0.00-65.00
+dsm5_-dsm5_total | 13.93 [11.18] - 0.00-44.00
+somatic_-somatic_total | 3.82 [4.24] - 0.00-20.00
+somatic_-somatic_total | 3.65 [3.45] - 0.00-16.00
+wemwbs_-wemwbs_total | 22.16 [4.57] - 9.00-31.00
+wemwbs_-wemwbs_total | 21.28 [4.58] - 9.00-33.00
+ibs_-ibs_total | 1.07 [1.76] - 0.00-7.00
+ibs_-ibs_total | 0.97 [1.67] - 0.00-8.00
+bbscq_-bbscq_total | 25.45 [4.07] - 8.00-30.00
+bbscq_-bbscq_total | 23.83 [4.76] - 8.00-30.00
+self_stigma_-stgt_total | 0.14 [0.41] - 0.00-2.00
+self_stigma_-stgt_total | 0.46 [0.98] - 0.00-4.00
+psychlops_post_-psy_total | 5.61 [5.22] - 0.00-17.00
+psychlops_post_-psy_total | 5.33 [4.02] - 0.00-15.00
+
+In the 9_month_endpoint_adolescents dataset, continuous outcomes for overall analyses were summarised by group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (gender)
+---------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 3.77 [3.58] - 0.00-16.00
+phq9a_-phq9a_total | 5.02 [4.17] - 0.00-16.00
+psc_-psc_total | 17.33 [9.23] - 3.00-41.00
+psc_-psc_total | 18.46 [9.47] - 0.00-40.00
+rcads_-rcads_total | 11.02 [8.85] - 0.00-49.00
+rcads_-rcads_total | 16.26 [10.61] - 0.00-46.00
+dsm5_-dsm5_total | 11.54 [11.69] - 0.00-65.00
+dsm5_-dsm5_total | 15.06 [11.60] - 0.00-44.00
+somatic_-somatic_total | 3.48 [3.95] - 0.00-20.00
+somatic_-somatic_total | 3.89 [3.63] - 0.00-16.00
+wemwbs_-wemwbs_total | 21.42 [4.91] - 9.00-31.00
+wemwbs_-wemwbs_total | 21.77 [4.35] - 9.00-33.00
+ibs_-ibs_total | 1.12 [1.81] - 0.00-8.00
+ibs_-ibs_total | 0.92 [1.62] - 0.00-7.00
+bbscq_-bbscq_total | 23.92 [4.55] - 8.00-29.00
+bbscq_-bbscq_total | 24.86 [4.56] - 8.00-30.00
+self_stigma_-stgt_total | 0.15 [0.36] - 0.00-1.00
+self_stigma_-stgt_total | 0.48 [1.02] - 0.00-4.00
+psychlops_post_-psy_total | 5.88 [4.86] - 0.00-17.00
+psychlops_post_-psy_total | 5.06 [4.23] - 0.00-16.00
+
+In the 9_month_endpoint_adolescents dataset, continuous outcomes for overall analyses were summarised by gender. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (new_group)
+------------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 4.00 [4.16] - 0.00-16.00
+phq9a_-phq9a_total | 5.08 [4.66] - 0.00-16.00
+phq9a_-phq9a_total | 3.35 [2.23] - 1.00-9.00
+phq9a_-phq9a_total | 5.00 [4.09] - 0.00-16.00
+psc_-psc_total | 17.10 [10.11] - 3.00-41.00
+psc_-psc_total | 15.54 [9.90] - 3.00-40.00
+psc_-psc_total | 17.76 [7.61] - 8.00-31.00
+psc_-psc_total | 19.19 [9.31] - 0.00-39.00
+rcads_-rcads_total | 12.16 [10.41] - 0.00-49.00
+rcads_-rcads_total | 14.31 [9.59] - 1.00-32.00
+rcads_-rcads_total | 8.94 [4.44] - 3.00-20.00
+rcads_-rcads_total | 16.75 [10.89] - 0.00-46.00
+dsm5_-dsm5_total | 12.58 [13.61] - 0.00-65.00
+dsm5_-dsm5_total | 14.00 [10.37] - 1.00-38.00
+dsm5_-dsm5_total | 9.65 [6.95] - 2.00-27.00
+dsm5_-dsm5_total | 15.33 [11.97] - 0.00-44.00
+somatic_-somatic_total | 3.87 [4.49] - 0.00-20.00
+somatic_-somatic_total | 3.69 [3.75] - 0.00-13.00
+somatic_-somatic_total | 2.76 [2.68] - 0.00-9.00
+somatic_-somatic_total | 3.94 [3.64] - 0.00-16.00
+wemwbs_-wemwbs_total | 21.90 [4.96] - 9.00-31.00
+wemwbs_-wemwbs_total | 22.77 [3.59] - 17.00-29.00
+wemwbs_-wemwbs_total | 20.53 [4.85] - 13.00-29.00
+wemwbs_-wemwbs_total | 21.52 [4.51] - 9.00-33.00
+ibs_-ibs_total | 1.06 [1.69] - 0.00-6.00
+ibs_-ibs_total | 1.08 [1.98] - 0.00-7.00
+ibs_-ibs_total | 1.24 [2.05] - 0.00-8.00
+ibs_-ibs_total | 0.88 [1.54] - 0.00-6.00
+bbscq_-bbscq_total | 24.77 [4.56] - 8.00-29.00
+bbscq_-bbscq_total | 27.08 [1.85] - 23.00-30.00
+bbscq_-bbscq_total | 22.35 [4.21] - 14.00-29.00
+bbscq_-bbscq_total | 24.31 [4.87] - 8.00-30.00
+self_stigma_-stgt_total | 0.13 [0.34] - 0.00-1.00
+self_stigma_-stgt_total | 0.15 [0.55] - 0.00-2.00
+self_stigma_-stgt_total | 0.18 [0.39] - 0.00-1.00
+self_stigma_-stgt_total | 0.56 [1.09] - 0.00-4.00
+psychlops_post_-psy_total | 5.43 [5.11] - 0.00-17.00
+psychlops_post_-psy_total | 6.14 [5.93] - 0.00-16.00
+psychlops_post_-psy_total | 6.73 [4.43] - 0.00-15.00
+psychlops_post_-psy_total | 4.79 [3.80] - 0.00-11.00
+
+In the 9_month_endpoint_adolescents dataset, continuous outcomes for overall analyses were summarised by new_group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (overall)
+--------------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 4.49 [3.96] - 0.00-16.00
+psc_-psc_total | 17.98 [9.34] - 0.00-41.00
+psc_-psc_int | 2.28 [2.09] - 0.00-8.00
+psc_-psc_ext | 2.64 [1.74] - 0.00-7.00
+psc_-psc_attn | 3.00 [2.51] - 0.00-10.00
+rcads_-rcads_total | 14.04 [10.20] - 0.00-49.00
+rcads_-rcads_anx_tot | 9.03 [6.39] - 0.00-29.00
+rcads_-rcads_dep_tot | 5.01 [4.50] - 0.00-24.00
+dsm5_-dsm5_total | 13.57 [11.72] - 0.00-65.00
+dsm5_-dsm5_I_Som_Symp | 1.79 [2.02] - 0.00-8.00
+dsm5_-dsm5_II_Slp_prb | 0.78 [1.06] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 0.96 [1.13] - 0.00-4.00
+dsm5_-dsm5_IV_Dep | 1.76 [2.03] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.56 [1.84] - 0.00-8.00
+dsm5_-dsm5_VII_Mania | 1.38 [1.50] - 0.00-8.00
+dsm5_-dsm5_VIII_Anx | 2.00 [2.42] - 0.00-12.00
+dsm5_-dsm5_IX_Psychss | 0.20 [0.73] - 0.00-5.00
+dsm5_-dsm5_X_Rpt_thts | 3.12 [3.31] - 0.00-14.00
+dsm5_-dsm5_XI_Sbtncd | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XII_Suic | 0.02 [0.13] - 0.00-1.00
+somatic_-somatic_total | 3.72 [3.76] - 0.00-20.00
+somatic_-somatic_item_01 | 0.42 [0.61] - 0.00-2.00
+somatic_-somatic_item_02 | 0.44 [0.60] - 0.00-2.00
+somatic_-somatic_item_03 | 0.73 [0.72] - 0.00-2.00
+somatic_-somatic_item_04a | 0.42 [0.65] - 0.00-2.00
+somatic_-somatic_item_04b | 0.49 [0.64] - 0.00-2.00
+somatic_-somatic_item_04c | 0.26 [0.55] - 0.00-2.00
+somatic_-somatic_item_04d | 0.22 [0.55] - 0.00-2.00
+somatic_-somatic_item_04e | 0.22 [0.55] - 0.00-2.00
+somatic_-somatic_item_04f | 0.24 [0.50] - 0.00-2.00
+somatic_-somatic_item_04g | 0.18 [0.49] - 0.00-2.00
+somatic_-somatic_item_04h | 0.11 [0.41] - 0.00-2.00
+wemwbs_-wemwbs_total | 21.62 [4.58] - 9.00-33.00
+wemwbs_-wemwbs_item_01 | 3.40 [0.94] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 3.18 [1.05] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.12 [1.04] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.14 [0.98] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.91 [0.96] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.92 [1.20] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.96 [0.99] - 1.00-5.00
+spsi_-spsi_ppo | 6.26 [3.03] - 1.00-16.00
+spsi_-spsi_npo | 5.27 [3.01] - 0.00-14.00
+spsi_-spsi_rps | 6.15 [3.35] - 0.00-16.00
+spsi_-spsi_ics | 7.47 [3.19] - 1.00-17.00
+spsi_-spsi_as | 7.28 [3.17] - 1.00-16.00
+bbscq_-bbscq_total | 24.46 [4.56] - 8.00-30.00
+bbscq_-bbscq_relation | 9.32 [2.25] - 1.00-12.00
+bbscq_-bbscq_belonging | 6.22 [1.36] - 2.00-8.00
+bbscq_-bbscq_comitment | 3.81 [0.56] - 1.00-4.00
+bbscq_-bbscq_participation | 5.11 [1.56] - 0.00-6.00
+
+In the 9_month_endpoint_adolescents dataset, continuous outcomes for domain wise analyses were summarised by overall. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (group)
+------------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 4.32 [4.29] - 0.00-16.00
+phq9a_-phq9a_total | 4.59 [3.77] - 0.00-16.00
+psc_-psc_total | 16.64 [9.96] - 3.00-41.00
+psc_-psc_total | 18.84 [8.89] - 0.00-39.00
+psc_-psc_int | 2.09 [2.17] - 0.00-7.00
+psc_-psc_int | 2.41 [2.05] - 0.00-8.00
+psc_-psc_ext | 2.50 [1.70] - 0.00-6.00
+psc_-psc_ext | 2.72 [1.76] - 0.00-7.00
+psc_-psc_attn | 2.80 [2.69] - 0.00-10.00
+psc_-psc_attn | 3.13 [2.41] - 0.00-8.00
+rcads_-rcads_total | 12.80 [10.11] - 0.00-49.00
+rcads_-rcads_total | 14.83 [10.25] - 0.00-46.00
+rcads_-rcads_anx_tot | 8.52 [6.01] - 0.00-25.00
+rcads_-rcads_anx_tot | 9.35 [6.65] - 0.00-29.00
+rcads_-rcads_dep_tot | 4.27 [4.69] - 0.00-24.00
+rcads_-rcads_dep_tot | 5.48 [4.35] - 0.00-17.00
+dsm5_-dsm5_total | 13.00 [12.63] - 0.00-65.00
+dsm5_-dsm5_total | 13.93 [11.18] - 0.00-44.00
+dsm5_-dsm5_I_Som_Symp | 1.70 [2.02] - 0.00-8.00
+dsm5_-dsm5_I_Som_Symp | 1.84 [2.03] - 0.00-8.00
+dsm5_-dsm5_II_Slp_prb | 0.77 [1.01] - 0.00-4.00
+dsm5_-dsm5_II_Slp_prb | 0.78 [1.10] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 0.75 [0.99] - 0.00-3.00
+dsm5_-dsm5_III_Inattn | 1.10 [1.19] - 0.00-4.00
+dsm5_-dsm5_IV_Dep | 1.70 [2.22] - 0.00-8.00
+dsm5_-dsm5_IV_Dep | 1.80 [1.91] - 0.00-7.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.36 [1.86] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.68 [1.83] - 0.00-6.00
+dsm5_-dsm5_VII_Mania | 1.14 [1.62] - 0.00-8.00
+dsm5_-dsm5_VII_Mania | 1.54 [1.41] - 0.00-6.00
+dsm5_-dsm5_VIII_Anx | 1.80 [2.27] - 0.00-10.00
+dsm5_-dsm5_VIII_Anx | 2.13 [2.51] - 0.00-12.00
+dsm5_-dsm5_IX_Psychss | 0.30 [1.02] - 0.00-5.00
+dsm5_-dsm5_IX_Psychss | 0.14 [0.46] - 0.00-2.00
+dsm5_-dsm5_X_Rpt_thts | 3.45 [3.51] - 0.00-14.00
+dsm5_-dsm5_X_Rpt_thts | 2.90 [3.19] - 0.00-13.00
+dsm5_-dsm5_XI_Sbtncd | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XI_Sbtncd | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XII_Suic | 0.02 [0.15] - 0.00-1.00
+dsm5_-dsm5_XII_Suic | 0.01 [0.12] - 0.00-1.00
+somatic_-somatic_total | 3.82 [4.24] - 0.00-20.00
+somatic_-somatic_total | 3.65 [3.45] - 0.00-16.00
+somatic_-somatic_item_01 | 0.36 [0.65] - 0.00-2.00
+somatic_-somatic_item_01 | 0.46 [0.58] - 0.00-2.00
+somatic_-somatic_item_02 | 0.45 [0.63] - 0.00-2.00
+somatic_-somatic_item_02 | 0.43 [0.58] - 0.00-2.00
+somatic_-somatic_item_03 | 0.59 [0.73] - 0.00-2.00
+somatic_-somatic_item_03 | 0.81 [0.71] - 0.00-2.00
+somatic_-somatic_item_04a | 0.48 [0.63] - 0.00-2.00
+somatic_-somatic_item_04a | 0.38 [0.67] - 0.00-2.00
+somatic_-somatic_item_04b | 0.52 [0.63] - 0.00-2.00
+somatic_-somatic_item_04b | 0.46 [0.65] - 0.00-2.00
+somatic_-somatic_item_04c | 0.25 [0.53] - 0.00-2.00
+somatic_-somatic_item_04c | 0.26 [0.56] - 0.00-2.00
+somatic_-somatic_item_04d | 0.25 [0.53] - 0.00-2.00
+somatic_-somatic_item_04d | 0.20 [0.56] - 0.00-2.00
+somatic_-somatic_item_04e | 0.25 [0.58] - 0.00-2.00
+somatic_-somatic_item_04e | 0.20 [0.53] - 0.00-2.00
+somatic_-somatic_item_04f | 0.20 [0.41] - 0.00-1.00
+somatic_-somatic_item_04f | 0.26 [0.56] - 0.00-2.00
+somatic_-somatic_item_04g | 0.25 [0.58] - 0.00-2.00
+somatic_-somatic_item_04g | 0.13 [0.42] - 0.00-2.00
+somatic_-somatic_item_04h | 0.20 [0.55] - 0.00-2.00
+somatic_-somatic_item_04h | 0.04 [0.27] - 0.00-2.00
+wemwbs_-wemwbs_total | 22.16 [4.57] - 9.00-31.00
+wemwbs_-wemwbs_total | 21.28 [4.58] - 9.00-33.00
+wemwbs_-wemwbs_item_01 | 3.34 [1.01] - 1.00-5.00
+wemwbs_-wemwbs_item_01 | 3.43 [0.90] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 3.23 [1.10] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 3.14 [1.03] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.30 [1.02] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.00 [1.04] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.32 [0.88] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.03 [1.03] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 3.05 [0.94] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.83 [0.97] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.95 [1.29] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.90 [1.14] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.98 [1.00] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.94 [0.98] - 1.00-5.00
+spsi_-spsi_ppo | 6.80 [3.29] - 2.00-16.00
+spsi_-spsi_ppo | 5.91 [2.83] - 1.00-14.00
+spsi_-spsi_npo | 5.82 [3.15] - 0.00-13.00
+spsi_-spsi_npo | 4.93 [2.88] - 0.00-14.00
+spsi_-spsi_rps | 6.55 [3.39] - 1.00-15.00
+spsi_-spsi_rps | 5.90 [3.33] - 0.00-16.00
+spsi_-spsi_ics | 8.25 [3.04] - 3.00-17.00
+spsi_-spsi_ics | 6.97 [3.21] - 1.00-16.00
+spsi_-spsi_as | 8.09 [3.29] - 2.00-16.00
+spsi_-spsi_as | 6.77 [3.00] - 1.00-14.00
+bbscq_-bbscq_total | 25.45 [4.07] - 8.00-30.00
+bbscq_-bbscq_total | 23.83 [4.76] - 8.00-30.00
+bbscq_-bbscq_relation | 9.70 [1.87] - 3.00-12.00
+bbscq_-bbscq_relation | 9.07 [2.43] - 1.00-12.00
+bbscq_-bbscq_belonging | 6.52 [1.11] - 4.00-8.00
+bbscq_-bbscq_belonging | 6.03 [1.47] - 2.00-8.00
+bbscq_-bbscq_comitment | 3.80 [0.59] - 1.00-4.00
+bbscq_-bbscq_comitment | 3.83 [0.54] - 1.00-4.00
+bbscq_-bbscq_participation | 5.43 [1.34] - 0.00-6.00
+bbscq_-bbscq_participation | 4.90 [1.66] - 0.00-6.00
+
+In the 9_month_endpoint_adolescents dataset, continuous outcomes for domain wise analyses were summarised by group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (gender)
+-------------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 3.77 [3.58] - 0.00-16.00
+phq9a_-phq9a_total | 5.02 [4.17] - 0.00-16.00
+psc_-psc_total | 17.33 [9.23] - 3.00-41.00
+psc_-psc_total | 18.46 [9.47] - 0.00-40.00
+psc_-psc_int | 1.83 [1.96] - 0.00-7.00
+psc_-psc_int | 2.62 [2.14] - 0.00-8.00
+psc_-psc_ext | 3.15 [1.60] - 1.00-6.00
+psc_-psc_ext | 2.26 [1.75] - 0.00-7.00
+psc_-psc_attn | 2.83 [2.62] - 0.00-10.00
+psc_-psc_attn | 3.12 [2.45] - 0.00-8.00
+rcads_-rcads_total | 11.02 [8.85] - 0.00-49.00
+rcads_-rcads_total | 16.26 [10.61] - 0.00-46.00
+rcads_-rcads_anx_tot | 7.00 [5.28] - 0.00-25.00
+rcads_-rcads_anx_tot | 10.52 [6.76] - 0.00-29.00
+rcads_-rcads_dep_tot | 4.02 [4.21] - 0.00-24.00
+rcads_-rcads_dep_tot | 5.74 [4.60] - 0.00-17.00
+dsm5_-dsm5_total | 11.54 [11.69] - 0.00-65.00
+dsm5_-dsm5_total | 15.06 [11.60] - 0.00-44.00
+dsm5_-dsm5_I_Som_Symp | 1.54 [2.02] - 0.00-8.00
+dsm5_-dsm5_I_Som_Symp | 1.97 [2.01] - 0.00-8.00
+dsm5_-dsm5_II_Slp_prb | 0.73 [1.07] - 0.00-4.00
+dsm5_-dsm5_II_Slp_prb | 0.82 [1.06] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 0.73 [1.03] - 0.00-3.00
+dsm5_-dsm5_III_Inattn | 1.14 [1.17] - 0.00-4.00
+dsm5_-dsm5_IV_Dep | 1.48 [2.11] - 0.00-8.00
+dsm5_-dsm5_IV_Dep | 1.97 [1.95] - 0.00-6.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.17 [1.67] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.85 [1.91] - 0.00-6.00
+dsm5_-dsm5_VII_Mania | 1.31 [1.56] - 0.00-8.00
+dsm5_-dsm5_VII_Mania | 1.43 [1.47] - 0.00-6.00
+dsm5_-dsm5_VIII_Anx | 1.54 [2.06] - 0.00-10.00
+dsm5_-dsm5_VIII_Anx | 2.34 [2.61] - 0.00-12.00
+dsm5_-dsm5_IX_Psychss | 0.27 [0.98] - 0.00-5.00
+dsm5_-dsm5_IX_Psychss | 0.15 [0.48] - 0.00-2.00
+dsm5_-dsm5_X_Rpt_thts | 2.77 [3.35] - 0.00-14.00
+dsm5_-dsm5_X_Rpt_thts | 3.37 [3.29] - 0.00-13.00
+dsm5_-dsm5_XI_Sbtncd | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XI_Sbtncd | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XII_Suic | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XII_Suic | 0.03 [0.17] - 0.00-1.00
+somatic_-somatic_total | 3.48 [3.95] - 0.00-20.00
+somatic_-somatic_total | 3.89 [3.63] - 0.00-16.00
+somatic_-somatic_item_01 | 0.31 [0.59] - 0.00-2.00
+somatic_-somatic_item_01 | 0.51 [0.62] - 0.00-2.00
+somatic_-somatic_item_02 | 0.42 [0.61] - 0.00-2.00
+somatic_-somatic_item_02 | 0.46 [0.59] - 0.00-2.00
+somatic_-somatic_item_03 | 0.54 [0.74] - 0.00-2.00
+somatic_-somatic_item_03 | 0.86 [0.68] - 0.00-2.00
+somatic_-somatic_item_04a | 0.44 [0.68] - 0.00-2.00
+somatic_-somatic_item_04a | 0.40 [0.63] - 0.00-2.00
+somatic_-somatic_item_04b | 0.44 [0.62] - 0.00-2.00
+somatic_-somatic_item_04b | 0.52 [0.66] - 0.00-2.00
+somatic_-somatic_item_04c | 0.27 [0.54] - 0.00-2.00
+somatic_-somatic_item_04c | 0.25 [0.56] - 0.00-2.00
+somatic_-somatic_item_04d | 0.23 [0.56] - 0.00-2.00
+somatic_-somatic_item_04d | 0.22 [0.54] - 0.00-2.00
+somatic_-somatic_item_04e | 0.27 [0.61] - 0.00-2.00
+somatic_-somatic_item_04e | 0.18 [0.50] - 0.00-2.00
+somatic_-somatic_item_04f | 0.21 [0.46] - 0.00-2.00
+somatic_-somatic_item_04f | 0.26 [0.54] - 0.00-2.00
+somatic_-somatic_item_04g | 0.21 [0.54] - 0.00-2.00
+somatic_-somatic_item_04g | 0.15 [0.44] - 0.00-2.00
+somatic_-somatic_item_04h | 0.15 [0.50] - 0.00-2.00
+somatic_-somatic_item_04h | 0.08 [0.32] - 0.00-2.00
+wemwbs_-wemwbs_total | 21.42 [4.91] - 9.00-31.00
+wemwbs_-wemwbs_total | 21.77 [4.35] - 9.00-33.00
+wemwbs_-wemwbs_item_01 | 3.27 [0.87] - 1.00-5.00
+wemwbs_-wemwbs_item_01 | 3.49 [0.99] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 3.17 [1.12] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 3.18 [1.01] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.23 [1.02] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.03 [1.06] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.23 [0.97] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.08 [0.99] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.92 [1.01] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 2.91 [0.93] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.81 [1.28] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 3.00 [1.13] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.79 [1.15] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 3.08 [0.83] - 1.00-5.00
+spsi_-spsi_ppo | 5.98 [3.02] - 1.00-16.00
+spsi_-spsi_ppo | 6.46 [3.05] - 1.00-14.00
+spsi_-spsi_npo | 5.48 [2.84] - 0.00-13.00
+spsi_-spsi_npo | 5.12 [3.14] - 0.00-14.00
+spsi_-spsi_rps | 5.73 [3.19] - 1.00-13.00
+spsi_-spsi_rps | 6.46 [3.46] - 0.00-16.00
+spsi_-spsi_ics | 7.71 [3.18] - 2.00-17.00
+spsi_-spsi_ics | 7.29 [3.21] - 1.00-15.00
+spsi_-spsi_as | 7.31 [3.58] - 1.00-16.00
+spsi_-spsi_as | 7.26 [2.86] - 1.00-14.00
+bbscq_-bbscq_total | 23.92 [4.55] - 8.00-29.00
+bbscq_-bbscq_total | 24.86 [4.56] - 8.00-30.00
+bbscq_-bbscq_relation | 9.15 [1.92] - 3.00-12.00
+bbscq_-bbscq_relation | 9.45 [2.46] - 1.00-12.00
+bbscq_-bbscq_belonging | 6.17 [1.36] - 2.00-8.00
+bbscq_-bbscq_belonging | 6.26 [1.37] - 3.00-8.00
+bbscq_-bbscq_comitment | 3.69 [0.75] - 1.00-4.00
+bbscq_-bbscq_comitment | 3.91 [0.34] - 2.00-4.00
+bbscq_-bbscq_participation | 4.92 [1.67] - 0.00-6.00
+bbscq_-bbscq_participation | 5.25 [1.47] - 0.00-6.00
+
+In the 9_month_endpoint_adolescents dataset, continuous outcomes for domain wise analyses were summarised by gender. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (new_group)
+----------------------------------
+Variable | Summary
+--- | ---
+phq9a_-phq9a_total | 4.00 [4.16] - 0.00-16.00
+phq9a_-phq9a_total | 5.08 [4.66] - 0.00-16.00
+phq9a_-phq9a_total | 3.35 [2.23] - 1.00-9.00
+phq9a_-phq9a_total | 5.00 [4.09] - 0.00-16.00
+psc_-psc_total | 17.10 [10.11] - 3.00-41.00
+psc_-psc_total | 15.54 [9.90] - 3.00-40.00
+psc_-psc_total | 17.76 [7.61] - 8.00-31.00
+psc_-psc_total | 19.19 [9.31] - 0.00-39.00
+psc_-psc_int | 1.84 [2.13] - 0.00-7.00
+psc_-psc_int | 2.69 [2.21] - 0.00-7.00
+psc_-psc_int | 1.82 [1.67] - 0.00-5.00
+psc_-psc_int | 2.60 [2.14] - 0.00-8.00
+psc_-psc_ext | 3.00 [1.55] - 1.00-6.00
+psc_-psc_ext | 1.31 [1.49] - 0.00-5.00
+psc_-psc_ext | 3.41 [1.70] - 1.00-6.00
+psc_-psc_ext | 2.50 [1.74] - 0.00-7.00
+psc_-psc_attn | 3.00 [2.82] - 0.00-10.00
+psc_-psc_attn | 2.31 [2.39] - 0.00-8.00
+psc_-psc_attn | 2.53 [2.27] - 0.00-8.00
+psc_-psc_attn | 3.33 [2.44] - 0.00-8.00
+rcads_-rcads_total | 12.16 [10.41] - 0.00-49.00
+rcads_-rcads_total | 14.31 [9.59] - 1.00-32.00
+rcads_-rcads_total | 8.94 [4.44] - 3.00-20.00
+rcads_-rcads_total | 16.75 [10.89] - 0.00-46.00
+rcads_-rcads_anx_tot | 8.00 [6.08] - 0.00-25.00
+rcads_-rcads_anx_tot | 9.77 [5.88] - 1.00-22.00
+rcads_-rcads_anx_tot | 5.18 [2.67] - 2.00-10.00
+rcads_-rcads_anx_tot | 10.71 [7.00] - 0.00-29.00
+rcads_-rcads_dep_tot | 4.16 [5.01] - 0.00-24.00
+rcads_-rcads_dep_tot | 4.54 [3.99] - 0.00-13.00
+rcads_-rcads_dep_tot | 3.76 [2.22] - 0.00-10.00
+rcads_-rcads_dep_tot | 6.04 [4.73] - 0.00-17.00
+dsm5_-dsm5_total | 12.58 [13.61] - 0.00-65.00
+dsm5_-dsm5_total | 14.00 [10.37] - 1.00-38.00
+dsm5_-dsm5_total | 9.65 [6.95] - 2.00-27.00
+dsm5_-dsm5_total | 15.33 [11.97] - 0.00-44.00
+dsm5_-dsm5_I_Som_Symp | 1.77 [2.26] - 0.00-8.00
+dsm5_-dsm5_I_Som_Symp | 1.54 [1.33] - 0.00-4.00
+dsm5_-dsm5_I_Som_Symp | 1.12 [1.45] - 0.00-5.00
+dsm5_-dsm5_I_Som_Symp | 2.08 [2.14] - 0.00-8.00
+dsm5_-dsm5_II_Slp_prb | 0.84 [1.07] - 0.00-4.00
+dsm5_-dsm5_II_Slp_prb | 0.62 [0.87] - 0.00-2.00
+dsm5_-dsm5_II_Slp_prb | 0.53 [1.07] - 0.00-3.00
+dsm5_-dsm5_II_Slp_prb | 0.87 [1.10] - 0.00-4.00
+dsm5_-dsm5_III_Inattn | 0.61 [0.92] - 0.00-3.00
+dsm5_-dsm5_III_Inattn | 1.08 [1.12] - 0.00-3.00
+dsm5_-dsm5_III_Inattn | 0.94 [1.20] - 0.00-3.00
+dsm5_-dsm5_III_Inattn | 1.15 [1.19] - 0.00-4.00
+dsm5_-dsm5_IV_Dep | 1.48 [2.26] - 0.00-8.00
+dsm5_-dsm5_IV_Dep | 2.23 [2.09] - 0.00-6.00
+dsm5_-dsm5_IV_Dep | 1.47 [1.87] - 0.00-7.00
+dsm5_-dsm5_IV_Dep | 1.90 [1.93] - 0.00-6.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.19 [1.87] - 0.00-8.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.77 [1.83] - 0.00-5.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.12 [1.27] - 0.00-4.00
+dsm5_-dsm5_V_VI_Angr_Irrit | 1.87 [1.95] - 0.00-6.00
+dsm5_-dsm5_VII_Mania | 1.29 [1.75] - 0.00-8.00
+dsm5_-dsm5_VII_Mania | 0.77 [1.24] - 0.00-4.00
+dsm5_-dsm5_VII_Mania | 1.35 [1.17] - 0.00-4.00
+dsm5_-dsm5_VII_Mania | 1.60 [1.49] - 0.00-6.00
+dsm5_-dsm5_VIII_Anx | 1.68 [2.23] - 0.00-10.00
+dsm5_-dsm5_VIII_Anx | 2.08 [2.43] - 0.00-8.00
+dsm5_-dsm5_VIII_Anx | 1.29 [1.76] - 0.00-6.00
+dsm5_-dsm5_VIII_Anx | 2.40 [2.67] - 0.00-12.00
+dsm5_-dsm5_IX_Psychss | 0.42 [1.20] - 0.00-5.00
+dsm5_-dsm5_IX_Psychss | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_IX_Psychss | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_IX_Psychss | 0.19 [0.53] - 0.00-2.00
+dsm5_-dsm5_X_Rpt_thts | 3.29 [3.80] - 0.00-14.00
+dsm5_-dsm5_X_Rpt_thts | 3.85 [2.79] - 0.00-9.00
+dsm5_-dsm5_X_Rpt_thts | 1.82 [2.10] - 0.00-8.00
+dsm5_-dsm5_X_Rpt_thts | 3.25 [3.42] - 0.00-13.00
+dsm5_-dsm5_XI_Sbtncd | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XI_Sbtncd | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XI_Sbtncd | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XI_Sbtncd | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XII_Suic | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XII_Suic | 0.08 [0.28] - 0.00-1.00
+dsm5_-dsm5_XII_Suic | 0.00 [0.00] - 0.00-0.00
+dsm5_-dsm5_XII_Suic | 0.02 [0.14] - 0.00-1.00
+somatic_-somatic_total | 3.87 [4.49] - 0.00-20.00
+somatic_-somatic_total | 3.69 [3.75] - 0.00-13.00
+somatic_-somatic_total | 2.76 [2.68] - 0.00-9.00
+somatic_-somatic_total | 3.94 [3.64] - 0.00-16.00
+somatic_-somatic_item_01 | 0.32 [0.65] - 0.00-2.00
+somatic_-somatic_item_01 | 0.46 [0.66] - 0.00-2.00
+somatic_-somatic_item_01 | 0.29 [0.47] - 0.00-1.00
+somatic_-somatic_item_01 | 0.52 [0.61] - 0.00-2.00
+somatic_-somatic_item_02 | 0.52 [0.68] - 0.00-2.00
+somatic_-somatic_item_02 | 0.31 [0.48] - 0.00-1.00
+somatic_-somatic_item_02 | 0.24 [0.44] - 0.00-1.00
+somatic_-somatic_item_02 | 0.50 [0.61] - 0.00-2.00
+somatic_-somatic_item_03 | 0.55 [0.77] - 0.00-2.00
+somatic_-somatic_item_03 | 0.69 [0.63] - 0.00-2.00
+somatic_-somatic_item_03 | 0.53 [0.72] - 0.00-2.00
+somatic_-somatic_item_03 | 0.90 [0.69] - 0.00-2.00
+somatic_-somatic_item_04a | 0.52 [0.68] - 0.00-2.00
+somatic_-somatic_item_04a | 0.38 [0.51] - 0.00-1.00
+somatic_-somatic_item_04a | 0.29 [0.69] - 0.00-2.00
+somatic_-somatic_item_04a | 0.40 [0.66] - 0.00-2.00
+somatic_-somatic_item_04b | 0.52 [0.63] - 0.00-2.00
+somatic_-somatic_item_04b | 0.54 [0.66] - 0.00-2.00
+somatic_-somatic_item_04b | 0.29 [0.59] - 0.00-2.00
+somatic_-somatic_item_04b | 0.52 [0.67] - 0.00-2.00
+somatic_-somatic_item_04c | 0.26 [0.51] - 0.00-2.00
+somatic_-somatic_item_04c | 0.23 [0.60] - 0.00-2.00
+somatic_-somatic_item_04c | 0.29 [0.59] - 0.00-2.00
+somatic_-somatic_item_04c | 0.25 [0.56] - 0.00-2.00
+somatic_-somatic_item_04d | 0.29 [0.59] - 0.00-2.00
+somatic_-somatic_item_04d | 0.15 [0.38] - 0.00-1.00
+somatic_-somatic_item_04d | 0.12 [0.49] - 0.00-2.00
+somatic_-somatic_item_04d | 0.23 [0.58] - 0.00-2.00
+somatic_-somatic_item_04e | 0.26 [0.58] - 0.00-2.00
+somatic_-somatic_item_04e | 0.23 [0.60] - 0.00-2.00
+somatic_-somatic_item_04e | 0.29 [0.69] - 0.00-2.00
+somatic_-somatic_item_04e | 0.17 [0.47] - 0.00-2.00
+somatic_-somatic_item_04f | 0.19 [0.40] - 0.00-1.00
+somatic_-somatic_item_04f | 0.23 [0.44] - 0.00-1.00
+somatic_-somatic_item_04f | 0.24 [0.56] - 0.00-2.00
+somatic_-somatic_item_04f | 0.27 [0.56] - 0.00-2.00
+somatic_-somatic_item_04g | 0.23 [0.56] - 0.00-2.00
+somatic_-somatic_item_04g | 0.31 [0.63] - 0.00-2.00
+somatic_-somatic_item_04g | 0.18 [0.53] - 0.00-2.00
+somatic_-somatic_item_04g | 0.12 [0.38] - 0.00-2.00
+somatic_-somatic_item_04h | 0.23 [0.62] - 0.00-2.00
+somatic_-somatic_item_04h | 0.15 [0.38] - 0.00-1.00
+somatic_-somatic_item_04h | 0.00 [0.00] - 0.00-0.00
+somatic_-somatic_item_04h | 0.06 [0.31] - 0.00-2.00
+wemwbs_-wemwbs_total | 21.90 [4.96] - 9.00-31.00
+wemwbs_-wemwbs_total | 22.77 [3.59] - 17.00-29.00
+wemwbs_-wemwbs_total | 20.53 [4.85] - 13.00-29.00
+wemwbs_-wemwbs_total | 21.52 [4.51] - 9.00-33.00
+wemwbs_-wemwbs_item_01 | 3.23 [0.99] - 1.00-5.00
+wemwbs_-wemwbs_item_01 | 3.62 [1.04] - 1.00-5.00
+wemwbs_-wemwbs_item_01 | 3.35 [0.61] - 2.00-4.00
+wemwbs_-wemwbs_item_01 | 3.46 [0.98] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 3.23 [1.12] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 3.23 [1.09] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 3.06 [1.14] - 1.00-5.00
+wemwbs_-wemwbs_item_02 | 3.17 [1.00] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.19 [1.05] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 3.54 [0.97] - 2.00-5.00
+wemwbs_-wemwbs_item_03 | 3.29 [0.99] - 1.00-5.00
+wemwbs_-wemwbs_item_03 | 2.90 [1.05] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.29 [0.94] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.38 [0.77] - 2.00-4.00
+wemwbs_-wemwbs_item_04 | 3.12 [1.05] - 1.00-5.00
+wemwbs_-wemwbs_item_04 | 3.00 [1.03] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 3.06 [1.00] - 1.00-5.00
+wemwbs_-wemwbs_item_05 | 3.00 [0.82] - 2.00-4.00
+wemwbs_-wemwbs_item_05 | 2.65 [1.00] - 1.00-4.00
+wemwbs_-wemwbs_item_05 | 2.88 [0.96] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 2.94 [1.34] - 1.00-5.00
+wemwbs_-wemwbs_item_06 | 3.00 [1.22] - 1.00-4.00
+wemwbs_-wemwbs_item_06 | 2.59 [1.18] - 1.00-4.00
+wemwbs_-wemwbs_item_06 | 3.00 [1.12] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 2.97 [1.08] - 1.00-5.00
+wemwbs_-wemwbs_item_07 | 3.00 [0.82] - 2.00-4.00
+wemwbs_-wemwbs_item_07 | 2.47 [1.23] - 1.00-4.00
+wemwbs_-wemwbs_item_07 | 3.10 [0.85] - 1.00-5.00
+spsi_-spsi_ppo | 6.45 [3.14] - 2.00-16.00
+spsi_-spsi_ppo | 7.62 [3.62] - 2.00-14.00
+spsi_-spsi_ppo | 5.12 [2.67] - 1.00-10.00
+spsi_-spsi_ppo | 6.17 [2.86] - 1.00-14.00
+spsi_-spsi_npo | 5.97 [3.06] - 1.00-13.00
+spsi_-spsi_npo | 5.46 [3.45] - 0.00-13.00
+spsi_-spsi_npo | 4.59 [2.18] - 0.00-9.00
+spsi_-spsi_npo | 5.04 [3.09] - 0.00-14.00
+spsi_-spsi_rps | 6.35 [3.39] - 1.00-13.00
+spsi_-spsi_rps | 7.00 [3.46] - 3.00-15.00
+spsi_-spsi_rps | 4.59 [2.50] - 1.00-8.00
+spsi_-spsi_rps | 6.33 [3.47] - 0.00-16.00
+spsi_-spsi_ics | 8.13 [3.03] - 3.00-17.00
+spsi_-spsi_ics | 8.54 [3.15] - 4.00-15.00
+spsi_-spsi_ics | 6.94 [3.40] - 2.00-16.00
+spsi_-spsi_ics | 6.98 [3.18] - 1.00-15.00
+spsi_-spsi_as | 8.06 [3.63] - 2.00-16.00
+spsi_-spsi_as | 8.15 [2.41] - 5.00-14.00
+spsi_-spsi_as | 5.94 [3.13] - 1.00-11.00
+spsi_-spsi_as | 7.04 [2.94] - 1.00-14.00
+bbscq_-bbscq_total | 24.77 [4.56] - 8.00-29.00
+bbscq_-bbscq_total | 27.08 [1.85] - 23.00-30.00
+bbscq_-bbscq_total | 22.35 [4.21] - 14.00-29.00
+bbscq_-bbscq_total | 24.31 [4.87] - 8.00-30.00
+bbscq_-bbscq_relation | 9.29 [1.99] - 3.00-12.00
+bbscq_-bbscq_relation | 10.69 [1.11] - 9.00-12.00
+bbscq_-bbscq_relation | 8.88 [1.83] - 5.00-12.00
+bbscq_-bbscq_relation | 9.13 [2.61] - 1.00-12.00
+bbscq_-bbscq_belonging | 6.52 [1.12] - 4.00-8.00
+bbscq_-bbscq_belonging | 6.54 [1.13] - 4.00-8.00
+bbscq_-bbscq_belonging | 5.53 [1.55] - 2.00-7.00
+bbscq_-bbscq_belonging | 6.19 [1.43] - 3.00-8.00
+bbscq_-bbscq_comitment | 3.71 [0.69] - 1.00-4.00
+bbscq_-bbscq_comitment | 4.00 [0.00] - 4.00-4.00
+bbscq_-bbscq_comitment | 3.65 [0.86] - 1.00-4.00
+bbscq_-bbscq_comitment | 3.88 [0.38] - 2.00-4.00
+bbscq_-bbscq_participation | 5.26 [1.55] - 0.00-6.00
+bbscq_-bbscq_participation | 5.85 [0.38] - 5.00-6.00
+bbscq_-bbscq_participation | 4.29 [1.76] - 2.00-6.00
+bbscq_-bbscq_participation | 5.10 [1.60] - 0.00-6.00
+
+In the 9_month_endpoint_adolescents dataset, continuous outcomes for domain wise analyses were summarised by new_group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Categorical (overall) - cgas_-cgas_response
+---------------------------------------------------
+Category | Summary
+--- | ---
+60 | 1 (0.88)
+80 | 13 (11.50)
+90 | 51 (45.13)
+100 | 48 (42.48)
+
+For cgas_-cgas_response in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Overall Categorical (group) - cgas_-cgas_response
+-------------------------------------------------
+Category | Summary
+--- | ---
+80 | 4 (9.09)
+90 | 17 (38.64)
+100 | 23 (52.27)
+60 | 1 (1.45)
+80 | 9 (13.04)
+90 | 34 (49.28)
+100 | 25 (36.23)
+
+For cgas_-cgas_response in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Overall Categorical (gender) - cgas_-cgas_response
+--------------------------------------------------
+Category | Summary
+--- | ---
+80 | 4 (8.33)
+90 | 20 (41.67)
+100 | 24 (50.00)
+60 | 1 (1.54)
+80 | 9 (13.85)
+90 | 31 (47.69)
+100 | 24 (36.92)
+
+For cgas_-cgas_response in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Overall Categorical (new_group) - cgas_-cgas_response
+-----------------------------------------------------
+Category | Summary
+--- | ---
+80 | 3 (9.68)
+90 | 12 (38.71)
+100 | 16 (51.61)
+80 | 1 (7.69)
+90 | 5 (38.46)
+100 | 7 (53.85)
+80 | 1 (5.88)
+90 | 8 (47.06)
+100 | 8 (47.06)
+60 | 1 (1.92)
+80 | 8 (15.38)
+90 | 26 (50.00)
+100 | 17 (32.69)
+
+For cgas_-cgas_response in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+Domain wise Categorical (overall) - phq9a_-phq9a_total_cat_bin
+--------------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 68 (60.18)
+1 | 45 (39.82)
+
+For phq9a_-phq9a_total_cat_bin in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Domain wise Categorical (group) - phq9a_-phq9a_total_cat_bin
+------------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 27 (61.36)
+1 | 17 (38.64)
+0 | 41 (59.42)
+1 | 28 (40.58)
+
+For phq9a_-phq9a_total_cat_bin in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Domain wise Categorical (gender) - phq9a_-phq9a_total_cat_bin
+-------------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 32 (66.67)
+1 | 16 (33.33)
+0 | 36 (55.38)
+1 | 29 (44.62)
+
+For phq9a_-phq9a_total_cat_bin in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Domain wise Categorical (new_group) - phq9a_-phq9a_total_cat_bin
+----------------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 18 (58.06)
+1 | 13 (41.94)
+0 | 9 (69.23)
+1 | 4 (30.77)
+0 | 14 (82.35)
+1 | 3 (17.65)
+0 | 27 (51.92)
+1 | 25 (48.08)
+
+For phq9a_-phq9a_total_cat_bin in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+Domain wise Categorical (overall) - phq9a_-phq9a_total_cat
+----------------------------------------------------------
+Category | Summary
+--- | ---
+1 | 68 (60.18)
+2 | 30 (26.55)
+3 | 11 (9.73)
+4 | 4 (3.54)
+
+For phq9a_-phq9a_total_cat in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Domain wise Categorical (group) - phq9a_-phq9a_total_cat
+--------------------------------------------------------
+Category | Summary
+--- | ---
+1 | 27 (61.36)
+2 | 11 (25.00)
+3 | 4 (9.09)
+4 | 2 (4.55)
+1 | 41 (59.42)
+2 | 19 (27.54)
+3 | 7 (10.14)
+4 | 2 (2.90)
+
+For phq9a_-phq9a_total_cat in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Domain wise Categorical (gender) - phq9a_-phq9a_total_cat
+---------------------------------------------------------
+Category | Summary
+--- | ---
+1 | 32 (66.67)
+2 | 12 (25.00)
+3 | 3 (6.25)
+4 | 1 (2.08)
+1 | 36 (55.38)
+2 | 18 (27.69)
+3 | 8 (12.31)
+4 | 3 (4.62)
+
+For phq9a_-phq9a_total_cat in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Domain wise Categorical (new_group) - phq9a_-phq9a_total_cat
+------------------------------------------------------------
+Category | Summary
+--- | ---
+1 | 18 (58.06)
+2 | 9 (29.03)
+3 | 3 (9.68)
+4 | 1 (3.23)
+1 | 9 (69.23)
+2 | 2 (15.38)
+3 | 1 (7.69)
+4 | 1 (7.69)
+1 | 14 (82.35)
+2 | 3 (17.65)
+1 | 27 (51.92)
+2 | 16 (30.77)
+3 | 7 (13.46)
+4 | 2 (3.85)
+
+For phq9a_-phq9a_total_cat in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+Domain wise Categorical (overall) - psc_-psc_total_cat
+------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 94 (83.19)
+1 | 19 (16.81)
+
+For psc_-psc_total_cat in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Domain wise Categorical (group) - psc_-psc_total_cat
+----------------------------------------------------
+Category | Summary
+--- | ---
+0 | 36 (81.82)
+1 | 8 (18.18)
+0 | 58 (84.06)
+1 | 11 (15.94)
+
+For psc_-psc_total_cat in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Domain wise Categorical (gender) - psc_-psc_total_cat
+-----------------------------------------------------
+Category | Summary
+--- | ---
+0 | 38 (79.17)
+1 | 10 (20.83)
+0 | 56 (86.15)
+1 | 9 (13.85)
+
+For psc_-psc_total_cat in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Domain wise Categorical (new_group) - psc_-psc_total_cat
+--------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 24 (77.42)
+1 | 7 (22.58)
+0 | 12 (92.31)
+1 | 1 (7.69)
+0 | 14 (82.35)
+1 | 3 (17.65)
+0 | 44 (84.62)
+1 | 8 (15.38)
+
+For psc_-psc_total_cat in the 9_month_endpoint_adolescents dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+9 Month Endpoint Caregivers
+
+Descriptive Statistics (Caregivers Overall)
+
+Overall Continuous (overall)
+----------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 5.34 [5.47] - 0.00-20.00
+apq_-dsm5_total |  [] - -
+bbscq_-bbscq_total | 25.34 [4.37] - 13.00-31.00
+
+In the 9_month_endpoint_caregiver dataset, continuous outcomes for overall analyses were summarised by overall. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (group)
+--------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 5.39 [5.04] - 0.00-20.00
+srq_-srq_total | 5.30 [5.87] - 0.00-20.00
+apq_-dsm5_total |  [] - -
+apq_-dsm5_total |  [] - -
+bbscq_-bbscq_total | 25.61 [4.19] - 15.00-31.00
+bbscq_-bbscq_total | 25.13 [4.57] - 13.00-30.00
+
+In the 9_month_endpoint_caregiver dataset, continuous outcomes for overall analyses were summarised by group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (gender)
+---------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 5.33 [5.45] - 0.00-20.00
+srq_-srq_total | 5.34 [5.59] - 0.00-20.00
+apq_-dsm5_total |  [] - -
+apq_-dsm5_total |  [] - -
+bbscq_-bbscq_total | 24.62 [4.60] - 15.00-30.00
+bbscq_-bbscq_total | 25.93 [4.16] - 13.00-31.00
+
+In the 9_month_endpoint_caregiver dataset, continuous outcomes for overall analyses were summarised by gender. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Continuous (new_group)
+------------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 6.12 [5.55] - 0.00-20.00
+srq_-srq_total | 3.71 [3.40] - 0.00-9.00
+srq_-srq_total | 3.75 [5.23] - 0.00-15.00
+srq_-srq_total | 5.86 [6.10] - 0.00-20.00
+apq_-dsm5_total |  [] - -
+apq_-dsm5_total |  [] - -
+apq_-dsm5_total |  [] - -
+apq_-dsm5_total |  [] - -
+bbscq_-bbscq_total | 25.00 [4.47] - 15.00-30.00
+bbscq_-bbscq_total | 27.00 [3.32] - 21.00-31.00
+bbscq_-bbscq_total | 23.88 [5.08] - 15.00-30.00
+bbscq_-bbscq_total | 25.59 [4.40] - 13.00-30.00
+
+In the 9_month_endpoint_caregiver dataset, continuous outcomes for overall analyses were summarised by new_group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (overall)
+--------------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 5.34 [5.47] - 0.00-20.00
+apq_-dsm5_total |  [] - -
+bbscq_-bbscq_total | 25.34 [4.37] - 13.00-31.00
+bbscq_-bbscq_relation | 8.92 [2.42] - 2.00-12.00
+bbscq_-bbscq_belonging | 7.60 [1.23] - 2.00-9.00
+bbscq_-bbscq_comitment | 3.91 [0.35] - 2.00-4.00
+bbscq_-bbscq_participation | 4.91 [1.78] - 0.00-6.00
+
+In the 9_month_endpoint_caregiver dataset, continuous outcomes for domain wise analyses were summarised by overall. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (group)
+------------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 5.39 [5.04] - 0.00-20.00
+srq_-srq_total | 5.30 [5.87] - 0.00-20.00
+apq_-dsm5_total |  [] - -
+apq_-dsm5_total |  [] - -
+bbscq_-bbscq_total | 25.61 [4.19] - 15.00-31.00
+bbscq_-bbscq_total | 25.13 [4.57] - 13.00-30.00
+bbscq_-bbscq_relation | 9.00 [2.17] - 3.00-12.00
+bbscq_-bbscq_relation | 8.87 [2.64] - 2.00-12.00
+bbscq_-bbscq_belonging | 7.48 [1.65] - 2.00-9.00
+bbscq_-bbscq_belonging | 7.70 [0.79] - 6.00-9.00
+bbscq_-bbscq_comitment | 3.87 [0.46] - 2.00-4.00
+bbscq_-bbscq_comitment | 3.93 [0.25] - 3.00-4.00
+bbscq_-bbscq_participation | 5.26 [1.32] - 1.00-6.00
+bbscq_-bbscq_participation | 4.63 [2.04] - 0.00-6.00
+
+In the 9_month_endpoint_caregiver dataset, continuous outcomes for domain wise analyses were summarised by group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (gender)
+-------------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 5.33 [5.45] - 0.00-20.00
+srq_-srq_total | 5.34 [5.59] - 0.00-20.00
+apq_-dsm5_total |  [] - -
+apq_-dsm5_total |  [] - -
+bbscq_-bbscq_total | 24.62 [4.60] - 15.00-30.00
+bbscq_-bbscq_total | 25.93 [4.16] - 13.00-31.00
+bbscq_-bbscq_relation | 8.42 [2.28] - 3.00-12.00
+bbscq_-bbscq_relation | 9.34 [2.50] - 2.00-12.00
+bbscq_-bbscq_belonging | 7.42 [1.50] - 2.00-9.00
+bbscq_-bbscq_belonging | 7.76 [0.95] - 5.00-9.00
+bbscq_-bbscq_comitment | 3.96 [0.20] - 3.00-4.00
+bbscq_-bbscq_comitment | 3.86 [0.44] - 2.00-4.00
+bbscq_-bbscq_participation | 4.83 [1.81] - 0.00-6.00
+bbscq_-bbscq_participation | 4.97 [1.78] - 0.00-6.00
+
+In the 9_month_endpoint_caregiver dataset, continuous outcomes for domain wise analyses were summarised by gender. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Domain wise Continuous (new_group)
+----------------------------------
+Variable | Summary
+--- | ---
+srq_-srq_total | 6.12 [5.55] - 0.00-20.00
+srq_-srq_total | 3.71 [3.40] - 0.00-9.00
+srq_-srq_total | 3.75 [5.23] - 0.00-15.00
+srq_-srq_total | 5.86 [6.10] - 0.00-20.00
+apq_-dsm5_total |  [] - -
+apq_-dsm5_total |  [] - -
+apq_-dsm5_total |  [] - -
+apq_-dsm5_total |  [] - -
+bbscq_-bbscq_total | 25.00 [4.47] - 15.00-30.00
+bbscq_-bbscq_total | 27.00 [3.32] - 21.00-31.00
+bbscq_-bbscq_total | 23.88 [5.08] - 15.00-30.00
+bbscq_-bbscq_total | 25.59 [4.40] - 13.00-30.00
+bbscq_-bbscq_relation | 8.50 [2.31] - 3.00-12.00
+bbscq_-bbscq_relation | 10.14 [1.35] - 9.00-12.00
+bbscq_-bbscq_relation | 8.25 [2.38] - 4.00-12.00
+bbscq_-bbscq_relation | 9.09 [2.74] - 2.00-12.00
+bbscq_-bbscq_belonging | 7.31 [1.78] - 2.00-9.00
+bbscq_-bbscq_belonging | 7.86 [1.35] - 5.00-9.00
+bbscq_-bbscq_belonging | 7.62 [0.74] - 6.00-8.00
+bbscq_-bbscq_belonging | 7.73 [0.83] - 6.00-9.00
+bbscq_-bbscq_comitment | 3.94 [0.25] - 3.00-4.00
+bbscq_-bbscq_comitment | 3.71 [0.76] - 2.00-4.00
+bbscq_-bbscq_comitment | 4.00 [0.00] - 4.00-4.00
+bbscq_-bbscq_comitment | 3.91 [0.29] - 3.00-4.00
+bbscq_-bbscq_participation | 5.25 [1.06] - 3.00-6.00
+bbscq_-bbscq_participation | 5.29 [1.89] - 1.00-6.00
+bbscq_-bbscq_participation | 4.00 [2.67] - 0.00-6.00
+bbscq_-bbscq_participation | 4.86 [1.78] - 0.00-6.00
+
+In the 9_month_endpoint_caregiver dataset, continuous outcomes for domain wise analyses were summarised by new_group. The table above provides N, mean, standard deviation, and range in compact APA style.
+
+Overall Categorical (overall) - cgas_-cgas_response
+---------------------------------------------------
+Category | Summary
+--- | ---
+80 | 3 (5.66)
+90 | 19 (35.85)
+100 | 31 (58.49)
+
+For cgas_-cgas_response in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Overall Categorical (group) - cgas_-cgas_response
+-------------------------------------------------
+Category | Summary
+--- | ---
+90 | 5 (21.74)
+100 | 18 (78.26)
+80 | 3 (10.00)
+90 | 14 (46.67)
+100 | 13 (43.33)
+
+For cgas_-cgas_response in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Overall Categorical (gender) - cgas_-cgas_response
+--------------------------------------------------
+Category | Summary
+--- | ---
+90 | 6 (25.00)
+100 | 18 (75.00)
+80 | 3 (10.34)
+90 | 13 (44.83)
+100 | 13 (44.83)
+
+For cgas_-cgas_response in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Overall Categorical (new_group) - cgas_-cgas_response
+-----------------------------------------------------
+Category | Summary
+--- | ---
+90 | 4 (25.00)
+100 | 12 (75.00)
+90 | 1 (14.29)
+100 | 6 (85.71)
+90 | 2 (25.00)
+100 | 6 (75.00)
+80 | 3 (13.64)
+90 | 12 (54.55)
+100 | 7 (31.82)
+
+For cgas_-cgas_response in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+Domain wise Categorical (overall) - srq_-srq_total_cat
+------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 30 (56.60)
+1 | 23 (43.40)
+
+For srq_-srq_total_cat in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Domain wise Categorical (group) - srq_-srq_total_cat
+----------------------------------------------------
+Category | Summary
+--- | ---
+0 | 11 (47.83)
+1 | 12 (52.17)
+0 | 19 (63.33)
+1 | 11 (36.67)
+
+For srq_-srq_total_cat in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Domain wise Categorical (gender) - srq_-srq_total_cat
+-----------------------------------------------------
+Category | Summary
+--- | ---
+0 | 13 (54.17)
+1 | 11 (45.83)
+0 | 17 (58.62)
+1 | 12 (41.38)
+
+For srq_-srq_total_cat in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Domain wise Categorical (new_group) - srq_-srq_total_cat
+--------------------------------------------------------
+Category | Summary
+--- | ---
+0 | 7 (43.75)
+1 | 9 (56.25)
+0 | 4 (57.14)
+1 | 3 (42.86)
+0 | 6 (75.00)
+1 | 2 (25.00)
+0 | 13 (59.09)
+1 | 9 (40.91)
+
+For srq_-srq_total_cat in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+Domain wise Categorical (overall) - apq_-dsm5_total_cat
+-------------------------------------------------------
+Category | Summary
+--- | ---
+ | 0 ()
+
+For apq_-dsm5_total_cat in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the overall breakdown.
+
+Domain wise Categorical (group) - apq_-dsm5_total_cat
+-----------------------------------------------------
+Category | Summary
+--- | ---
+ | 0 ()
+ | 0 ()
+
+For apq_-dsm5_total_cat in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the group breakdown.
+
+Domain wise Categorical (gender) - apq_-dsm5_total_cat
+------------------------------------------------------
+Category | Summary
+--- | ---
+ | 0 ()
+ | 0 ()
+
+For apq_-dsm5_total_cat in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the gender breakdown.
+
+Domain wise Categorical (new_group) - apq_-dsm5_total_cat
+---------------------------------------------------------
+Category | Summary
+--- | ---
+ | 0 ()
+ | 0 ()
+ | 0 ()
+ | 0 ()
+
+For apq_-dsm5_total_cat in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the new_group breakdown.
+
+Reliability (Cronbach's Alpha)
+
+Form | Outcome Measure | Variable | Items | N | Alpha | Interpretation
+--- | --- | --- | --- | --- | --- | ---
+6_month_follow_up_adolescents | PHQ9 | phq9a_-phq9a_total | 9 | 593 | 0.7844 | acceptable
+6_month_follow_up_adolescents | PSC | psc_-psc_total | 35 | 593 | 0.8718 | good
+6_month_follow_up_adolescents | RCADS | rcads_-rcads_total | 25 | 593 | 0.9131 | good
+6_month_follow_up_adolescents | DSM-5 | dsm5_-dsm5_total | 22 | 593 | 0.8939 | good
+6_month_follow_up_adolescents | Somatic | somatic_-somatic_total | 8 | 593 | 0.6952 | borderline
+6_month_follow_up_adolescents | WEMWBS | wemwbs_-wemwbs_total | 7 | 593 | 0.7646 | acceptable
+6_month_follow_up_adolescents | SPSI | spsi_-spsi_total | 25 | 593 | 0.8252 | good
+6_month_follow_up_adolescents | IBS | ibs_-ibs_total | 4 | 593 | 0.6998 | borderline
+6_month_follow_up_adolescents | BBSCQ | bbscq_-bbscq_total | 28 | 593 | 0.8249 | good
+6_month_follow_up_adolescents | Self Stigma | self_stigma_-stgt_total | 5 | 593 | 0.6948 | borderline
+6_month_follow_up_adolescents | Psychlops-Post | psychlops_post_-psy_total | 4 | 57 | 0.7753 | acceptable
+9_month_endpoint_adolescents | PHQ9 | phq9a_-phq9a_total | 9 | 113 | 0.8182 | good
+9_month_endpoint_adolescents | PSC | psc_-psc_total | 35 | 113 | 0.8751 | good
+9_month_endpoint_adolescents | RCADS | rcads_-rcads_total | 25 | 113 | 0.9120 | good
+9_month_endpoint_adolescents | DSM-5 | dsm5_-dsm5_total | 22 | 113 | 0.8972 | good
+9_month_endpoint_adolescents | Somatic | somatic_-somatic_total | 8 | 113 | 0.7259 | acceptable
+9_month_endpoint_adolescents | WEMWBS | wemwbs_-wemwbs_total | 7 | 113 | 0.7565 | acceptable
+9_month_endpoint_adolescents | SPSI | spsi_-spsi_total | 25 | 113 | 0.8527 | good
+9_month_endpoint_adolescents | IBS | ibs_-ibs_total | 4 | 113 | 0.6741 | borderline
+9_month_endpoint_adolescents | BBSCQ | bbscq_-bbscq_total | 28 | 113 | 0.8429 | good
+9_month_endpoint_adolescents | Self Stigma | self_stigma_-stgt_total | 5 | 113 | 0.6659 | borderline
+9_month_endpoint_adolescents | Psychlops-Post | psychlops_post_-psy_total | 4 | 10 | 0.5767 | low
+
+Reliability estimates are presented above for the available adolescent scales. Scales in the acceptable-to-good range included: PHQ9, PSC, RCADS, DSM-5, WEMWBS, SPSI, BBSCQ, Psychlops-Post, PHQ9, PSC, RCADS, DSM-5, Somatic, WEMWBS, SPSI, BBSCQ. Borderline scales included: Somatic, IBS, Self Stigma, IBS, Self Stigma.
+
+Group-wise Welch's and Student's t-tests
+
+Form | Variable | Group A Mean [SD] | Group B Mean [SD] | Mean Difference | Welch's t(df) | Welch's p | Welch's significance | Student's t(df) | Student's p | Student's significance
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+6_month_follow_up_adolescents | phq9a_-phq9a_total | 5.6275 [4.2018] | 4.7966 [3.9675] | 0.8309 | 2.4761 (589.6857) | 0.013561 | significant | 2.4754 (591.0000) | 0.013588 | significant
+6_month_follow_up_adolescents | psc_-psc_total | 20.5805 [9.4421] | 18.9051 [9.3919] | 1.6755 | 2.1663 (590.9863) | 0.030689 | significant | 2.1662 (591.0000) | 0.030693 | significant
+6_month_follow_up_adolescents | rcads_-rcads_total | 17.0671 [10.8889] | 15.1525 [11.0152] | 1.9146 | 2.1284 (590.7228) | 0.033719 | significant | 2.1285 (591.0000) | 0.033708 | significant
+6_month_follow_up_adolescents | dsm5_-dsm5_total | 16.9799 [12.2793] | 15.3254 [12.3044] | 1.6544 | 1.6388 (590.9124) | 0.101788 | non-significant | 1.6388 (591.0000) | 0.101785 | non-significant
+6_month_follow_up_adolescents | somatic_-somatic_total | 4.5604 [3.6577] | 3.9322 [3.5469] | 0.6282 | 2.1232 (590.7490) | 0.034151 | significant | 2.1229 (591.0000) | 0.034178 | significant
+6_month_follow_up_adolescents | wemwbs_-wemwbs_total | 20.5705 [5.1342] | 20.0678 [5.0029] | 0.5027 | 1.2075 (590.8531) | 0.227727 | non-significant | 1.2073 (591.0000) | 0.227788 | non-significant
+6_month_follow_up_adolescents | ibs_-ibs_total | 2.1409 [2.8380] | 1.7390 [2.3393] | 0.4020 | 1.8828 (572.2711) | 0.060236 | non-significant | 1.8810 (591.0000) | 0.060468 | non-significant
+6_month_follow_up_adolescents | bbscq_-bbscq_total | 23.7651 [4.8947] | 23.6305 [4.1628] | 0.1346 | 0.3608 (577.9009) | 0.718363 | non-significant | 0.3605 (591.0000) | 0.718579 | non-significant
+6_month_follow_up_adolescents | self_stigma_-stgt_total | 0.5067 [1.0025] | 0.4610 [0.9747] | 0.0457 | 0.5628 (590.8086) | 0.573809 | non-significant | 0.5627 (591.0000) | 0.573863 | non-significant
+6_month_follow_up_adolescents | psychlops_post_-psy_total | 6.8311 [5.3138] | 6.1063 [4.6427] | 0.7248 | 1.2705 (292.8817) | 0.204932 | non-significant | 1.2771 (306.0000) | 0.202523 | non-significant
+9_month_endpoint_adolescents | phq9a_-phq9a_total | 4.3182 [4.2850] | 4.5942 [3.7742] | -0.2760 | -0.3495 (83.1934) | 0.727604 | non-significant | -0.3595 (111.0000) | 0.719914 | non-significant
+9_month_endpoint_adolescents | psc_-psc_total | 16.6364 [9.9606] | 18.8406 [8.8909] | -2.2042 | -1.1953 (84.0706) | 0.235323 | non-significant | -1.2259 (111.0000) | 0.222829 | non-significant
+9_month_endpoint_adolescents | rcads_-rcads_total | 12.7955 [10.1123] | 14.8261 [10.2483] | -2.0306 | -1.0354 (92.6414) | 0.303171 | non-significant | -1.0323 (111.0000) | 0.304161 | non-significant
+9_month_endpoint_adolescents | dsm5_-dsm5_total | 13.0000 [12.6326] | 13.9275 [11.1755] | -0.9275 | -0.3978 (83.4812) | 0.691799 | non-significant | -0.4088 (111.0000) | 0.683492 | non-significant
+9_month_endpoint_adolescents | somatic_-somatic_total | 3.8182 [4.2441] | 3.6522 [3.4463] | 0.1660 | 0.2177 (78.0386) | 0.828235 | non-significant | 0.2279 (111.0000) | 0.820132 | non-significant
+9_month_endpoint_adolescents | wemwbs_-wemwbs_total | 22.1591 [4.5696] | 21.2754 [4.5822] | 0.8837 | 1.0014 (91.9239) | 0.319285 | non-significant | 1.0007 (111.0000) | 0.319131 | non-significant
+9_month_endpoint_adolescents | ibs_-ibs_total | 1.0682 [1.7573] | 0.9710 [1.6713] | 0.0972 | 0.2921 (88.3262) | 0.770909 | non-significant | 0.2954 (111.0000) | 0.768262 | non-significant
+9_month_endpoint_adolescents | bbscq_-bbscq_total | 25.4545 [4.0718] | 23.8261 [4.7618] | 1.6285 | 1.9389 (101.7642) | 0.055286 | non-significant | 1.8728 (111.0000) | 0.063726 | non-significant
+9_month_endpoint_adolescents | self_stigma_-stgt_total | 0.1364 [0.4087] | 0.4638 [0.9789] | -0.3274 | -2.4621 (98.6039) | 0.015548 | significant | -2.1022 (111.0000) | 0.037801 | significant
+9_month_endpoint_adolescents | psychlops_post_-psy_total | 5.6071 [5.2234] | 5.3250 [4.0217] | 0.2821 | 0.2403 (48.2988) | 0.811129 | non-significant | 0.2516 (66.0000) | 0.802164 | non-significant
+
+The group-wise comparisons above present Welch's and Student's t-tests side by side. Outcomes with statistically significant Welch tests were: phq9a_-phq9a_total, psc_-psc_total, rcads_-rcads_total, somatic_-somatic_total, self_stigma_-stgt_total.

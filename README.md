@@ -10,13 +10,19 @@ The working download script is:
 python scripts\download_odk.py
 ```
 
-It currently downloads the following ODK Central form:
+It currently downloads the following ODK Central forms:
 
 | Project | Form ID | Output |
 | --- | --- | --- |
 | `5` | `SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0` | `data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv` |
+| `5` | `SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Caregiver)_v1_0` | `data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Caregiver)_v1_0.csv` |
+| `5` | `SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Adolescents)_v1_0` | `data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Adolescents)_v1_0.csv` |
+| `5` | `SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0` | `data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv` |
 
-The latest verified download produced a valid CSV of about `749 KB` with `593` data rows.
+The downloader now reads credentials from either:
+
+- PowerShell environment variables in the current shell, or
+- a local repo-root `.env` file
 
 ## Required Environment Variables
 
@@ -35,6 +41,16 @@ python scripts\download_odk.py
 ```
 
 Do not commit credentials to this repository.
+
+You can also place the same values in a local `.env` file at the repository root:
+
+```text
+ODK_URL=https://gihd.csproject.org
+ODK_EMAIL=your-email
+ODK_PASSWORD=your-password
+```
+
+The `.env` file is ignored by git.
 
 ## ODK Endpoint Notes
 
@@ -78,12 +94,18 @@ Run:
 python scripts\analysis_descriptives.py
 ```
 
+To run a specific form explicitly:
+
+```powershell
+python scripts\analysis_descriptives.py --data-file "data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Caregiver)_v1_0.csv" --form-label 6_month_follow_up_caregiver
+```
+
 Outputs:
 
-- `output/descriptives_continuous.csv`
-- `output/descriptives_categorical.csv`
-- `output/descriptives_missing_variables.csv`
-- `output/descriptives_summary.txt`
+- `output/<form_label>_descriptives_continuous.csv`
+- `output/<form_label>_descriptives_categorical.csv`
+- `output/<form_label>_descriptives_missing_variables.csv`
+- `output/<form_label>_descriptives_summary.txt`
 
 The descriptive script reports:
 
@@ -99,6 +121,31 @@ Generated PHQ9 variables:
 - `phq9a_-phq9a_total_cat_bin`
 - `phq9a_-phq9a_total_cat`
 
+For caregiver forms, the descriptive analysis uses this profile:
+
+- Overall:
+  - `srq_-srq_total`
+  - `apq_-dsm5_total`
+  - `bbscq_-bbscq_total`
+  - `cgas_-cgas_response`
+- Domain wise:
+  - `SRQ`: `srq_-srq_total`, `srq_-srq_total_cat`
+  - `APQ`: `apq_-dsm5_total`, `apq_-dsm5_total_cat`
+  - `BBSCQ`: `bbscq_-bbscq_total`, `bbscq_-bbscq_relation`, `bbscq_-bbscq_belonging`, `bbscq_-bbscq_comitment`, `bbscq_-bbscq_participation`
+
+Generated caregiver variables:
+
+- `srq_-srq_total_cat`
+- `apq_-dsm5_total_cat`
+
+The caregiver descriptive outputs are grouped by:
+
+- `group`
+- `gender`
+- `new_group`
+
+The current caregiver implementation covers descriptive analysis only. Reliability and group-wise t-tests remain adolescent-only until caregiver-specific specifications are added.
+
 ## Reliability Analysis
 
 Run:
@@ -110,7 +157,7 @@ python scripts\analysis_reliability.py
 Output:
 
 ```text
-output/reliability_cronbach_alpha.csv
+output/<form_label>_reliability_cronbach_alpha.csv
 ```
 
 The reliability script calculates Cronbach alpha for the configured outcome measures and writes:
@@ -147,7 +194,7 @@ python scripts\analysis_groupwise_t_tests.py
 Output:
 
 ```text
-output/groupwise_t_tests.csv
+output/<form_label>_groupwise_t_tests.csv
 ```
 
 The t-test script compares Group `A` vs Group `B`.
@@ -196,20 +243,45 @@ Rscript scripts\analysis.R
 
 At the moment, `scripts/analysis.R` expects `data/your_combined_data.csv`, so it must be updated or given a combined input file before the analysis step will run successfully.
 
+## Multi-Form Analysis
+
+Run all configured forms through the current analysis pipeline:
+
+```powershell
+python scripts\analysis.py
+```
+
+Current behavior:
+
+- adolescent forms run descriptives, reliability, and group-wise t-tests
+- caregiver forms run descriptives only
+- each output file is tagged with `form_label` and `source_file`
+- outputs are written separately per form and do not overwrite each other
+- the pipeline generates both:
+  - `output/consolidated_report.txt`
+  - `output/consolidated_report.docx`
+
+## Consolidated Report
+
+The end-of-pipeline report step generates:
+
+- `output/consolidated_report.txt`: plain-text APA-style tables and narratives
+- `output/consolidated_report.docx`: Word version of the same consolidated report
+
+The DOCX report is intended for direct review and editing in Word after the CSV outputs are generated.
+
 ## GitHub Actions
 
-The workflow at `.github/workflows/odk_download.yml` is configured to run the pipeline weekly and manually through `workflow_dispatch`.
+The workflow at `.github/workflows/odk_download.yml` is configured to run the pipeline daily and manually through `workflow_dispatch`.
 
 Current schedule:
 
-- every Sunday at `2:00 AM UTC`
+- every day at `2:00 AM UTC`
 
 The workflow currently runs:
 
 - `python scripts/download_odk.py`
-- `python scripts/analysis_descriptives.py`
-- `python scripts/analysis_reliability.py`
-- `python scripts/analysis_groupwise_t_tests.py`
+- `python scripts/analysis.py`
 
 It then commits updated files from:
 

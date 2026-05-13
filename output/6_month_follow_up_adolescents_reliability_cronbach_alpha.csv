@@ -1,0 +1,12 @@
+form_label,source_file,outcome_measure,total_score_variable,number_of_items,n_complete_cases,cronbach_alpha,missing_items
+6_month_follow_up_adolescents,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,PHQ9,phq9a_-phq9a_total,9,593,0.7844,
+6_month_follow_up_adolescents,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,PSC,psc_-psc_total,35,593,0.8718,
+6_month_follow_up_adolescents,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,RCADS,rcads_-rcads_total,25,593,0.9131,
+6_month_follow_up_adolescents,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,DSM-5,dsm5_-dsm5_total,22,593,0.8939,
+6_month_follow_up_adolescents,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Somatic,somatic_-somatic_total,8,593,0.6952,
+6_month_follow_up_adolescents,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,WEMWBS,wemwbs_-wemwbs_total,7,593,0.7646,
+6_month_follow_up_adolescents,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,SPSI,spsi_-spsi_total,25,593,0.8252,
+6_month_follow_up_adolescents,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,IBS,ibs_-ibs_total,4,593,0.6998,
+6_month_follow_up_adolescents,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,BBSCQ,bbscq_-bbscq_total,28,593,0.8249,
+6_month_follow_up_adolescents,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Self Stigma,self_stigma_-stgt_total,5,593,0.6948,
+6_month_follow_up_adolescents,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Psychlops-Post,psychlops_post_-psy_total,4,57,0.7753,

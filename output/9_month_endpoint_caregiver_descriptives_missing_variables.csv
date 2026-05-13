@@ -1,0 +1,3 @@
+form_label,source_file,analysis_set,domain,variable
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,apq_-dsm5_total
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,APQ,apq_-dsm5_total

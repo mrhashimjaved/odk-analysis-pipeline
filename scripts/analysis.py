@@ -1,5 +1,6 @@
 import subprocess
 import sys
+from pathlib import Path
 
 from form_registry import FORMS, data_file_for_form
 
@@ -10,6 +11,17 @@ ADOLESCENT_ANALYSIS_SCRIPTS = [
     "scripts/analysis_reliability.py",
     "scripts/analysis_groupwise_t_tests.py",
 ]
+REPORT_SCRIPT = "scripts/generate_report.py"
+REPORT_DOCX_SCRIPT = "scripts/generate_report_docx.py"
+
+
+def report_python_executable():
+    bundled = Path(
+        r"C:\Users\mhj__\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+    )
+    if bundled.exists():
+        return str(bundled)
+    return sys.executable
 
 
 def main():
@@ -32,6 +44,10 @@ def main():
                 ],
                 check=True,
             )
+
+    report_python = report_python_executable()
+    subprocess.run([report_python, REPORT_SCRIPT], check=True)
+    subprocess.run([report_python, REPORT_DOCX_SCRIPT], check=True)
 
 
 if __name__ == "__main__":

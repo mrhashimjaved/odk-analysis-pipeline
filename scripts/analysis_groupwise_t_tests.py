@@ -1,13 +1,13 @@
 import csv
 import math
 import os
+import argparse
 from statistics import mean, stdev, variance
 
-
-DATA_FILE = "data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv"
 SCHOOL_REFERENCE_FILE = "data/school_group_reference.csv"
 OUTPUT_DIR = "output"
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "groupwise_t_tests.csv")
+DEFAULT_DATA_FILE = "data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv"
+DEFAULT_FORM_LABEL = "6_month_follow_up_adolescents"
 
 GROUPING_VARIABLE = "group"
 GROUP_A = "A"
@@ -213,18 +213,33 @@ def analyse_variable(rows, variable):
     }
 
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--data-file", default=DEFAULT_DATA_FILE)
+    parser.add_argument("--form-label", default=DEFAULT_FORM_LABEL)
+    parser.add_argument("--output-dir", default=OUTPUT_DIR)
+    return parser.parse_args()
+
+
 def main():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    rows = read_csv(DATA_FILE)
+    args = parse_args()
+    os.makedirs(args.output_dir, exist_ok=True)
+    output_file = os.path.join(args.output_dir, f"{args.form_label}_groupwise_t_tests.csv")
+    rows = read_csv(args.data_file)
     school_reference = load_school_reference(SCHOOL_REFERENCE_FILE)
 
     for row in rows:
         add_group(row, school_reference)
 
     output_rows = [analyse_variable(rows, variable) for variable in OUTCOME_VARIABLES]
+    for row in output_rows:
+        row["form_label"] = args.form_label
+        row["source_file"] = args.data_file
 
-    with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as file:
+    with open(output_file, "w", newline="", encoding="utf-8") as file:
         fieldnames = [
+            "form_label",
+            "source_file",
             "variable",
             "group_a_n",
             "group_a_mean",
@@ -246,7 +261,7 @@ def main():
         writer.writeheader()
         writer.writerows(output_rows)
 
-    print(f"Wrote {OUTPUT_FILE}")
+    print(f"Wrote {output_file}")
 
 
 if __name__ == "__main__":

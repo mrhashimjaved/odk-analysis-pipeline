@@ -1,0 +1,120 @@
+form_label,source_file,analysis_set,domain,variable,variable_type,group_by,group_value,category,n,freq,percentage
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,40,593,1,0.17
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,50,593,1,0.17
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,70,593,7,1.18
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,80,593,40,6.75
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,90,593,328,55.31
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,100,593,216,36.42
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,A,50,298,1,0.34
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,A,70,298,3,1.01
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,A,80,298,20,6.71
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,A,90,298,171,57.38
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,A,100,298,103,34.56
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,B,40,295,1,0.34
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,B,70,295,4,1.36
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,B,80,295,20,6.78
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,B,90,295,157,53.22
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,B,100,295,113,38.31
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Boys,70,295,1,0.34
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Boys,80,295,15,5.08
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Boys,90,295,157,53.22
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Boys,100,295,122,41.36
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,40,298,1,0.34
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,50,298,1,0.34
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,70,298,6,2.01
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,80,298,25,8.39
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,90,298,171,57.38
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,100,298,94,31.54
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Boys,80,150,10,6.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Boys,90,150,82,54.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Boys,100,150,58,38.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Girls,50,148,1,0.68
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Girls,70,148,3,2.03
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Girls,80,148,10,6.76
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Girls,90,148,89,60.14
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Girls,100,148,45,30.41
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Boys,70,145,1,0.69
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Boys,80,145,5,3.45
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Boys,90,145,75,51.72
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Boys,100,145,64,44.14
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Girls,40,150,1,0.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Girls,70,150,3,2.00
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Girls,80,150,15,10.00
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Girls,90,150,82,54.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Girls,100,150,49,32.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,overall,overall,0,593,311,52.45
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,overall,overall,1,593,282,47.55
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,group,A,0,298,141,47.32
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,group,A,1,298,157,52.68
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,group,B,0,295,170,57.63
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,group,B,1,295,125,42.37
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,gender,Boys,0,295,173,58.64
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,gender,Boys,1,295,122,41.36
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,gender,Girls,0,298,138,46.31
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,gender,Girls,1,298,160,53.69
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,new_group,A_Boys,0,150,82,54.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,new_group,A_Boys,1,150,68,45.33
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,new_group,A_Girls,0,148,59,39.86
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,new_group,A_Girls,1,148,89,60.14
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,new_group,B_Boys,0,145,91,62.76
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,new_group,B_Boys,1,145,54,37.24
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,new_group,B_Girls,0,150,79,52.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat_bin,categorical,new_group,B_Girls,1,150,71,47.33
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,overall,overall,1,593,311,52.45
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,overall,overall,2,593,190,32.04
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,overall,overall,3,593,73,12.31
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,overall,overall,4,593,16,2.70
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,overall,overall,5,593,3,0.51
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,group,A,1,298,141,47.32
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,group,A,2,298,107,35.91
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,group,A,3,298,38,12.75
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,group,A,4,298,9,3.02
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,group,A,5,298,3,1.01
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,group,B,1,295,170,57.63
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,group,B,2,295,83,28.14
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,group,B,3,295,35,11.86
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,group,B,4,295,7,2.37
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,gender,Boys,1,295,173,58.64
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,gender,Boys,2,295,91,30.85
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,gender,Boys,3,295,24,8.14
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,gender,Boys,4,295,7,2.37
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,gender,Girls,1,298,138,46.31
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,gender,Girls,2,298,99,33.22
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,gender,Girls,3,298,49,16.44
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,gender,Girls,4,298,9,3.02
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,gender,Girls,5,298,3,1.01
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,A_Boys,1,150,82,54.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,A_Boys,2,150,49,32.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,A_Boys,3,150,15,10.00
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,A_Boys,4,150,4,2.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,A_Girls,1,148,59,39.86
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,A_Girls,2,148,58,39.19
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,A_Girls,3,148,23,15.54
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,A_Girls,4,148,5,3.38
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,A_Girls,5,148,3,2.03
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,B_Boys,1,145,91,62.76
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,B_Boys,2,145,42,28.97
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,B_Boys,3,145,9,6.21
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,B_Boys,4,145,3,2.07
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,B_Girls,1,150,79,52.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,B_Girls,2,150,41,27.33
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,B_Girls,3,150,26,17.33
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PHQ9,phq9a_-phq9a_total_cat,categorical,new_group,B_Girls,4,150,4,2.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,overall,overall,0,593,470,79.26
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,overall,overall,1,593,123,20.74
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,group,A,0,298,233,78.19
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,group,A,1,298,65,21.81
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,group,B,0,295,237,80.34
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,group,B,1,295,58,19.66
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,gender,Boys,0,295,250,84.75
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,gender,Boys,1,295,45,15.25
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,gender,Girls,0,298,220,73.83
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,gender,Girls,1,298,78,26.17
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,new_group,A_Boys,0,150,125,83.33
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,new_group,A_Boys,1,150,25,16.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,new_group,A_Girls,0,148,108,72.97
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,new_group,A_Girls,1,148,40,27.03
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,new_group,B_Boys,0,145,125,86.21
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,new_group,B_Boys,1,145,20,13.79
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,new_group,B_Girls,0,150,112,74.67
+6_month_follow_up_adolescents,data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv,Domain wise,PSC,psc_-psc_total_cat,categorical,new_group,B_Girls,1,150,38,25.33

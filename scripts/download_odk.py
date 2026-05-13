@@ -2,18 +2,14 @@ import requests
 import os
 from urllib.parse import quote
 
+from form_registry import FORMS
+from local_env import load_repo_env
+
+load_repo_env()
+
 ODK_URL = os.environ["ODK_URL"].rstrip("/")
 EMAIL = os.environ["ODK_EMAIL"]
 PASSWORD = os.environ["ODK_PASSWORD"]
-
-# Multiple forms
-FORMS = [
-    {
-        "project": 5,
-        "form": "SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0"
-    },
-    # add more here
-]
 
 session = requests.Session()
 

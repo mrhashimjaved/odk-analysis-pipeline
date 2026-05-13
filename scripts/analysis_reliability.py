@@ -1,11 +1,11 @@
 import csv
 import os
+import argparse
 from statistics import variance
 
-
-DATA_FILE = "data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv"
 OUTPUT_DIR = "output"
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "reliability_cronbach_alpha.csv")
+DEFAULT_DATA_FILE = "data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv"
+DEFAULT_FORM_LABEL = "6_month_follow_up_adolescents"
 
 
 MEASURES = [
@@ -138,18 +138,33 @@ def analyse_measure(rows, measure, available_columns):
     }
 
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--data-file", default=DEFAULT_DATA_FILE)
+    parser.add_argument("--form-label", default=DEFAULT_FORM_LABEL)
+    parser.add_argument("--output-dir", default=OUTPUT_DIR)
+    return parser.parse_args()
+
+
 def main():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    rows = read_csv(DATA_FILE)
+    args = parse_args()
+    os.makedirs(args.output_dir, exist_ok=True)
+    output_file = os.path.join(args.output_dir, f"{args.form_label}_reliability_cronbach_alpha.csv")
+    rows = read_csv(args.data_file)
     available_columns = set(rows[0].keys()) if rows else set()
 
     output_rows = [
         analyse_measure(rows, measure, available_columns)
         for measure in MEASURES
     ]
+    for row in output_rows:
+        row["form_label"] = args.form_label
+        row["source_file"] = args.data_file
 
-    with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as file:
+    with open(output_file, "w", newline="", encoding="utf-8") as file:
         fieldnames = [
+            "form_label",
+            "source_file",
             "outcome_measure",
             "total_score_variable",
             "number_of_items",
@@ -161,7 +176,7 @@ def main():
         writer.writeheader()
         writer.writerows(output_rows)
 
-    print(f"Wrote {OUTPUT_FILE}")
+    print(f"Wrote {output_file}")
 
 
 if __name__ == "__main__":

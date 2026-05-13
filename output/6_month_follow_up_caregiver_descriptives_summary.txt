@@ -1,0 +1,60 @@
+Descriptives summary
+===================
+
+Form label: 6_month_follow_up_caregiver
+Input data: data\SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Caregiver)_v1_0.csv
+School reference: data/school_group_reference.csv
+Rows analysed: 576
+
+Group counts
+------------
+group:
+  A: 294
+  B: 282
+
+gender:
+  Boys: 285
+  Girls: 291
+
+new_group:
+  A_Boys: 149
+  A_Girls: 145
+  B_Boys: 136
+  B_Girls: 146
+
+Outputs
+-------
+Descriptive statistics:
+  Continuous variables: N, Mean, SD, Min-Max
+  Categorical variables ending in '_cat' or '_cat_bin': N, Freq, Percentage
+  Additional categorical variable: cgas_-cgas_response
+Continuous descriptives: output\6_month_follow_up_caregiver_descriptives_continuous.csv (90 rows)
+Categorical descriptives: output\6_month_follow_up_caregiver_descriptives_categorical.csv (70 rows)
+Missing variable report: output\6_month_follow_up_caregiver_descriptives_missing_variables.csv (0 rows)
+
+Descriptive Statistics of Outcome variables (Overall)
+-----------------------------------------------------
+Continuous variables: 3
+  - srq_-srq_total
+  - apq_-dsm5_total
+  - bbscq_-bbscq_total
+Categorical variables: 1
+  - cgas_-cgas_response
+Output rows: 27 continuous, 37 categorical
+
+Descriptive Statistics of Outcome variables (Domain wise)
+---------------------------------------------------------
+Continuous variables: 7
+  - srq_-srq_total
+  - apq_-dsm5_total
+  - bbscq_-bbscq_total
+  - bbscq_-bbscq_relation
+  - bbscq_-bbscq_belonging
+  - bbscq_-bbscq_comitment
+  - bbscq_-bbscq_participation
+Categorical variables: 2
+  - srq_-srq_total_cat
+  - apq_-dsm5_total_cat
+Output rows: 63 continuous, 33 categorical
+
+No requested analysis variables were missing.

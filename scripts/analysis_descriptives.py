@@ -1,104 +1,128 @@
 import csv
 import math
 import os
+import argparse
 from collections import Counter, defaultdict
 from statistics import mean, stdev
 
-
-DATA_FILE = "data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv"
 SCHOOL_REFERENCE_FILE = "data/school_group_reference.csv"
 OUTPUT_DIR = "output"
-
-CONTINUOUS_OUTPUT = os.path.join(OUTPUT_DIR, "descriptives_continuous.csv")
-CATEGORICAL_OUTPUT = os.path.join(OUTPUT_DIR, "descriptives_categorical.csv")
-MISSING_OUTPUT = os.path.join(OUTPUT_DIR, "descriptives_missing_variables.csv")
-SUMMARY_OUTPUT = os.path.join(OUTPUT_DIR, "descriptives_summary.txt")
+DEFAULT_DATA_FILE = "data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv"
+DEFAULT_FORM_LABEL = "6_month_follow_up_adolescents"
 
 
-OVERALL_VARIABLES = [
-    "phq9a_-phq9a_total",
-    "psc_-psc_total",
-    "rcads_-rcads_total",
-    "dsm5_-dsm5_total",
-    "somatic_-somatic_total",
-    "wemwbs_-wemwbs_total",
-    "ibs_-ibs_total",
-    "bbscq_-bbscq_total",
-    "cgas_-cgas_response",
-    "self_stigma_-stgt_total",
-    "psychlops_post_-psy_total",
-]
-
-DOMAIN_VARIABLES = {
-    "PHQ9": [
-        "phq9a_-phq9a_total",
-        "phq9a_-phq9a_total_cat_bin",
-        "phq9a_-phq9a_total_cat",
-    ],
-    "PSC": [
-        "psc_-psc_total",
-        "psc_-psc_int",
-        "psc_-psc_ext",
-        "psc_-psc_attn",
-        "psc_-psc_total_cat",
-    ],
-    "RCADS": [
-        "rcads_-rcads_total",
-        "rcads_-rcads_anx_tot",
-        "rcads_-rcads_dep_tot",
-    ],
-    "DSM-5": [
-        "dsm5_-dsm5_total",
-        "dsm5_-dsm5_I_Som_Symp",
-        "dsm5_-dsm5_II_Slp_prb",
-        "dsm5_-dsm5_III_Inattn",
-        "dsm5_-dsm5_IV_Dep",
-        "dsm5_-dsm5_V_VI_Angr_Irrit",
-        "dsm5_-dsm5_VII_Mania",
-        "dsm5_-dsm5_VIII_Anx",
-        "dsm5_-dsm5_IX_Psychss",
-        "dsm5_-dsm5_X_Rpt_thts",
-        "dsm5_-dsm5_XI_Sbtncd",
-        "dsm5_-dsm5_XII_Suic",
-    ],
-    "SOMATIC": [
-        "somatic_-somatic_total",
-        "somatic_-somatic_item_01",
-        "somatic_-somatic_item_02",
-        "somatic_-somatic_item_03",
-        "somatic_-somatic_item_04a",
-        "somatic_-somatic_item_04b",
-        "somatic_-somatic_item_04c",
-        "somatic_-somatic_item_04d",
-        "somatic_-somatic_item_04e",
-        "somatic_-somatic_item_04f",
-        "somatic_-somatic_item_04g",
-        "somatic_-somatic_item_04h",
-    ],
-    "WEMWBS": [
-        "wemwbs_-wemwbs_total",
-        "wemwbs_-wemwbs_item_01",
-        "wemwbs_-wemwbs_item_02",
-        "wemwbs_-wemwbs_item_03",
-        "wemwbs_-wemwbs_item_04",
-        "wemwbs_-wemwbs_item_05",
-        "wemwbs_-wemwbs_item_06",
-        "wemwbs_-wemwbs_item_07",
-    ],
-    "SPSI": [
-        "spsi_-spsi_ppo",
-        "spsi_-spsi_npo",
-        "spsi_-spsi_rps",
-        "spsi_-spsi_ics",
-        "spsi_-spsi_as",
-    ],
-    "BBSCQ": [
-        "bbscq_-bbscq_total",
-        "bbscq_-bbscq_relation",
-        "bbscq_-bbscq_belonging",
-        "bbscq_-bbscq_comitment",
-        "bbscq_-bbscq_participation",
-    ],
+PROFILES = {
+    "adolescent": {
+        "overall_variables": [
+            "phq9a_-phq9a_total",
+            "psc_-psc_total",
+            "rcads_-rcads_total",
+            "dsm5_-dsm5_total",
+            "somatic_-somatic_total",
+            "wemwbs_-wemwbs_total",
+            "ibs_-ibs_total",
+            "bbscq_-bbscq_total",
+            "cgas_-cgas_response",
+            "self_stigma_-stgt_total",
+            "psychlops_post_-psy_total",
+        ],
+        "domain_variables": {
+            "PHQ9": [
+                "phq9a_-phq9a_total",
+                "phq9a_-phq9a_total_cat_bin",
+                "phq9a_-phq9a_total_cat",
+            ],
+            "PSC": [
+                "psc_-psc_total",
+                "psc_-psc_int",
+                "psc_-psc_ext",
+                "psc_-psc_attn",
+                "psc_-psc_total_cat",
+            ],
+            "RCADS": [
+                "rcads_-rcads_total",
+                "rcads_-rcads_anx_tot",
+                "rcads_-rcads_dep_tot",
+            ],
+            "DSM-5": [
+                "dsm5_-dsm5_total",
+                "dsm5_-dsm5_I_Som_Symp",
+                "dsm5_-dsm5_II_Slp_prb",
+                "dsm5_-dsm5_III_Inattn",
+                "dsm5_-dsm5_IV_Dep",
+                "dsm5_-dsm5_V_VI_Angr_Irrit",
+                "dsm5_-dsm5_VII_Mania",
+                "dsm5_-dsm5_VIII_Anx",
+                "dsm5_-dsm5_IX_Psychss",
+                "dsm5_-dsm5_X_Rpt_thts",
+                "dsm5_-dsm5_XI_Sbtncd",
+                "dsm5_-dsm5_XII_Suic",
+            ],
+            "SOMATIC": [
+                "somatic_-somatic_total",
+                "somatic_-somatic_item_01",
+                "somatic_-somatic_item_02",
+                "somatic_-somatic_item_03",
+                "somatic_-somatic_item_04a",
+                "somatic_-somatic_item_04b",
+                "somatic_-somatic_item_04c",
+                "somatic_-somatic_item_04d",
+                "somatic_-somatic_item_04e",
+                "somatic_-somatic_item_04f",
+                "somatic_-somatic_item_04g",
+                "somatic_-somatic_item_04h",
+            ],
+            "WEMWBS": [
+                "wemwbs_-wemwbs_total",
+                "wemwbs_-wemwbs_item_01",
+                "wemwbs_-wemwbs_item_02",
+                "wemwbs_-wemwbs_item_03",
+                "wemwbs_-wemwbs_item_04",
+                "wemwbs_-wemwbs_item_05",
+                "wemwbs_-wemwbs_item_06",
+                "wemwbs_-wemwbs_item_07",
+            ],
+            "SPSI": [
+                "spsi_-spsi_ppo",
+                "spsi_-spsi_npo",
+                "spsi_-spsi_rps",
+                "spsi_-spsi_ics",
+                "spsi_-spsi_as",
+            ],
+            "BBSCQ": [
+                "bbscq_-bbscq_total",
+                "bbscq_-bbscq_relation",
+                "bbscq_-bbscq_belonging",
+                "bbscq_-bbscq_comitment",
+                "bbscq_-bbscq_participation",
+            ],
+        },
+    },
+    "caregiver": {
+        "overall_variables": [
+            "srq_-srq_total",
+            "apq_-dsm5_total",
+            "bbscq_-bbscq_total",
+            "cgas_-cgas_response",
+        ],
+        "domain_variables": {
+            "SRQ": [
+                "srq_-srq_total",
+                "srq_-srq_total_cat",
+            ],
+            "APQ": [
+                "apq_-dsm5_total",
+                "apq_-dsm5_total_cat",
+            ],
+            "BBSCQ": [
+                "bbscq_-bbscq_total",
+                "bbscq_-bbscq_relation",
+                "bbscq_-bbscq_belonging",
+                "bbscq_-bbscq_comitment",
+                "bbscq_-bbscq_participation",
+            ],
+        },
+    },
 }
 
 GROUPING_VARIABLES = ["group", "gender", "new_group"]
@@ -151,27 +175,57 @@ def load_school_reference(path):
     return reference
 
 
-def add_generated_variables(row):
+def profile_name_for_label(form_label):
+    if "caregiver" in form_label.lower():
+        return "caregiver"
+    return "adolescent"
+
+
+def add_generated_variables(row, profile_name):
     phq9_total = to_float(row.get("phq9a_-phq9a_total"))
-    if phq9_total is None:
-        row["phq9a_-phq9a_total_cat_bin"] = ""
-        row["phq9a_-phq9a_total_cat"] = ""
-        return
+    if profile_name == "adolescent":
+        if phq9_total is None:
+            row["phq9a_-phq9a_total_cat_bin"] = ""
+            row["phq9a_-phq9a_total_cat"] = ""
+            return
 
-    row["phq9a_-phq9a_total_cat_bin"] = "0" if phq9_total < 5 else "1"
+        row["phq9a_-phq9a_total_cat_bin"] = "0" if phq9_total < 5 else "1"
 
-    if phq9_total < 5:
-        row["phq9a_-phq9a_total_cat"] = "1"
-    elif phq9_total <= 9:
-        row["phq9a_-phq9a_total_cat"] = "2"
-    elif phq9_total <= 14:
-        row["phq9a_-phq9a_total_cat"] = "3"
-    elif phq9_total <= 19:
-        row["phq9a_-phq9a_total_cat"] = "4"
-    elif phq9_total <= 27:
-        row["phq9a_-phq9a_total_cat"] = "5"
+        if phq9_total < 5:
+            row["phq9a_-phq9a_total_cat"] = "1"
+        elif phq9_total <= 9:
+            row["phq9a_-phq9a_total_cat"] = "2"
+        elif phq9_total <= 14:
+            row["phq9a_-phq9a_total_cat"] = "3"
+        elif phq9_total <= 19:
+            row["phq9a_-phq9a_total_cat"] = "4"
+        elif phq9_total <= 27:
+            row["phq9a_-phq9a_total_cat"] = "5"
+        else:
+            row["phq9a_-phq9a_total_cat"] = ""
+
+    srq_total = to_float(row.get("srq_-srq_total"))
+    if srq_total is None:
+        row["srq_-srq_total_cat"] = ""
     else:
-        row["phq9a_-phq9a_total_cat"] = ""
+        row["srq_-srq_total_cat"] = "0" if srq_total < 5 else "1"
+
+    apq_total = to_float(row.get("apq_-dsm5_total"))
+    if apq_total is None:
+        row["apq_-dsm5_total_cat"] = ""
+    else:
+        row["apq_-dsm5_total_cat"] = "0" if apq_total < 5 else "1"
+
+
+def variable_catalog(profile_name):
+    profile = PROFILES[profile_name]
+    catalog = []
+    for variable in profile["overall_variables"]:
+        catalog.append({"analysis_set": "Overall", "domain": "Overall", "variable": variable})
+    for domain, variables in profile["domain_variables"].items():
+        for variable in variables:
+            catalog.append({"analysis_set": "Domain wise", "domain": domain, "variable": variable})
+    return catalog
 
 
 def add_grouping_variables(row, school_reference):
@@ -185,16 +239,6 @@ def add_grouping_variables(row, school_reference):
     row["group"] = group
     row["gender"] = gender
     row["new_group"] = f"{group}_{gender}" if group and gender else ""
-
-
-def variable_catalog():
-    catalog = []
-    for variable in OVERALL_VARIABLES:
-        catalog.append({"analysis_set": "Overall", "domain": "Overall", "variable": variable})
-    for domain, variables in DOMAIN_VARIABLES.items():
-        for variable in variables:
-            catalog.append({"analysis_set": "Domain wise", "domain": domain, "variable": variable})
-    return catalog
 
 
 def format_number(value):
@@ -329,7 +373,19 @@ def missing_variables(rows, catalog):
     ]
 
 
-def write_summary(rows, catalog, continuous_rows, categorical_rows, missing_rows):
+def write_summary(
+    rows,
+    catalog,
+    continuous_rows,
+    categorical_rows,
+    missing_rows,
+    summary_output,
+    data_file,
+    form_label,
+    continuous_output,
+    categorical_output,
+    missing_output,
+):
     group_counts = defaultdict(Counter)
     for row in rows:
         for grouping_variable in GROUPING_VARIABLES:
@@ -337,10 +393,11 @@ def write_summary(rows, catalog, continuous_rows, categorical_rows, missing_rows
             if value:
                 group_counts[grouping_variable][value] += 1
 
-    with open(SUMMARY_OUTPUT, "w", encoding="utf-8") as file:
-        file.write("Adolescent descriptives summary\n")
-        file.write("===============================\n\n")
-        file.write(f"Input data: {DATA_FILE}\n")
+    with open(summary_output, "w", encoding="utf-8") as file:
+        file.write("Descriptives summary\n")
+        file.write("===================\n\n")
+        file.write(f"Form label: {form_label}\n")
+        file.write(f"Input data: {data_file}\n")
         file.write(f"School reference: {SCHOOL_REFERENCE_FILE}\n")
         file.write(f"Rows analysed: {len(rows)}\n\n")
 
@@ -358,9 +415,9 @@ def write_summary(rows, catalog, continuous_rows, categorical_rows, missing_rows
         file.write("  Continuous variables: N, Mean, SD, Min-Max\n")
         file.write("  Categorical variables ending in '_cat' or '_cat_bin': N, Freq, Percentage\n")
         file.write("  Additional categorical variable: cgas_-cgas_response\n")
-        file.write(f"Continuous descriptives: {CONTINUOUS_OUTPUT} ({len(continuous_rows)} rows)\n")
-        file.write(f"Categorical descriptives: {CATEGORICAL_OUTPUT} ({len(categorical_rows)} rows)\n")
-        file.write(f"Missing variable report: {MISSING_OUTPUT} ({len(missing_rows)} rows)\n\n")
+        file.write(f"Continuous descriptives: {continuous_output} ({len(continuous_rows)} rows)\n")
+        file.write(f"Categorical descriptives: {categorical_output} ({len(categorical_rows)} rows)\n")
+        file.write(f"Missing variable report: {missing_output} ({len(missing_rows)} rows)\n\n")
 
         file.write("Descriptive Statistics of Outcome variables (Overall)\n")
         file.write("-----------------------------------------------------\n")
@@ -397,21 +454,49 @@ def write_summary_section(file, catalog, analysis_set, continuous_rows, categori
     file.write(f"Output rows: {len(continuous_output_rows)} continuous, {len(categorical_output_rows)} categorical\n")
 
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--data-file", default=DEFAULT_DATA_FILE)
+    parser.add_argument("--form-label", default=DEFAULT_FORM_LABEL)
+    parser.add_argument("--output-dir", default=OUTPUT_DIR)
+    return parser.parse_args()
+
+
 def main():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    rows = read_csv(DATA_FILE)
+    args = parse_args()
+    profile_name = profile_name_for_label(args.form_label)
+    os.makedirs(args.output_dir, exist_ok=True)
+    output_prefix = os.path.join(args.output_dir, args.form_label)
+    continuous_output = f"{output_prefix}_descriptives_continuous.csv"
+    categorical_output = f"{output_prefix}_descriptives_categorical.csv"
+    missing_output = f"{output_prefix}_descriptives_missing_variables.csv"
+    summary_output = f"{output_prefix}_descriptives_summary.txt"
+
+    rows = read_csv(args.data_file)
     school_reference = load_school_reference(SCHOOL_REFERENCE_FILE)
 
     for row in rows:
         add_grouping_variables(row, school_reference)
-        add_generated_variables(row)
+        add_generated_variables(row, profile_name)
 
-    catalog = variable_catalog()
+    catalog = variable_catalog(profile_name)
     missing_rows = missing_variables(rows, catalog)
     continuous_rows = continuous_stats(rows, catalog)
     categorical_rows = categorical_stats(rows, catalog)
 
-    write_csv(CONTINUOUS_OUTPUT, continuous_rows, [
+    for row in continuous_rows:
+        row["form_label"] = args.form_label
+        row["source_file"] = args.data_file
+    for row in categorical_rows:
+        row["form_label"] = args.form_label
+        row["source_file"] = args.data_file
+    for row in missing_rows:
+        row["form_label"] = args.form_label
+        row["source_file"] = args.data_file
+
+    write_csv(continuous_output, continuous_rows, [
+        "form_label",
+        "source_file",
         "analysis_set",
         "domain",
         "variable",
@@ -425,7 +510,9 @@ def main():
         "max",
         "min_max",
     ])
-    write_csv(CATEGORICAL_OUTPUT, categorical_rows, [
+    write_csv(categorical_output, categorical_rows, [
+        "form_label",
+        "source_file",
         "analysis_set",
         "domain",
         "variable",
@@ -437,17 +524,31 @@ def main():
         "freq",
         "percentage",
     ])
-    write_csv(MISSING_OUTPUT, missing_rows, [
+    write_csv(missing_output, missing_rows, [
+        "form_label",
+        "source_file",
         "analysis_set",
         "domain",
         "variable",
     ])
-    write_summary(rows, catalog, continuous_rows, categorical_rows, missing_rows)
+    write_summary(
+        rows,
+        catalog,
+        continuous_rows,
+        categorical_rows,
+        missing_rows,
+        summary_output,
+        args.data_file,
+        args.form_label,
+        continuous_output,
+        categorical_output,
+        missing_output,
+    )
 
-    print(f"Wrote {CONTINUOUS_OUTPUT}")
-    print(f"Wrote {CATEGORICAL_OUTPUT}")
-    print(f"Wrote {MISSING_OUTPUT}")
-    print(f"Wrote {SUMMARY_OUTPUT}")
+    print(f"Wrote {continuous_output}")
+    print(f"Wrote {categorical_output}")
+    print(f"Wrote {missing_output}")
+    print(f"Wrote {summary_output}")
 
 
 if __name__ == "__main__":

@@ -13,8 +13,7 @@ GROUPING_VARIABLE = "group"
 GROUP_A = "A"
 GROUP_B = "B"
 
-# ── OUTCOME VARIABLE LISTS ────────────────────────────────────────────────────
-ADOLESCENT_OUTCOME_VARIABLES = [
+OUTCOME_VARIABLES = [
     "phq9a_-phq9a_total",
     "psc_-psc_total",
     "rcads_-rcads_total",
@@ -26,23 +25,6 @@ ADOLESCENT_OUTCOME_VARIABLES = [
     "self_stigma_-stgt_total",
     "psychlops_post_-psy_total",
 ]
-
-CAREGIVER_OUTCOME_VARIABLES = [
-    "srq_-srq_total",
-    "apq_-dsm5_total",
-    "bbscq_-bbscq_total",
-    "bbscq_-bbscq_relation",
-    "bbscq_-bbscq_belonging",
-    "bbscq_-bbscq_comitment",
-    "bbscq_-bbscq_participation",
-]
-
-
-def resolve_outcome_variables(form_label):
-    """Select the correct variable list based on the form label."""
-    if "caregiver" in form_label.lower():
-        return CAREGIVER_OUTCOME_VARIABLES
-    return ADOLESCENT_OUTCOME_VARIABLES
 
 
 def read_csv(path):
@@ -73,9 +55,7 @@ def load_school_reference(path):
 
 
 def add_group(row, school_reference):
-    school_id = (
-        row.get("demo_a_-sch_id") or row.get("demo_b_-csv_sch_id") or ""
-    ).strip()
+    school_id = (row.get("demo_a_-sch_id") or row.get("demo_b_-csv_sch_id") or "").strip()
     row[GROUPING_VARIABLE] = school_reference.get(school_id, "")
 
 
@@ -101,11 +81,7 @@ def welch_t_test(group_a_values, group_b_values):
 
     t_statistic = (mean_a - mean_b) / math.sqrt(se_squared)
     numerator = se_squared ** 2
-    denominator = (
-        (var_a / n_a) ** 2 / (n_a - 1)
-    ) + (
-        (var_b / n_b) ** 2 / (n_b - 1)
-    )
+    denominator = ((var_a / n_a) ** 2 / (n_a - 1)) + ((var_b / n_b) ** 2 / (n_b - 1))
     degrees_of_freedom = numerator / denominator if denominator else None
     p_value = two_tailed_t_p_value(t_statistic, degrees_of_freedom)
     return t_statistic, degrees_of_freedom, p_value
@@ -122,9 +98,7 @@ def student_t_test(group_a_values, group_b_values):
     var_a = variance(group_a_values)
     var_b = variance(group_b_values)
     degrees_of_freedom = n_a + n_b - 2
-    pooled_variance = (
-        ((n_a - 1) * var_a) + ((n_b - 1) * var_b)
-    ) / degrees_of_freedom
+    pooled_variance = (((n_a - 1) * var_a) + ((n_b - 1) * var_b)) / degrees_of_freedom
     se = math.sqrt(pooled_variance * ((1 / n_a) + (1 / n_b)))
     if se == 0:
         return None, None, None
@@ -208,14 +182,13 @@ def analyse_variable(rows, variable):
         for row in rows
         if row.get(GROUPING_VARIABLE) == GROUP_B
     ]
-    group_a_values = [v for v in group_a_values if v is not None]
-    group_b_values = [v for v in group_b_values if v is not None]
+    group_a_values = [value for value in group_a_values if value is not None]
+    group_b_values = [value for value in group_b_values if value is not None]
 
-    t_statistic, degrees_of_freedom, p_value = welch_t_test(
-        group_a_values, group_b_values
-    )
+    t_statistic, degrees_of_freedom, p_value = welch_t_test(group_a_values, group_b_values)
     student_t_statistic, student_degrees_of_freedom, student_p_value = student_t_test(
-        group_a_values, group_b_values
+        group_a_values,
+        group_b_values,
     )
     mean_a = mean(group_a_values) if group_a_values else None
     mean_b = mean(group_b_values) if group_b_values else None
@@ -224,19 +197,11 @@ def analyse_variable(rows, variable):
         "variable": variable,
         "group_a_n": len(group_a_values),
         "group_a_mean": format_number(mean_a),
-        "group_a_sd": format_number(
-            stdev(group_a_values) if len(group_a_values) > 1 else None
-        ),
+        "group_a_sd": format_number(stdev(group_a_values) if len(group_a_values) > 1 else None),
         "group_b_n": len(group_b_values),
         "group_b_mean": format_number(mean_b),
-        "group_b_sd": format_number(
-            stdev(group_b_values) if len(group_b_values) > 1 else None
-        ),
-        "mean_difference": format_number(
-            mean_a - mean_b
-            if mean_a is not None and mean_b is not None
-            else None
-        ),
+        "group_b_sd": format_number(stdev(group_b_values) if len(group_b_values) > 1 else None),
+        "mean_difference": format_number(mean_a - mean_b if mean_a is not None and mean_b is not None else None),
         "t_statistic": format_number(t_statistic),
         "degrees_of_freedom": format_number(degrees_of_freedom),
         "p_value": format_number(p_value, digits=6),
@@ -244,9 +209,7 @@ def analyse_variable(rows, variable):
         "student_t_statistic": format_number(student_t_statistic),
         "student_degrees_of_freedom": format_number(student_degrees_of_freedom),
         "student_p_value": format_number(student_p_value, digits=6),
-        "student_significant_0_05": (
-            "Yes" if student_p_value is not None and student_p_value < 0.05 else "No"
-        ),
+        "student_significant_0_05": "Yes" if student_p_value is not None and student_p_value < 0.05 else "No",
     }
 
 
@@ -261,17 +224,14 @@ def parse_args():
 def main():
     args = parse_args()
     os.makedirs(args.output_dir, exist_ok=True)
-    output_file = os.path.join(
-        args.output_dir, f"{args.form_label}_groupwise_t_tests.csv"
-    )
+    output_file = os.path.join(args.output_dir, f"{args.form_label}_groupwise_t_tests.csv")
     rows = read_csv(args.data_file)
     school_reference = load_school_reference(SCHOOL_REFERENCE_FILE)
 
     for row in rows:
         add_group(row, school_reference)
 
-    outcome_variables = resolve_outcome_variables(args.form_label)
-    output_rows = [analyse_variable(rows, variable) for variable in outcome_variables]
+    output_rows = [analyse_variable(rows, variable) for variable in OUTCOME_VARIABLES]
     for row in output_rows:
         row["form_label"] = args.form_label
         row["source_file"] = args.data_file

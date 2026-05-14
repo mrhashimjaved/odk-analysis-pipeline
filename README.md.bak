@@ -144,6 +144,8 @@ The caregiver descriptive outputs are grouped by:
 - `gender`
 - `new_group`
 
+The current caregiver implementation covers descriptive analysis only. Reliability and group-wise t-tests remain adolescent-only until caregiver-specific specifications are added.
+
 ## Reliability Analysis
 
 Run:
@@ -158,7 +160,7 @@ Output:
 output/<form_label>_reliability_cronbach_alpha.csv
 ```
 
-The reliability script calculates Cronbach's alpha for the configured outcome measures and writes:
+The reliability script calculates Cronbach alpha for the configured outcome measures and writes:
 
 - `outcome_measure`
 - `total_score_variable`
@@ -167,31 +169,19 @@ The reliability script calculates Cronbach's alpha for the configured outcome me
 - `cronbach_alpha`
 - `missing_items`
 
-The script automatically selects the correct measure list based on the form label. If `"caregiver"` appears in the label, the caregiver measures are used; otherwise the adolescent measures are used.
+Currently configured measures:
 
-### Adolescent measures
-
-| Outcome | Total variable | Items |
-| --- | --- | --- |
-| PHQ9 | `phq9a_-phq9a_total` | `phq9a_-phq9a_item_01` – `_09` (9 items) |
-| PSC | `psc_-psc_total` | `psc_-psc_item_01` – `_35r` (35 items) |
-| RCADS | `rcads_-rcads_total` | `rcads_-rcads_item_01` – `_25` (25 items) |
-| DSM-5 | `dsm5_-dsm5_total` | `dsm5_-dsm_item_01` – `_22` (22 items) |
-| Somatic | `somatic_-somatic_total` | `somatic_-somatic_item_04a` – `_04h` (8 items) |
-| WEMWBS | `wemwbs_-wemwbs_total` | `wemwbs_-wemwbs_item_01` – `_07` (7 items) |
-| SPSI | `spsi_-spsi_total` | `spsi_-spsi_item_01` – `_25` (25 items) |
-| IBS | `ibs_-ibs_total` | `ibs_-ibs_item_01` – `_04` (4 items) |
-| BBSCQ | `bbscq_-bbscq_total` | `bbscq_-bbscq_item_01` – `_28` (28 items) |
-| Self Stigma | `self_stigma_-stgt_total` | `self_stigma_-stgt_item_01` – `_05` (5 items) |
-| Psychlops-Post | `psychlops_post_-psy_total` | `psy_Q1b`, `Q2b`, `Q3b`, `Q4` (4 items) |
-
-### Caregiver measures
-
-| Outcome | Total variable | Items |
-| --- | --- | --- |
-| SRQ | `srq_-srq_total` | `srq_-srq_item_01` – `_20` (20 items) |
-| APQ | `apq_-dsm5_total` | `apq_-apq_item_01` – `_10` (10 items) |
-| BBSCQ | `bbscq_-bbscq_total` | `bbscq_-bbscq_item_01` – `_17`, `_18a`, `_18b`, `_19` – `_28` (29 items) |
+- PHQ9
+- PSC
+- RCADS
+- DSM-5
+- Somatic
+- WEMWBS
+- SPSI
+- IBS
+- BBSCQ
+- Self Stigma
+- Psychlops-Post
 
 ## Group-Wise T-Tests
 
@@ -210,8 +200,6 @@ output/<form_label>_groupwise_t_tests.csv
 The t-test script compares Group `A` vs Group `B`.
 
 It reports Welch's independent samples t-test as the primary test and Student's equal-variance t-test for comparison.
-
-The script automatically selects the correct variable list based on the form label. If `"caregiver"` appears in the label, the caregiver variables are used; otherwise the adolescent variables are used.
 
 It writes:
 
@@ -232,7 +220,7 @@ It writes:
 - `student_p_value`
 - `student_significant_0_05`
 
-### Adolescent t-test variables
+Currently configured t-test variables:
 
 - `phq9a_-phq9a_total`
 - `psc_-psc_total`
@@ -244,16 +232,6 @@ It writes:
 - `bbscq_-bbscq_total`
 - `self_stigma_-stgt_total`
 - `psychlops_post_-psy_total`
-
-### Caregiver t-test variables
-
-- `srq_-srq_total`
-- `apq_-dsm5_total`
-- `bbscq_-bbscq_total`
-- `bbscq_-bbscq_relation`
-- `bbscq_-bbscq_belonging`
-- `bbscq_-bbscq_comitment`
-- `bbscq_-bbscq_participation`
 
 ## Legacy Analysis
 
@@ -273,10 +251,10 @@ Run all configured forms through the current analysis pipeline:
 python scripts\analysis.py
 ```
 
-Current behaviour:
+Current behavior:
 
-- all forms (adolescent and caregiver) run the full analysis suite: descriptives, reliability, and group-wise t-tests
-- each script automatically selects the correct variable list based on the form label
+- adolescent forms run descriptives, reliability, and group-wise t-tests
+- caregiver forms run descriptives only
 - each output file is tagged with `form_label` and `source_file`
 - outputs are written separately per form and do not overwrite each other
 - the pipeline generates both:
@@ -294,11 +272,11 @@ The DOCX report is intended for direct review and editing in Word after the CSV 
 
 ## GitHub Actions
 
-The workflow at `.github/workflows/odk_download.yml` is configured to run the pipeline on a weekly schedule and manually through `workflow_dispatch`.
+The workflow at `.github/workflows/odk_download.yml` is configured to run the pipeline daily and manually through `workflow_dispatch`.
 
 Current schedule:
 
-- every Sunday at `2:00 AM UTC`
+- every day at `2:00 AM UTC`
 
 The workflow currently runs:
 

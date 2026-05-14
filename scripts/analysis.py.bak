@@ -6,17 +6,11 @@ from form_registry import FORMS, data_file_for_form
 
 
 DESCRIPTIVE_SCRIPT = "scripts/analysis_descriptives.py"
-
-# All forms run the full suite — descriptives, reliability, and group-wise t-tests.
-# Previously caregiver forms ran descriptives only; they now run the full suite
-# because analysis_reliability.py and analysis_groupwise_t_tests.py both
-# resolve the correct variable lists from the form label automatically.
-ANALYSIS_SCRIPTS = [
+ADOLESCENT_ANALYSIS_SCRIPTS = [
     "scripts/analysis_descriptives.py",
     "scripts/analysis_reliability.py",
     "scripts/analysis_groupwise_t_tests.py",
 ]
-
 REPORT_SCRIPT = "scripts/generate_report.py"
 REPORT_DOCX_SCRIPT = "scripts/generate_report_docx.py"
 
@@ -34,8 +28,11 @@ def main():
     for form_config in FORMS:
         data_file = data_file_for_form(form_config)
         form_label = form_config["label"]
+        scripts = [DESCRIPTIVE_SCRIPT]
+        if form_config.get("respondent") == "adolescent":
+            scripts = ADOLESCENT_ANALYSIS_SCRIPTS
 
-        for script in ANALYSIS_SCRIPTS:
+        for script in scripts:
             subprocess.run(
                 [
                     sys.executable,

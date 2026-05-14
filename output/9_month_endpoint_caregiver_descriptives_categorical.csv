@@ -1,44 +1,46 @@
 form_label,source_file,analysis_set,domain,variable,variable_type,group_by,group_value,category,n,freq,percentage
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,80,53,3,5.66
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,90,53,19,35.85
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,100,53,31,58.49
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,A,90,23,5,21.74
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,A,100,23,18,78.26
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,B,80,30,3,10.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,B,90,30,14,46.67
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,B,100,30,13,43.33
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Boys,90,24,6,25.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Boys,100,24,18,75.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,80,29,3,10.34
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,90,29,13,44.83
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,100,29,13,44.83
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Boys,90,16,4,25.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Boys,100,16,12,75.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Girls,90,7,1,14.29
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Girls,100,7,6,85.71
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Boys,90,8,2,25.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Boys,100,8,6,75.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Girls,80,22,3,13.64
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Girls,90,22,12,54.55
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Girls,100,22,7,31.82
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,overall,overall,0,53,30,56.60
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,overall,overall,1,53,23,43.40
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,group,A,0,23,11,47.83
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,group,A,1,23,12,52.17
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,group,B,0,30,19,63.33
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,group,B,1,30,11,36.67
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,gender,Boys,0,24,13,54.17
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,gender,Boys,1,24,11,45.83
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,gender,Girls,0,29,17,58.62
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,gender,Girls,1,29,12,41.38
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,A_Boys,0,16,7,43.75
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,A_Boys,1,16,9,56.25
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,A_Girls,0,7,4,57.14
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,A_Girls,1,7,3,42.86
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,B_Boys,0,8,6,75.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,B_Boys,1,8,2,25.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,B_Girls,0,22,13,59.09
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,B_Girls,1,22,9,40.91
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,80,83,5,6.02
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,90,83,33,39.76
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,overall,overall,100,83,45,54.22
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,A,90,35,10,28.57
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,A,100,35,25,71.43
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,B,80,48,5,10.42
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,B,90,48,23,47.92
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,group,B,100,48,20,41.67
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Boys,80,34,2,5.88
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Boys,90,34,10,29.41
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Boys,100,34,22,64.71
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,80,49,3,6.12
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,90,49,23,46.94
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,gender,Girls,100,49,23,46.94
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Boys,90,17,5,29.41
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Boys,100,17,12,70.59
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Girls,90,18,5,27.78
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,A_Girls,100,18,13,72.22
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Boys,80,17,2,11.76
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Boys,90,17,5,29.41
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Boys,100,17,10,58.82
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Girls,80,31,3,9.68
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Girls,90,31,18,58.06
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,cgas_-cgas_response,categorical,new_group,B_Girls,100,31,10,32.26
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,overall,overall,0,83,37,44.58
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,overall,overall,1,83,46,55.42
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,group,A,0,35,15,42.86
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,group,A,1,35,20,57.14
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,group,B,0,48,22,45.83
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,group,B,1,48,26,54.17
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,gender,Boys,0,34,15,44.12
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,gender,Boys,1,34,19,55.88
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,gender,Girls,0,49,22,44.90
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,gender,Girls,1,49,27,55.10
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,A_Boys,0,17,7,41.18
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,A_Boys,1,17,10,58.82
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,A_Girls,0,18,8,44.44
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,A_Girls,1,18,10,55.56
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,B_Boys,0,17,8,47.06
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,B_Boys,1,17,9,52.94
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,B_Girls,0,31,14,45.16
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total_cat,categorical,new_group,B_Girls,1,31,17,54.84
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,APQ,apq_-dsm5_total_cat,categorical,overall,overall,,0,0,
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,APQ,apq_-dsm5_total_cat,categorical,group,A,,0,0,
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,APQ,apq_-dsm5_total_cat,categorical,group,B,,0,0,

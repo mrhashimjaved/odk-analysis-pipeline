@@ -1,13 +1,13 @@
 form_label,source_file,analysis_set,domain,variable,variable_type,group_by,group_value,n,mean,sd,min,max,min_max
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,overall,overall,53,5.34,5.47,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,group,A,23,5.39,5.04,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,group,B,30,5.30,5.87,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,gender,Boys,24,5.33,5.45,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,gender,Girls,29,5.34,5.59,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,new_group,A_Boys,16,6.12,5.55,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,new_group,A_Girls,7,3.71,3.40,0.00,9.00,0.00-9.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,new_group,B_Boys,8,3.75,5.23,0.00,15.00,0.00-15.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,new_group,B_Girls,22,5.86,6.10,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,overall,overall,83,6.42,5.69,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,group,A,35,5.74,4.52,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,group,B,48,6.92,6.42,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,gender,Boys,34,6.82,6.54,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,gender,Girls,49,6.14,5.08,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,new_group,A_Boys,17,6.06,5.38,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,new_group,A_Girls,18,5.44,3.67,0.00,12.00,0.00-12.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,new_group,B_Boys,17,7.59,7.62,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,srq_-srq_total,continuous,new_group,B_Girls,31,6.55,5.76,0.00,20.00,0.00-20.00
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,apq_-dsm5_total,continuous,overall,overall,0,,,,,
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,apq_-dsm5_total,continuous,group,A,0,,,,,
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,apq_-dsm5_total,continuous,group,B,0,,,,,
@@ -17,24 +17,24 @@ form_label,source_file,analysis_set,domain,variable,variable_type,group_by,group
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,apq_-dsm5_total,continuous,new_group,A_Girls,0,,,,,
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,apq_-dsm5_total,continuous,new_group,B_Boys,0,,,,,
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,apq_-dsm5_total,continuous,new_group,B_Girls,0,,,,,
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,overall,overall,53,25.34,4.37,13.00,31.00,13.00-31.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,group,A,23,25.61,4.19,15.00,31.00,15.00-31.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,group,B,30,25.13,4.57,13.00,30.00,13.00-30.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,gender,Boys,24,24.62,4.60,15.00,30.00,15.00-30.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,gender,Girls,29,25.93,4.16,13.00,31.00,13.00-31.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,new_group,A_Boys,16,25.00,4.47,15.00,30.00,15.00-30.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,new_group,A_Girls,7,27.00,3.32,21.00,31.00,21.00-31.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,new_group,B_Boys,8,23.88,5.08,15.00,30.00,15.00-30.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,new_group,B_Girls,22,25.59,4.40,13.00,30.00,13.00-30.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,overall,overall,53,5.34,5.47,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,group,A,23,5.39,5.04,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,group,B,30,5.30,5.87,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,gender,Boys,24,5.33,5.45,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,gender,Girls,29,5.34,5.59,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,new_group,A_Boys,16,6.12,5.55,0.00,20.00,0.00-20.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,new_group,A_Girls,7,3.71,3.40,0.00,9.00,0.00-9.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,new_group,B_Boys,8,3.75,5.23,0.00,15.00,0.00-15.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,new_group,B_Girls,22,5.86,6.10,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,overall,overall,83,24.49,4.96,5.00,31.00,5.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,group,A,35,24.40,4.94,11.00,31.00,11.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,group,B,48,24.56,5.02,5.00,31.00,5.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,gender,Boys,34,24.59,4.31,15.00,31.00,15.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,gender,Girls,49,24.43,5.40,5.00,31.00,5.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,new_group,A_Boys,17,24.65,4.57,15.00,30.00,15.00-30.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,new_group,A_Girls,18,24.17,5.39,11.00,31.00,11.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,new_group,B_Boys,17,24.53,4.19,15.00,31.00,15.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Overall,Overall,bbscq_-bbscq_total,continuous,new_group,B_Girls,31,24.58,5.49,5.00,30.00,5.00-30.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,overall,overall,83,6.42,5.69,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,group,A,35,5.74,4.52,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,group,B,48,6.92,6.42,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,gender,Boys,34,6.82,6.54,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,gender,Girls,49,6.14,5.08,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,new_group,A_Boys,17,6.06,5.38,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,new_group,A_Girls,18,5.44,3.67,0.00,12.00,0.00-12.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,new_group,B_Boys,17,7.59,7.62,0.00,20.00,0.00-20.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,SRQ,srq_-srq_total,continuous,new_group,B_Girls,31,6.55,5.76,0.00,20.00,0.00-20.00
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,APQ,apq_-dsm5_total,continuous,overall,overall,0,,,,,
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,APQ,apq_-dsm5_total,continuous,group,A,0,,,,,
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,APQ,apq_-dsm5_total,continuous,group,B,0,,,,,
@@ -44,48 +44,48 @@ form_label,source_file,analysis_set,domain,variable,variable_type,group_by,group
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,APQ,apq_-dsm5_total,continuous,new_group,A_Girls,0,,,,,
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,APQ,apq_-dsm5_total,continuous,new_group,B_Boys,0,,,,,
 9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,APQ,apq_-dsm5_total,continuous,new_group,B_Girls,0,,,,,
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,overall,overall,53,25.34,4.37,13.00,31.00,13.00-31.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,group,A,23,25.61,4.19,15.00,31.00,15.00-31.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,group,B,30,25.13,4.57,13.00,30.00,13.00-30.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,gender,Boys,24,24.62,4.60,15.00,30.00,15.00-30.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,gender,Girls,29,25.93,4.16,13.00,31.00,13.00-31.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,new_group,A_Boys,16,25.00,4.47,15.00,30.00,15.00-30.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,new_group,A_Girls,7,27.00,3.32,21.00,31.00,21.00-31.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,new_group,B_Boys,8,23.88,5.08,15.00,30.00,15.00-30.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,new_group,B_Girls,22,25.59,4.40,13.00,30.00,13.00-30.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,overall,overall,53,8.92,2.42,2.00,12.00,2.00-12.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,group,A,23,9.00,2.17,3.00,12.00,3.00-12.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,group,B,30,8.87,2.64,2.00,12.00,2.00-12.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,gender,Boys,24,8.42,2.28,3.00,12.00,3.00-12.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,gender,Girls,29,9.34,2.50,2.00,12.00,2.00-12.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,new_group,A_Boys,16,8.50,2.31,3.00,12.00,3.00-12.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,new_group,A_Girls,7,10.14,1.35,9.00,12.00,9.00-12.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,new_group,B_Boys,8,8.25,2.38,4.00,12.00,4.00-12.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,new_group,B_Girls,22,9.09,2.74,2.00,12.00,2.00-12.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,overall,overall,53,7.60,1.23,2.00,9.00,2.00-9.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,group,A,23,7.48,1.65,2.00,9.00,2.00-9.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,group,B,30,7.70,0.79,6.00,9.00,6.00-9.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,gender,Boys,24,7.42,1.50,2.00,9.00,2.00-9.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,gender,Girls,29,7.76,0.95,5.00,9.00,5.00-9.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,new_group,A_Boys,16,7.31,1.78,2.00,9.00,2.00-9.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,new_group,A_Girls,7,7.86,1.35,5.00,9.00,5.00-9.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,new_group,B_Boys,8,7.62,0.74,6.00,8.00,6.00-8.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,new_group,B_Girls,22,7.73,0.83,6.00,9.00,6.00-9.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,overall,overall,53,3.91,0.35,2.00,4.00,2.00-4.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,group,A,23,3.87,0.46,2.00,4.00,2.00-4.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,group,B,30,3.93,0.25,3.00,4.00,3.00-4.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,gender,Boys,24,3.96,0.20,3.00,4.00,3.00-4.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,gender,Girls,29,3.86,0.44,2.00,4.00,2.00-4.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,new_group,A_Boys,16,3.94,0.25,3.00,4.00,3.00-4.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,new_group,A_Girls,7,3.71,0.76,2.00,4.00,2.00-4.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,new_group,B_Boys,8,4.00,0.00,4.00,4.00,4.00-4.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,new_group,B_Girls,22,3.91,0.29,3.00,4.00,3.00-4.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,overall,overall,53,4.91,1.78,0.00,6.00,0.00-6.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,group,A,23,5.26,1.32,1.00,6.00,1.00-6.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,group,B,30,4.63,2.04,0.00,6.00,0.00-6.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,gender,Boys,24,4.83,1.81,0.00,6.00,0.00-6.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,gender,Girls,29,4.97,1.78,0.00,6.00,0.00-6.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,new_group,A_Boys,16,5.25,1.06,3.00,6.00,3.00-6.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,new_group,A_Girls,7,5.29,1.89,1.00,6.00,1.00-6.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,new_group,B_Boys,8,4.00,2.67,0.00,6.00,0.00-6.00
-9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,new_group,B_Girls,22,4.86,1.78,0.00,6.00,0.00-6.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,overall,overall,83,24.49,4.96,5.00,31.00,5.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,group,A,35,24.40,4.94,11.00,31.00,11.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,group,B,48,24.56,5.02,5.00,31.00,5.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,gender,Boys,34,24.59,4.31,15.00,31.00,15.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,gender,Girls,49,24.43,5.40,5.00,31.00,5.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,new_group,A_Boys,17,24.65,4.57,15.00,30.00,15.00-30.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,new_group,A_Girls,18,24.17,5.39,11.00,31.00,11.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,new_group,B_Boys,17,24.53,4.19,15.00,31.00,15.00-31.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_total,continuous,new_group,B_Girls,31,24.58,5.49,5.00,30.00,5.00-30.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,overall,overall,83,8.55,2.73,1.00,12.00,1.00-12.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,group,A,35,8.26,2.77,2.00,12.00,2.00-12.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,group,B,48,8.77,2.71,1.00,12.00,1.00-12.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,gender,Boys,34,8.71,2.22,3.00,12.00,3.00-12.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,gender,Girls,49,8.45,3.05,1.00,12.00,1.00-12.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,new_group,A_Boys,17,8.29,2.39,3.00,12.00,3.00-12.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,new_group,A_Girls,18,8.22,3.15,2.00,12.00,2.00-12.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,new_group,B_Boys,17,9.12,2.03,4.00,12.00,4.00-12.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_relation,continuous,new_group,B_Girls,31,8.58,3.03,1.00,12.00,1.00-12.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,overall,overall,83,7.36,1.46,1.00,9.00,1.00-9.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,group,A,35,7.20,1.69,2.00,9.00,2.00-9.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,group,B,48,7.48,1.27,1.00,9.00,1.00-9.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,gender,Boys,34,7.32,1.41,2.00,9.00,2.00-9.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,gender,Girls,49,7.39,1.51,1.00,9.00,1.00-9.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,new_group,A_Boys,17,7.24,1.75,2.00,9.00,2.00-9.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,new_group,A_Girls,18,7.17,1.69,3.00,9.00,3.00-9.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,new_group,B_Boys,17,7.41,1.00,6.00,9.00,6.00-9.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_belonging,continuous,new_group,B_Girls,31,7.52,1.41,1.00,9.00,1.00-9.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,overall,overall,83,3.89,0.35,2.00,4.00,2.00-4.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,group,A,35,3.91,0.37,2.00,4.00,2.00-4.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,group,B,48,3.88,0.33,3.00,4.00,3.00-4.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,gender,Boys,34,3.91,0.29,3.00,4.00,3.00-4.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,gender,Girls,49,3.88,0.39,2.00,4.00,2.00-4.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,new_group,A_Boys,17,3.94,0.24,3.00,4.00,3.00-4.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,new_group,A_Girls,18,3.89,0.47,2.00,4.00,2.00-4.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,new_group,B_Boys,17,3.88,0.33,3.00,4.00,3.00-4.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_comitment,continuous,new_group,B_Girls,31,3.87,0.34,3.00,4.00,3.00-4.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,overall,overall,83,4.69,1.85,0.00,6.00,0.00-6.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,group,A,35,5.03,1.58,0.00,6.00,0.00-6.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,group,B,48,4.44,2.01,0.00,6.00,0.00-6.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,gender,Boys,34,4.65,1.87,0.00,6.00,0.00-6.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,gender,Girls,49,4.71,1.86,0.00,6.00,0.00-6.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,new_group,A_Boys,17,5.18,1.07,3.00,6.00,3.00-6.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,new_group,A_Girls,18,4.89,1.97,0.00,6.00,0.00-6.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,new_group,B_Boys,17,4.12,2.34,0.00,6.00,0.00-6.00
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,Domain wise,BBSCQ,bbscq_-bbscq_participation,continuous,new_group,B_Girls,31,4.61,1.82,0.00,6.00,0.00-6.00

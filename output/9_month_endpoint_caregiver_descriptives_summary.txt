@@ -4,23 +4,23 @@ Descriptives summary
 Form label: 9_month_endpoint_caregiver
 Input data: data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv
 School reference: data/school_group_reference.csv
-Rows analysed: 53
+Rows analysed: 83
 
 Group counts
 ------------
 group:
-  A: 23
-  B: 30
+  A: 35
+  B: 48
 
 gender:
-  Boys: 24
-  Girls: 29
+  Boys: 34
+  Girls: 49
 
 new_group:
-  A_Boys: 16
-  A_Girls: 7
-  B_Boys: 8
-  B_Girls: 22
+  A_Boys: 17
+  A_Girls: 18
+  B_Boys: 17
+  B_Girls: 31
 
 Outputs
 -------
@@ -28,9 +28,9 @@ Descriptive statistics:
   Continuous variables: N, Mean, SD, Min-Max
   Categorical variables ending in '_cat' or '_cat_bin': N, Freq, Percentage
   Additional categorical variable: cgas_-cgas_response
-Continuous descriptives: output\9_month_endpoint_caregiver_descriptives_continuous.csv (90 rows)
-Categorical descriptives: output\9_month_endpoint_caregiver_descriptives_categorical.csv (49 rows)
-Missing variable report: output\9_month_endpoint_caregiver_descriptives_missing_variables.csv (2 rows)
+Continuous descriptives: output/9_month_endpoint_caregiver_descriptives_continuous.csv (90 rows)
+Categorical descriptives: output/9_month_endpoint_caregiver_descriptives_categorical.csv (51 rows)
+Missing variable report: output/9_month_endpoint_caregiver_descriptives_missing_variables.csv (2 rows)
 
 Descriptive Statistics of Outcome variables (Overall)
 -----------------------------------------------------
@@ -40,7 +40,7 @@ Continuous variables: 3
   - bbscq_-bbscq_total
 Categorical variables: 1
   - cgas_-cgas_response
-Output rows: 27 continuous, 22 categorical
+Output rows: 27 continuous, 24 categorical
 
 Descriptive Statistics of Outcome variables (Domain wise)
 ---------------------------------------------------------

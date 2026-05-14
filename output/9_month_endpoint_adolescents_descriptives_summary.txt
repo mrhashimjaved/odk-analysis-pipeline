@@ -4,23 +4,23 @@ Descriptives summary
 Form label: 9_month_endpoint_adolescents
 Input data: data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Adolescents)_v1_0.csv
 School reference: data/school_group_reference.csv
-Rows analysed: 113
+Rows analysed: 146
 
 Group counts
 ------------
 group:
-  A: 44
-  B: 69
+  A: 57
+  B: 89
 
 gender:
-  Boys: 48
-  Girls: 65
+  Boys: 62
+  Girls: 84
 
 new_group:
   A_Boys: 31
-  A_Girls: 13
-  B_Boys: 17
-  B_Girls: 52
+  A_Girls: 26
+  B_Boys: 31
+  B_Girls: 58
 
 Outputs
 -------
@@ -28,9 +28,9 @@ Descriptive statistics:
   Continuous variables: N, Mean, SD, Min-Max
   Categorical variables ending in '_cat' or '_cat_bin': N, Freq, Percentage
   Additional categorical variable: cgas_-cgas_response
-Continuous descriptives: output\9_month_endpoint_adolescents_descriptives_continuous.csv (540 rows)
-Categorical descriptives: output\9_month_endpoint_adolescents_descriptives_categorical.csv (101 rows)
-Missing variable report: output\9_month_endpoint_adolescents_descriptives_missing_variables.csv (0 rows)
+Continuous descriptives: output/9_month_endpoint_adolescents_descriptives_continuous.csv (540 rows)
+Categorical descriptives: output/9_month_endpoint_adolescents_descriptives_categorical.csv (106 rows)
+Missing variable report: output/9_month_endpoint_adolescents_descriptives_missing_variables.csv (0 rows)
 
 Descriptive Statistics of Outcome variables (Overall)
 -----------------------------------------------------
@@ -47,7 +47,7 @@ Continuous variables: 10
   - psychlops_post_-psy_total
 Categorical variables: 1
   - cgas_-cgas_response
-Output rows: 90 continuous, 31 categorical
+Output rows: 90 continuous, 35 categorical
 
 Descriptive Statistics of Outcome variables (Domain wise)
 ---------------------------------------------------------
@@ -106,6 +106,6 @@ Categorical variables: 3
   - phq9a_-phq9a_total_cat_bin
   - phq9a_-phq9a_total_cat
   - psc_-psc_total_cat
-Output rows: 450 continuous, 70 categorical
+Output rows: 450 continuous, 71 categorical
 
 No requested analysis variables were missing.

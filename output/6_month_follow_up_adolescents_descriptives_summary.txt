@@ -28,9 +28,9 @@ Descriptive statistics:
   Continuous variables: N, Mean, SD, Min-Max
   Categorical variables ending in '_cat' or '_cat_bin': N, Freq, Percentage
   Additional categorical variable: cgas_-cgas_response
-Continuous descriptives: output\6_month_follow_up_adolescents_descriptives_continuous.csv (540 rows)
-Categorical descriptives: output\6_month_follow_up_adolescents_descriptives_categorical.csv (119 rows)
-Missing variable report: output\6_month_follow_up_adolescents_descriptives_missing_variables.csv (0 rows)
+Continuous descriptives: output/6_month_follow_up_adolescents_descriptives_continuous.csv (540 rows)
+Categorical descriptives: output/6_month_follow_up_adolescents_descriptives_categorical.csv (119 rows)
+Missing variable report: output/6_month_follow_up_adolescents_descriptives_missing_variables.csv (0 rows)
 
 Descriptive Statistics of Outcome variables (Overall)
 -----------------------------------------------------

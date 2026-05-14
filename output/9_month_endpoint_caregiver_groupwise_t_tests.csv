@@ -1,0 +1,8 @@
+form_label,source_file,variable,group_a_n,group_a_mean,group_a_sd,group_b_n,group_b_mean,group_b_sd,mean_difference,t_statistic,degrees_of_freedom,p_value,significant_0_05,student_t_statistic,student_degrees_of_freedom,student_p_value,student_significant_0_05
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,srq_-srq_total,35,5.7429,4.5202,48,6.9167,6.4175,-1.1738,-0.9776,80.9267,0.331200,No,-0.9267,81.0000,0.356825,No
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,apq_-dsm5_total,0,,,0,,,,,,,No,,,,No
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,bbscq_-bbscq_total,35,24.4000,4.9420,48,24.5625,5.0230,-0.1625,-0.1469,74.0983,0.883599,No,-0.1465,81.0000,0.883863,No
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,bbscq_-bbscq_relation,35,8.2571,2.7690,48,8.7708,2.7073,-0.5137,-0.8425,72.4525,0.402279,No,-0.8455,81.0000,0.400313,No
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,bbscq_-bbscq_belonging,35,7.2000,1.6943,48,7.4792,1.2714,-0.2792,-0.8207,60.3006,0.415028,No,-0.8580,81.0000,0.393440,No
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,bbscq_-bbscq_comitment,35,3.9143,0.3735,48,3.8750,0.3342,0.0393,0.4945,68.4212,0.622569,No,0.5032,81.0000,0.616183,No
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,bbscq_-bbscq_participation,35,5.0286,1.5809,48,4.4375,2.0096,0.5911,1.4987,80.4891,0.137861,No,1.4438,81.0000,0.152656,No

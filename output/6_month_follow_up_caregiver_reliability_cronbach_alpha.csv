@@ -1,0 +1,4 @@
+form_label,source_file,outcome_measure,total_score_variable,number_of_items,n_complete_cases,cronbach_alpha,missing_items
+6_month_follow_up_caregiver,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Caregiver)_v1_0.csv,SRQ,srq_-srq_total,20,576,0.9147,
+6_month_follow_up_caregiver,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Caregiver)_v1_0.csv,APQ,apq_-dsm5_total,10,576,0.7943,
+6_month_follow_up_caregiver,data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Caregiver)_v1_0.csv,BBSCQ,bbscq_-bbscq_total,29,576,0.8370,

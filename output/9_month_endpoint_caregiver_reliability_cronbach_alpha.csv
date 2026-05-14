@@ -1,0 +1,4 @@
+form_label,source_file,outcome_measure,total_score_variable,number_of_items,n_complete_cases,cronbach_alpha,missing_items
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,SRQ,srq_-srq_total,20,83,0.9169,
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,APQ,apq_-dsm5_total,10,83,0.8134,
+9_month_endpoint_caregiver,data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv,BBSCQ,bbscq_-bbscq_total,29,83,0.8494,

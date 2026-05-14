@@ -285,33 +285,47 @@ Current behaviour:
 
 ## Consolidated Report
 
-The end-of-pipeline report step generates:
+The end-of-pipeline report step runs two scripts:
 
-- `output/consolidated_report.txt`: plain-text APA-style tables and narratives
-- `output/consolidated_report.docx`: Word version of the same consolidated report
+- `scripts/generate_report.py`: generates `output/consolidated_report.txt` (plain-text APA-style tables and narratives)
+- `scripts/generate_report_docx.py`: generates one formatted Word document per form pair:
+  - `output/6_month_follow_up_report.docx`
+  - `output/9_month_endpoint_report.docx`
 
-The DOCX report is intended for direct review and editing in Word after the CSV outputs are generated.
+The DOCX report is landscape-oriented and contains 26 tables across four sections:
+
+- Section 1: Adolescent overall outcomes (Tables A, B, C, t-test)
+- Section 2: Adolescent domain-wise outcomes (PSC, RCADS, DSM-5, SPSI, BBSCQ)
+- Section 3: Caregiver overall outcomes (Tables A, B, C, t-test)
+- Section 4: Caregiver domain-wise outcomes (BBSCQ subscales)
+
+Each report section reads directly from the CSV outputs produced by the analysis scripts. If a form pair has no data yet (e.g. 9-month data not yet collected), the report script skips that pair gracefully and prints a message instead of failing.
 
 ## GitHub Actions
 
-The workflow at `.github/workflows/odk_download.yml` is configured to run the pipeline on a weekly schedule and manually through `workflow_dispatch`.
+The workflow at `.github/workflows/odk_download.yml` is named `ODK Pipeline` and runs on a daily schedule and manually through `workflow_dispatch`.
 
 Current schedule:
 
-- every Sunday at `2:00 AM UTC`
+- every day at `2:00 AM UTC` (`cron: "0 2 * * *"`)
 
-The workflow currently runs:
+The workflow steps are:
 
-- `python scripts/download_odk.py`
-- `python scripts/analysis.py`
+1. Check out the repository
+2. Set up Python 3.12
+3. Install dependencies: `pip install requests python-docx`
+4. Run `python scripts/download_odk.py` (fetches latest ODK data)
+5. Run `python scripts/analysis.py` (runs full analysis and generates reports)
+6. Commit and push updated files from `data/` and `output/`
 
-It then commits updated files from:
+There is no `requirements.txt` file — dependencies are installed inline in the workflow.
 
-- `data/`
-- `output/`
+Repository secrets must be configured under **Settings → Secrets and variables → Actions**:
 
-It expects the following GitHub repository secrets:
+| Secret | Description |
+| --- | --- |
+| `ODK_URL` | ODK Central server URL |
+| `ODK_EMAIL` | ODK Central login email |
+| `ODK_PASSWORD` | ODK Central login password |
 
-- `ODK_URL`
-- `ODK_EMAIL`
-- `ODK_PASSWORD`
+Secrets are referenced in the workflow as `${{ secrets.ODK_URL }}` etc. Do not commit credentials to the repository.

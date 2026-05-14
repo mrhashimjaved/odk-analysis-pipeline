@@ -5,6 +5,13 @@ import argparse
 from collections import Counter, defaultdict
 from statistics import mean, stdev
 
+from new_gp_loader import (
+    DEFAULT_NEW_GP_FILE,
+    find_child_id_col,
+    load_new_gp_reference,
+    apply_new_gp,
+)
+
 SCHOOL_REFERENCE_FILE = "data/school_group_reference.csv"
 OUTPUT_DIR = "output"
 DEFAULT_DATA_FILE = "data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv"
@@ -125,7 +132,7 @@ PROFILES = {
     },
 }
 
-GROUPING_VARIABLES = ["group", "gender", "new_group"]
+GROUPING_VARIABLES = ["group", "gender", "new_group", "new_gp"]
 
 
 def read_csv(path):
@@ -239,6 +246,7 @@ def add_grouping_variables(row, school_reference):
     row["group"] = group
     row["gender"] = gender
     row["new_group"] = f"{group}_{gender}" if group and gender else ""
+    # new_gp is populated separately after load_new_gp_reference is applied
 
 
 def format_number(value):
@@ -386,9 +394,13 @@ def write_summary(
     categorical_output,
     missing_output,
 ):
+    active_grouping_vars = [
+        g for g in GROUPING_VARIABLES
+        if any(row.get(g) for row in rows)
+    ]
     group_counts = defaultdict(Counter)
     for row in rows:
-        for grouping_variable in GROUPING_VARIABLES:
+        for grouping_variable in active_grouping_vars:
             value = row.get(grouping_variable, "")
             if value:
                 group_counts[grouping_variable][value] += 1
@@ -403,7 +415,7 @@ def write_summary(
 
         file.write("Group counts\n")
         file.write("------------\n")
-        for grouping_variable in GROUPING_VARIABLES:
+        for grouping_variable in active_grouping_vars:
             file.write(f"{grouping_variable}:\n")
             for value, count in sorted(group_counts[grouping_variable].items()):
                 file.write(f"  {value}: {count}\n")
@@ -459,6 +471,7 @@ def parse_args():
     parser.add_argument("--data-file", default=DEFAULT_DATA_FILE)
     parser.add_argument("--form-label", default=DEFAULT_FORM_LABEL)
     parser.add_argument("--output-dir", default=OUTPUT_DIR)
+    parser.add_argument("--new-gp-file", default=DEFAULT_NEW_GP_FILE)
     return parser.parse_args()
 
 
@@ -478,6 +491,22 @@ def main():
     for row in rows:
         add_grouping_variables(row, school_reference)
         add_generated_variables(row, profile_name)
+
+    # Apply New_GP re-randomisation grouping
+    new_gp_reference = load_new_gp_reference(args.new_gp_file)
+    if new_gp_reference and rows:
+        child_id_col = find_child_id_col(rows[0].keys())
+        if child_id_col:
+            apply_new_gp(rows, new_gp_reference, child_id_col)
+            matched = sum(1 for r in rows if r.get("new_gp"))
+            print(f"[descriptives] New_GP matched {matched}/{len(rows)} rows via '{child_id_col}'.")
+        else:
+            print("[descriptives] No child_id column found — New_GP grouping skipped.")
+            for row in rows:
+                row["new_gp"] = ""
+    else:
+        for row in rows:
+            row["new_gp"] = ""
 
     catalog = variable_catalog(profile_name)
     missing_rows = missing_variables(rows, catalog)

@@ -3,6 +3,15 @@ import os
 import argparse
 from statistics import variance
 
+from new_gp_loader import (
+    DEFAULT_NEW_GP_FILE,
+    NEW_GP_LABELS,
+    NEW_GP_ORDER,
+    find_child_id_col,
+    load_new_gp_reference,
+    apply_new_gp,
+)
+
 OUTPUT_DIR = "output"
 DEFAULT_DATA_FILE = "data/SMART_STEP_6_Month_Follow_Up_Assessment_Pack_(Adolescents)_v1_0.csv"
 DEFAULT_FORM_LABEL = "6_month_follow_up_adolescents"
@@ -82,9 +91,6 @@ ADOLESCENT_MEASURES = [
 ]
 
 # ── CAREGIVER MEASURES ────────────────────────────────────────────────────────
-# Item column names follow the same ODK naming pattern as the caregiver CSV.
-# Commitment (bbscq_-bbscq_comitment) is a single item — alpha is not computed
-# for single-item scales; it will be reported as empty in the output.
 CAREGIVER_MEASURES = [
     {
         "outcome_measure": "SRQ",
@@ -94,13 +100,11 @@ CAREGIVER_MEASURES = [
     {
         "outcome_measure": "APQ",
         "total_score_variable": "apq_-dsm5_total",
-        # APQ items in the ODK caregiver form
         "items": [f"apq_-apq_item_{i:02d}" for i in range(1, 11)],
     },
     {
         "outcome_measure": "BBSCQ",
         "total_score_variable": "bbscq_-bbscq_total",
-        # 29 items: 01-17, 18a, 18b, 19-28
         "items": [
             *[f"bbscq_-bbscq_item_{i:02d}" for i in range(1, 18)],
             "bbscq_-bbscq_item_18a",
@@ -109,12 +113,6 @@ CAREGIVER_MEASURES = [
         ],
     },
 ]
-
-# Map form label prefix to the correct measures list
-MEASURES_BY_RESPONDENT = {
-    "adolescent": ADOLESCENT_MEASURES,
-    "caregiver": CAREGIVER_MEASURES,
-}
 
 
 def read_csv(path):
@@ -174,10 +172,17 @@ def analyse_measure(rows, measure, available_columns):
     }
 
 
+def analyse_measure_for_new_gp_group(rows, measure, available_columns, gp_label):
+    """Compute reliability for a specific New_GP group subset."""
+    group_rows = [r for r in rows if r.get("new_gp") == gp_label]
+    result = analyse_measure(group_rows, measure, available_columns)
+    result["new_gp_group"] = gp_label
+    result["new_gp_n"] = len(group_rows)
+    return result
+
+
 def resolve_measures(form_label):
-    """Select the correct measures list based on the form label."""
-    label_lower = form_label.lower()
-    if "caregiver" in label_lower:
+    if "caregiver" in form_label.lower():
         return CAREGIVER_MEASURES
     return ADOLESCENT_MEASURES
 
@@ -187,22 +192,23 @@ def parse_args():
     parser.add_argument("--data-file", default=DEFAULT_DATA_FILE)
     parser.add_argument("--form-label", default=DEFAULT_FORM_LABEL)
     parser.add_argument("--output-dir", default=OUTPUT_DIR)
+    parser.add_argument("--new-gp-file", default=DEFAULT_NEW_GP_FILE)
     return parser.parse_args()
 
 
 def main():
     args = parse_args()
     os.makedirs(args.output_dir, exist_ok=True)
+
+    rows = read_csv(args.data_file)
+    available_columns = set(rows[0].keys()) if rows else set()
+    measures = resolve_measures(args.form_label)
+
+    # ── Overall reliability (all rows) ────────────────────────────────────────
     output_file = os.path.join(
         args.output_dir, f"{args.form_label}_reliability_cronbach_alpha.csv"
     )
-    rows = read_csv(args.data_file)
-    available_columns = set(rows[0].keys()) if rows else set()
-
-    measures = resolve_measures(args.form_label)
-    output_rows = [
-        analyse_measure(rows, measure, available_columns) for measure in measures
-    ]
+    output_rows = [analyse_measure(rows, measure, available_columns) for measure in measures]
     for row in output_rows:
         row["form_label"] = args.form_label
         row["source_file"] = args.data_file
@@ -221,8 +227,53 @@ def main():
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(output_rows)
-
     print(f"Wrote {output_file}")
+
+    # ── New_GP group-stratified reliability ───────────────────────────────────
+    new_gp_reference = load_new_gp_reference(args.new_gp_file)
+    if new_gp_reference:
+        child_id_col = find_child_id_col(available_columns) if rows else None
+        if child_id_col:
+            apply_new_gp(rows, new_gp_reference, child_id_col)
+            matched = sum(1 for r in rows if r.get("new_gp"))
+            print(f"[reliability] New_GP matched {matched}/{len(rows)} rows via '{child_id_col}'.")
+
+            new_gp_output_rows = []
+            present_labels = sorted({r["new_gp"] for r in rows if r.get("new_gp")})
+            for gp_label in present_labels:
+                for measure in measures:
+                    result = analyse_measure_for_new_gp_group(
+                        rows, measure, available_columns, gp_label
+                    )
+                    result["form_label"] = args.form_label
+                    result["source_file"] = args.data_file
+                    new_gp_output_rows.append(result)
+
+            new_gp_output_file = os.path.join(
+                args.output_dir,
+                f"{args.form_label}_new_gp_reliability_cronbach_alpha.csv",
+            )
+            with open(new_gp_output_file, "w", newline="", encoding="utf-8") as file:
+                fieldnames = [
+                    "form_label",
+                    "source_file",
+                    "new_gp_group",
+                    "new_gp_n",
+                    "outcome_measure",
+                    "total_score_variable",
+                    "number_of_items",
+                    "n_complete_cases",
+                    "cronbach_alpha",
+                    "missing_items",
+                ]
+                writer = csv.DictWriter(file, fieldnames=fieldnames)
+                writer.writeheader()
+                writer.writerows(new_gp_output_rows)
+            print(f"Wrote {new_gp_output_file}")
+        else:
+            print("[reliability] No child_id column found — New_GP reliability skipped.")
+    else:
+        print("[reliability] New_GP reference empty — New_GP reliability skipped.")
 
 
 if __name__ == "__main__":

@@ -21,7 +21,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install deps
-        run: pip install requests python-docx
+        run: pip install requests python-docx openpyxl
 
       - name: Fetch ODK Data
         run: python scripts/download_odk.py

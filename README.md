@@ -64,6 +64,31 @@ The OData endpoint, `.svc/Submissions`, is not the correct route for direct CSV 
 
 If a form download returns `404`, the script prints the available forms in the configured project. Check that the project ID and XML form ID match the ODK Central form exactly.
 
+## New_GP Re-randomisation Reference
+
+The re-randomisation reference file must be present at:
+
+```text
+data/New_GP.xlsx
+```
+
+Place the file there once and commit it. The analysis scripts will pick it up automatically. If the file is missing, the pipeline runs normally using only the original `group` / `gender` / `new_group` breakdowns — no New_GP rows are produced but no errors are raised either.
+
+It contains two columns: `child_id` and `New_GP`. The `New_GP` variable encodes the arm each participant was re-allocated to before the 6-month follow-up:
+
+| New_GP Code | Label |
+| --- | --- |
+| `11` | Group A - Continued (Responders) |
+| `12` | Group A - EASE Added (Non-Responders) |
+| `13` | Group A - EASE Control (Non-Responders) |
+| `21` | Group B - Continued (Responders) |
+| `22` | Group B - EASE Added (Non-Responders) |
+| `23` | Group B - EASE Control (Non-Responders) |
+
+The same `New_GP.xlsx` file is joined to **both** the 6-month and 9-month forms on `child_id`. The scripts detect the child ID column automatically from a priority list of known ODK column names (`child_id`, `demo_a_-child_id`, `demo_b_-child_id`, `KEY`, `_id`).
+
+The join is performed by `scripts/new_gp_loader.py`, which is imported by all analysis scripts.
+
 ## School Group Reference
 
 The school group lookup file is:
@@ -102,8 +127,8 @@ python scripts\analysis_descriptives.py --data-file "data\SMART_STEP_6_Month_Fol
 
 Outputs:
 
-- `output/<form_label>_descriptives_continuous.csv`
-- `output/<form_label>_descriptives_categorical.csv`
+- `output/<form_label>_descriptives_continuous.csv` — includes rows for `group_by=new_gp` when New_GP data is available
+- `output/<form_label>_descriptives_categorical.csv` — likewise
 - `output/<form_label>_descriptives_missing_variables.csv`
 - `output/<form_label>_descriptives_summary.txt`
 
@@ -156,7 +181,10 @@ Output:
 
 ```text
 output/<form_label>_reliability_cronbach_alpha.csv
+output/<form_label>_new_gp_reliability_cronbach_alpha.csv   (when New_GP data available)
 ```
+
+The New_GP reliability file includes `new_gp_group` and `new_gp_n` columns so alpha values can be compared across the six re-randomised arms.
 
 The reliability script calculates Cronbach's alpha for the configured outcome measures and writes:
 
@@ -205,9 +233,12 @@ Output:
 
 ```text
 output/<form_label>_groupwise_t_tests.csv
+output/<form_label>_new_gp_t_tests.csv   (when New_GP data available)
 ```
 
-The t-test script compares Group `A` vs Group `B`.
+The primary t-test script compares Group `A` vs Group `B`.
+
+The New_GP t-test script runs all **15 pairwise comparisons** between the six re-randomised arms (6 choose 2 = 15). Each row in `_new_gp_t_tests.csv` includes `comparison` (e.g. `11 vs 21`), `group_1_label`, `group_2_label`, group-level descriptives, and both Welch and Student t-test results.
 
 It reports Welch's independent samples t-test as the primary test and Student's equal-variance t-test for comparison.
 
@@ -288,9 +319,18 @@ Current behaviour:
 The end-of-pipeline report step runs two scripts:
 
 - `scripts/generate_report.py`: generates `output/consolidated_report.txt` (plain-text APA-style tables and narratives)
-- `scripts/generate_report_docx.py`: generates one formatted Word document per form pair:
-  - `output/6_month_follow_up_report.docx`
-  - `output/9_month_endpoint_report.docx`
+- `scripts/generate_report_docx.py`: generates three formatted Word documents:
+  - `output/6_month_follow_up_report.docx` — 6-month forms only (adolescent + caregiver)
+  - `output/9_month_endpoint_report.docx` — 9-month forms only (adolescent + caregiver)
+  - `output/consolidated_report.docx` — all forms combined (backward compatibility)
+
+Each Word document includes six sections:
+1. Descriptive Statistics (standard group/gender/new_group breakdown)
+2. New_GP Group Descriptives (per re-randomised arm)
+3. Reliability — Overall Cronbach's alpha
+4. Reliability — Cronbach's alpha by New_GP arm
+5. Group A vs Group B t-tests
+6. New_GP Pairwise t-tests (all 15 pairings)
 
 The DOCX report is landscape-oriented and contains 26 tables across four sections:
 

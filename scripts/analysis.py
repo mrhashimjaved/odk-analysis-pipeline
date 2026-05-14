@@ -4,13 +4,8 @@ from pathlib import Path
 
 from form_registry import FORMS, data_file_for_form
 
+NEW_GP_FILE = "data/New_GP.xlsx"
 
-DESCRIPTIVE_SCRIPT = "scripts/analysis_descriptives.py"
-
-# All forms run the full suite — descriptives, reliability, and group-wise t-tests.
-# Previously caregiver forms ran descriptives only; they now run the full suite
-# because analysis_reliability.py and analysis_groupwise_t_tests.py both
-# resolve the correct variable lists from the form label automatically.
 ANALYSIS_SCRIPTS = [
     "scripts/analysis_descriptives.py",
     "scripts/analysis_reliability.py",
@@ -40,10 +35,9 @@ def main():
                 [
                     sys.executable,
                     script,
-                    "--data-file",
-                    data_file,
-                    "--form-label",
-                    form_label,
+                    "--data-file", data_file,
+                    "--form-label", form_label,
+                    "--new-gp-file", NEW_GP_FILE,
                 ],
                 check=True,
             )

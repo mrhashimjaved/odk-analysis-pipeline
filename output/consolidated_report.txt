@@ -1,7 +1,10 @@
 Consolidated APA-Style Results Report
 =====================================
 
-This report compiles the analysis CSV outputs into plain-text sections for direct pasting into Word.
+This report compiles the analysis CSV outputs into plain-text sections.
+
+Section 1: Descriptive Statistics
+=================================
 
 6 Month Follow Adolescents
 
@@ -2241,7 +2244,10 @@ Category | Summary
 
 For apq_-dsm5_total_cat in the 9_month_endpoint_caregiver dataset, the table above shows category frequencies and percentages for the new_group breakdown.
 
-Reliability (Cronbach's Alpha)
+Section 3: Reliability (Cronbach's Alpha)
+=========================================
+
+Reliability (Cronbach's Alpha) — Overall
 
 Form | Outcome Measure | Variable | Items | N | Alpha | Interpretation
 --- | --- | --- | --- | --- | --- | ---
@@ -2274,11 +2280,14 @@ Form | Outcome Measure | Variable | Items | N | Alpha | Interpretation
 9_month_endpoint_caregiver | APQ | apq_-dsm5_total | 10 | 83 | 0.8134 | good
 9_month_endpoint_caregiver | BBSCQ | bbscq_-bbscq_total | 29 | 83 | 0.8494 | good
 
-Reliability estimates are presented above for the available adolescent scales. Scales in the acceptable-to-good range included: PHQ9, PSC, RCADS, DSM-5, WEMWBS, SPSI, BBSCQ, Psychlops-Post, SRQ, APQ, BBSCQ, PHQ9, PSC, RCADS, DSM-5, Somatic, WEMWBS, SPSI, IBS, BBSCQ, SRQ, APQ, BBSCQ. Borderline scales included: Somatic, IBS, Self Stigma, Self Stigma.
+Reliability estimates are presented above for the available scales. Scales in the acceptable-to-good range: PHQ9, PSC, RCADS, DSM-5, WEMWBS, SPSI, BBSCQ, Psychlops-Post, SRQ, APQ, BBSCQ, PHQ9, PSC, RCADS, DSM-5, Somatic, WEMWBS, SPSI, IBS, BBSCQ, SRQ, APQ, BBSCQ. Borderline scales: Somatic, IBS, Self Stigma, Self Stigma.
 
-Group-wise Welch's and Student's t-tests
+Section 5: Group A vs Group B t-tests
+=====================================
 
-Form | Variable | Group A Mean [SD] | Group B Mean [SD] | Mean Difference | Welch's t(df) | Welch's p | Welch's significance | Student's t(df) | Student's p | Student's significance
+Group-wise Welch's and Student's t-tests (Group A vs Group B)
+
+Form | Variable | Group A Mean [SD] | Group B Mean [SD] | Mean Difference | Welch's t(df) | Welch's p | Welch's sig | Student's t(df) | Student's p | Student's sig
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 6_month_follow_up_adolescents | phq9a_-phq9a_total | 5.6275 [4.2018] | 4.7966 [3.9675] | 0.8309 | 2.4761 (589.6857) | 0.013561 | significant | 2.4754 (591.0000) | 0.013588 | significant
 6_month_follow_up_adolescents | psc_-psc_total | 20.5805 [9.4421] | 18.9051 [9.3919] | 1.6755 | 2.1663 (590.9863) | 0.030689 | significant | 2.1662 (591.0000) | 0.030693 | significant
@@ -2315,4 +2324,4 @@ Form | Variable | Group A Mean [SD] | Group B Mean [SD] | Mean Difference | Welc
 9_month_endpoint_caregiver | bbscq_-bbscq_comitment | 3.9143 [0.3735] | 3.8750 [0.3342] | 0.0393 | 0.4945 (68.4212) | 0.622569 | non-significant | 0.5032 (81.0000) | 0.616183 | non-significant
 9_month_endpoint_caregiver | bbscq_-bbscq_participation | 5.0286 [1.5809] | 4.4375 [2.0096] | 0.5911 | 1.4987 (80.4891) | 0.137861 | non-significant | 1.4438 (81.0000) | 0.152656 | non-significant
 
-The group-wise comparisons above present Welch's and Student's t-tests side by side. Outcomes with statistically significant Welch tests were: phq9a_-phq9a_total, psc_-psc_total, rcads_-rcads_total, somatic_-somatic_total, bbscq_-bbscq_comitment, wemwbs_-wemwbs_total, bbscq_-bbscq_total.
+The group-wise comparisons above present Welch's and Student's t-tests side by side. Outcomes with statistically significant Welch tests: phq9a_-phq9a_total, psc_-psc_total, rcads_-rcads_total, somatic_-somatic_total, bbscq_-bbscq_comitment, wemwbs_-wemwbs_total, bbscq_-bbscq_total.

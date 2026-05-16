@@ -4,23 +4,23 @@ Descriptives summary
 Form label: 9_month_endpoint_caregiver
 Input data: data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Caregiver)_v1_0.csv
 School reference: data/school_group_reference.csv
-Rows analysed: 83
+Rows analysed: 113
 
 Group counts
 ------------
 group:
-  A: 35
-  B: 48
+  A: 47
+  B: 66
 
 gender:
-  Boys: 34
-  Girls: 49
+  Boys: 47
+  Girls: 66
 
 new_group:
-  A_Boys: 17
-  A_Girls: 18
-  B_Boys: 17
-  B_Girls: 31
+  A_Boys: 23
+  A_Girls: 24
+  B_Boys: 24
+  B_Girls: 42
 
 Outputs
 -------

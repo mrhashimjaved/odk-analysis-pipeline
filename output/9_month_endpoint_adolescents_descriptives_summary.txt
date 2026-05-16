@@ -4,23 +4,23 @@ Descriptives summary
 Form label: 9_month_endpoint_adolescents
 Input data: data/SMART_STEP_9_Month_Endpoint_Assessment_Pack_(Adolescents)_v1_0.csv
 School reference: data/school_group_reference.csv
-Rows analysed: 146
+Rows analysed: 151
 
 Group counts
 ------------
 group:
-  A: 57
-  B: 89
+  A: 60
+  B: 91
 
 gender:
-  Boys: 62
-  Girls: 84
+  Boys: 63
+  Girls: 88
 
 new_group:
-  A_Boys: 31
-  A_Girls: 26
+  A_Boys: 32
+  A_Girls: 28
   B_Boys: 31
-  B_Girls: 58
+  B_Girls: 60
 
 Outputs
 -------
